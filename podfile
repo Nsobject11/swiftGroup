@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+target 'SwiftDemo' do
+pod 'IQKeyboardManagerSwift'
+pod 'HandyJSON'
+pod 'RxSwift', '~> 5'
+pod 'RxCocoa', '~> 5'
+pod 'Moya', '~> 13.0'
+pod 'SnapKit'
+pod 'Kingfisher'
+pod 'MBProgressHUD'
+pod 'EmptyDataSet-Swift'
+pod 'MJRefresh'
+pod 'FSPagerView'
+pod 'HBDNavigationBar' #导航栏
+# 友盟的依赖库，也是基库，下边关于友盟的所有框架都是需要这两个依赖库
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+# 友盟的功能模块SDK---
+# 微信(精简版0.2M)，
+pod 'UMCShare/Social/ReducedWeChat'
+# 集成QQ/QZone/TIM(精简版0.5M)
+pod 'UMCShare/Social/ReducedQQ'
+pod 'UMCShare/Social/ReducedSina'
+end

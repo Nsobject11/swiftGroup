@@ -31,6 +31,13 @@ let kNavBarHeight = 44.0
 let kTabBarHeight = kIsIphoneX ? 83 : 49
 let kTopHeight:CGFloat = kIsIphoneX ? 88 : 64 // 这个高度根据是否是iPhone X系列手机, 来设置导航条高度, 不能使用 [[UIApplication sharedApplication] statusBarFrame].size.height 动态获取, 定位/拨打电话/共享热点会导致页面布局错落
 
+/*系统以后*/
+let IOS7_OR_BEFORE:Bool = (Float(UIDevice.current.systemVersion)! <= 8.0)
+let IOS8_OR_LATER:Bool = (Float(UIDevice.current.systemVersion)! >= 8.0)
+let IOS9_OR_LATER:Bool = (Float(UIDevice.current.systemVersion)! >= 9.0)
+let IOS10_OR_LATER:Bool = (Float(UIDevice.current.systemVersion)! >= 10.0)
+let IOS10_OR_BEFORE:Bool = (Float(UIDevice.current.systemVersion)! < 10.0)
+
 //*常用定义**/
 let kCachesDirectory:String = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).last!
 

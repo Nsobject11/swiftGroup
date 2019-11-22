@@ -26,4 +26,9 @@
 #import "WXApiObject.h"
 #import <UMCommon/UMCommon.h>
 #import <UMShare/UMShare.h>
+#import <JPush/JPUSHService.h>
+// iOS10注册APNs所需头文件
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
 #endif /* SwiftDemo_Header_h */

@@ -5,6 +5,9 @@ PODS:
   - HandyJSON (5.0.0)
   - HBDNavigationBar (1.5.2)
   - IQKeyboardManagerSwift (6.4.1)
+  - JCore (2.1.1)
+  - JPush (3.2.2):
+    - JCore (< 3.0.0, >= 2.0.0)
   - Kingfisher (4.10.1)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.2.0)
@@ -41,6 +44,7 @@ DEPENDENCIES:
   - HandyJSON
   - HBDNavigationBar
   - IQKeyboardManagerSwift
+  - JPush
   - Kingfisher
   - MBProgressHUD
   - MJRefresh
@@ -62,6 +66,8 @@ SPEC REPOS:
     - HandyJSON
     - HBDNavigationBar
     - IQKeyboardManagerSwift
+    - JCore
+    - JPush
     - Kingfisher
     - MBProgressHUD
     - MJRefresh
@@ -82,6 +88,8 @@ SPEC CHECKSUMS:
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   HBDNavigationBar: 1c470db0183d1aa8cbb4912196cfb10752eebcc8
   IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: 0e9088c85c73275629facc311fe5992dfac36eeb
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
@@ -95,6 +103,6 @@ SPEC CHECKSUMS:
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
   UMCShare: e0cef55c0fd6051254c8cda1d0630eb578b27bad
 
-PODFILE CHECKSUM: 870518f5be440bbf9126e7dce5b036690d6b381c
+PODFILE CHECKSUM: 0141e89a2280f60d5bee58374e4abaa078b61e1f
 
 COCOAPODS: 1.8.4

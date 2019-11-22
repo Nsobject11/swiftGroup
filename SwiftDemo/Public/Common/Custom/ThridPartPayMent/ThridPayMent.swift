@@ -12,6 +12,7 @@ enum PartyPaymentType: Int{
     case PartyPaymentTypeAlipay //支付宝
     case PartyPaymentTypeWechat //微信
 }
+
 //区分不同发起订单  根据实际需求增加
 enum PartyPayment: Int{
     case PartyPaymentOrder //区分不同发起订单
@@ -19,7 +20,6 @@ enum PartyPayment: Int{
 }
 
 class ThridPayMent: NSObject {
-    
     /** 后台统一下单接口 */
     class func vPay(orderNo:String,type:PartyPayment,payType:PartyPaymentType){
         if type == .PartyPaymentOrder {
@@ -45,6 +45,7 @@ class ThridPayMent: NSObject {
             break
         }
     }
+    
     ///** 调起支付宝支付 */
     class func p_payByAlipayWithPayOrder(payOrder:String){
         // NOTE: 调用支付结果开始支付
@@ -57,6 +58,7 @@ class ThridPayMent: NSObject {
             }
         })
     }
+    
     ///** 调起微信支付 */
     class func p_payByWeChatWithPartnerId(model:PayModel){
         let request = PayReq()
@@ -68,4 +70,19 @@ class ThridPayMent: NSObject {
         request.sign = model.sign;
         WXApi.send(request)
     } 
+}
+
+
+class PayModel: NSObject {
+    
+    var appid:String?
+    var noncestr:String?
+    var package:String?
+    var partnerid:String?
+    var prepayid:String?
+    var sign:String?
+    var timestamp:String?
+    
+    /**支付宝*/
+    var alipayStr:String?
 }

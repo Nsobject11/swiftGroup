@@ -62,6 +62,8 @@
 		52673B39237E980D0011CAA8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52673B38237E980D0011CAA8 /* UserManager.swift */; };
 		52673B3C237E98300011CAA8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52673B3A237E98300011CAA8 /* LoginController.swift */; };
 		52673B3D237E98300011CAA8 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52673B3B237E98300011CAA8 /* LoginController.xib */; };
+		5275C3CA2387722F0087219F /* AppDelegate+Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275C3C92387722F0087219F /* AppDelegate+Callback.swift */; };
+		5275C3CC23877A970087219F /* AppDelegate+AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275C3CB23877A970087219F /* AppDelegate+AppService.swift */; };
 		5288F5B42378F6F1005B361A /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B02378F6F1005B361A /* NetWorkManager.swift */; };
 		5288F5B52378F6F1005B361A /* RequestLoadingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B12378F6F1005B361A /* RequestLoadingPlugin.swift */; };
 		5288F5B62378F6F1005B361A /* NetRequstApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B22378F6F1005B361A /* NetRequstApi.swift */; };
@@ -87,7 +89,6 @@
 		5296E19223866AE400612EE6 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5296E13F23866AE400612EE6 /* libssl.a */; };
 		5296E19323866AE400612EE6 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5296E18C23866AE400612EE6 /* AlipaySDK.framework */; };
 		5296E19623866D3800612EE6 /* ThridPayMent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E19523866D3800612EE6 /* ThridPayMent.swift */; };
-		5296E19823866DE700612EE6 /* PayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E19723866DE700612EE6 /* PayModel.swift */; };
 		5296E19A23867C5800612EE6 /* ProjectCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E19923867C5800612EE6 /* ProjectCommon.swift */; };
 		5296E19C2386880100612EE6 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E19B2386880100612EE6 /* UIViewController+Ext.swift */; };
 		52A91212237CFCFD00E3A5D4 /* CustomTxt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A91211237CFCFD00E3A5D4 /* CustomTxt.swift */; };
@@ -196,6 +197,8 @@
 		52673B38237E980D0011CAA8 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		52673B3A237E98300011CAA8 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		52673B3B237E98300011CAA8 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		5275C3C92387722F0087219F /* AppDelegate+Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Callback.swift"; sourceTree = "<group>"; };
+		5275C3CB23877A970087219F /* AppDelegate+AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+AppService.swift"; sourceTree = "<group>"; };
 		5288F5B02378F6F1005B361A /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		5288F5B12378F6F1005B361A /* RequestLoadingPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLoadingPlugin.swift; sourceTree = "<group>"; };
 		5288F5B22378F6F1005B361A /* NetRequstApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequstApi.swift; sourceTree = "<group>"; };
@@ -302,7 +305,6 @@
 		5296E18B23866AE400612EE6 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
 		5296E18C23866AE400612EE6 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		5296E19523866D3800612EE6 /* ThridPayMent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridPayMent.swift; sourceTree = "<group>"; };
-		5296E19723866DE700612EE6 /* PayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayModel.swift; sourceTree = "<group>"; };
 		5296E19923867C5800612EE6 /* ProjectCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCommon.swift; sourceTree = "<group>"; };
 		5296E19B2386880100612EE6 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		52A91211237CFCFD00E3A5D4 /* CustomTxt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTxt.swift; sourceTree = "<group>"; };
@@ -644,6 +646,8 @@
 			children = (
 				5288F5B92378F774005B361A /* AppDelegate.swift */,
 				5288F5BA2378F774005B361A /* AppDelegate+LifeCycle.swift */,
+				5275C3C92387722F0087219F /* AppDelegate+Callback.swift */,
+				5275C3CB23877A970087219F /* AppDelegate+AppService.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -812,7 +816,6 @@
 		5296E19423866D2100612EE6 /* ThridPartPayMent */ = {
 			isa = PBXGroup;
 			children = (
-				5296E19723866DE700612EE6 /* PayModel.swift */,
 				5296E19523866D3800612EE6 /* ThridPayMent.swift */,
 			);
 			path = ThridPartPayMent;
@@ -1082,13 +1085,13 @@
 				52268C8E23839C8500303698 /* TZGifPhotoPreviewController.m in Sources */,
 				525646D92373F9DD007C100D /* HomeController.swift in Sources */,
 				5296E0C323865DD900612EE6 /* PhotoSelect.swift in Sources */,
+				5275C3CC23877A970087219F /* AppDelegate+AppService.swift in Sources */,
 				52673B34237E85E10011CAA8 /* CustomCollectionView.swift in Sources */,
 				5288F5B62378F6F1005B361A /* NetRequstApi.swift in Sources */,
 				525646DD2373F9EB007C100D /* ProfileController.swift in Sources */,
 				52268C8923839C8500303698 /* TZImageManager.m in Sources */,
 				52268C8D23839C8500303698 /* TZLocationManager.m in Sources */,
 				5296E19623866D3800612EE6 /* ThridPayMent.swift in Sources */,
-				5296E19823866DE700612EE6 /* PayModel.swift in Sources */,
 				5232410623826D2300346806 /* RefineAlertView.swift in Sources */,
 				525646F12374186F007C100D /* UINavigationSXFixSpace.m in Sources */,
 				52324109238278B700346806 /* TanAlertController.swift in Sources */,
@@ -1097,6 +1100,7 @@
 				52268C5F23837E0200303698 /* BannerController.swift in Sources */,
 				525646F823741E9C007C100D /* NSObject+Ext.swift in Sources */,
 				5288F5C323793548005B361A /* RefineSearchBar.swift in Sources */,
+				5275C3CA2387722F0087219F /* AppDelegate+Callback.swift in Sources */,
 				5296E19A23867C5800612EE6 /* ProjectCommon.swift in Sources */,
 				52A91212237CFCFD00E3A5D4 /* CustomTxt.swift in Sources */,
 				52673B39237E980D0011CAA8 /* UserManager.swift in Sources */,

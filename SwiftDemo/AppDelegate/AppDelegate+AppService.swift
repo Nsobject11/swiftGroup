@@ -37,6 +37,7 @@ extension AppDelegate{
     }
 }
 
+/**JPUSHRegisterDelegate**/
 extension AppDelegate:JPUSHRegisterDelegate{
     @available(iOS 10.0, *)
     func jpushNotificationCenter(_ center: UNUserNotificationCenter!, openSettingsFor notification: UNNotification!) {

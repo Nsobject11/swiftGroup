@@ -14,7 +14,7 @@ class ProfileController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view.backgroundColor = kRandomColor;
-        self.tab_B.isShowNoData = true
+        self.tab_B.isShowNoData = true 
         self.tab_B.UpRefreshBlock {
             self.tab_B.mj_footer.beginRefreshing()
             _ = delay(2, task: {

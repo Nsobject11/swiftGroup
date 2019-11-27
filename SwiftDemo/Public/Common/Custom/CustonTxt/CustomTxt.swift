@@ -14,12 +14,20 @@ enum LimitedTextFieldType: Int{
     case LimitedTextFieldTypeEmail //数字 字母 和 特定字符( '.'  '@')
     case LimitedTextFieldTypePassword //数字 字母 下划线
 }
+
+/**文本框格式化**/
+enum LimitedType: Int{
+    case LimtedTypeNormal
+    case LimitedTypeBank //银行卡
+}
+
 let kLetterNum:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 let kEmail:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.@"
 let kPassword:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_"
 
 class CustomTxt: UITextField {
     weak var limitDelegate : LimitedTextFieldDelegate?
+    var type:LimitedType = .LimtedTypeNormal
     var limitedType:LimitedTextFieldType = .LimitedTextFieldTypeNomal{
         didSet{
             if limitedType ==  .LimitedTextFieldTypeNomal{
@@ -81,7 +89,6 @@ class CustomTxt: UITextField {
             self.rightViewMode = .always;
         }
     }
-//    let tagStr:String
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -126,11 +133,6 @@ class CustomTxt: UITextField {
     /*初始化**/
     func initialize() {
         self.textAlignment = NSTextAlignment.left
-        //设置边框和颜色
-        self.layer.borderColor = KHexColor(color: "F3F4F6").cgColor;
-        self.textColor =  KHexColor(color: "313235");
-        self.font = kSystemFont(size: 13);
-        
         //设置代理 这里delegate = self 外面就不可以在使用textField的delegate 否则这个代理将会失效
         self.delegate = self;
         self.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
@@ -172,20 +174,57 @@ extension CustomTxt:UITextFieldDelegate{
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         //超过最大长度 并且不是取消键被点击了
-        if(string.count >= self.maxLength && string != "" ){
+        if(textField.text!.count >= self.maxLength && string != "" ){
             return false
         }
         
-        if (kValidStr(str: self.filter as AnyObject)) {
-            return true
+        if type == .LimitedTypeBank {
+            var txt = textField.text! as NSString
+            //设置格式为数字
+            let characterSet = NSCharacterSet.init(charactersIn: "0123456789")
+            //去掉空格
+            let str = string.replacingOccurrences(of:" ", with: "")
+            let nsStr = str as NSString
+            if nsStr.rangeOfCharacter(from: characterSet.inverted).location != NSNotFound{
+                return false
+            }
+            txt = txt.replacingCharacters(in: range, with: string) as NSString
+            txt = txt.replacingOccurrences(of: " ", with: "") as NSString
+            var newString = ""
+            while txt.length > 0{
+                let substring = txt.substring(to: getMin(num1: txt.length, num2: 4))
+                newString = newString.appendingFormat(substring)
+                if substring.count == 4 {
+                    newString = newString.appendingFormat(" ")
+                }
+                txt = txt.substring(from: getMin(num1: txt.length, num2: 4)) as NSString
+            }
+            newString = newString.trimmingCharacters(in: characterSet.inverted)
+            if newString.count >= maxLength { //设置银行卡位数为16
+                return false
+            }
+            self.text = ""
+            self.insertText(newString)
+            return false
+        }else{
+            let cs = NSCharacterSet.init(charactersIn: self.filter).inverted
+            let filtered = string.components(separatedBy: cs).joined(separator: "")
+            return string == filtered
         }
-        
-        let cs = NSCharacterSet.init(charactersIn: self.filter).inverted
-        let filtered = string.components(separatedBy: cs).joined(separator: "")
-        return string == filtered
     }
     
+    func getMin(num1 : Int, num2: Int) -> Int {
+        if num1 <= num2 {
+            return num1
+        }else{
+            return num2
+        }
+    }
     
+    /**去除空格后的文本**/
+    func getNoBlankTxt() -> String  {
+        return self.text?.replacingOccurrences(of: " ", with: "") ?? "";
+    }
 }
 
 /**LimitedTextFieldDelegate**/
@@ -223,3 +262,4 @@ extension CustomTxt:UITextFieldDelegate{
      */
     @objc optional func limitedTextFieldShouldBeginEditing(textField:UITextField)->Bool;
 }
+

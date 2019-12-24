@@ -62,10 +62,12 @@
 		52673B39237E980D0011CAA8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52673B38237E980D0011CAA8 /* UserManager.swift */; };
 		52673B3C237E98300011CAA8 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52673B3A237E98300011CAA8 /* LoginController.swift */; };
 		52673B3D237E98300011CAA8 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52673B3B237E98300011CAA8 /* LoginController.xib */; };
+		52715A3F2398F634001EF328 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52715A3E2398F634001EF328 /* NetworkTools.swift */; };
+		52715A412398F66B001EF328 /* NetworlConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52715A402398F66B001EF328 /* NetworlConfig.swift */; };
+		52715A4423990C5F001EF328 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52715A4323990C5F001EF328 /* CustomSwitch.swift */; };
 		5275C3CA2387722F0087219F /* AppDelegate+Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275C3C92387722F0087219F /* AppDelegate+Callback.swift */; };
 		5275C3CC23877A970087219F /* AppDelegate+AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275C3CB23877A970087219F /* AppDelegate+AppService.swift */; };
 		5288F5B42378F6F1005B361A /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B02378F6F1005B361A /* NetWorkManager.swift */; };
-		5288F5B52378F6F1005B361A /* RequestLoadingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B12378F6F1005B361A /* RequestLoadingPlugin.swift */; };
 		5288F5B62378F6F1005B361A /* NetRequstApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B22378F6F1005B361A /* NetRequstApi.swift */; };
 		5288F5B72378F6F1005B361A /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B32378F6F1005B361A /* MoyaConfig.swift */; };
 		5288F5BB2378F774005B361A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5B92378F774005B361A /* AppDelegate.swift */; };
@@ -99,6 +101,8 @@
 		52EA8EF9237C043A008289BC /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EA8EF8237C043A008289BC /* UIImage+Gif.swift */; };
 		52EA8EFB237C04CF008289BC /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52EA8EFA237C04CF008289BC /* loading.gif */; };
 		52EA8EFD237C09C1008289BC /* 加载.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52EA8EFC237C09C1008289BC /* 加载.gif */; };
+		52EE377223B1D9B7002B8ED4 /* SwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE377123B1D9B7002B8ED4 /* SwitchController.swift */; };
+		52EED5C9239785D500492C3C /* payView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EED5C8239785D500492C3C /* payView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,10 +201,12 @@
 		52673B38237E980D0011CAA8 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		52673B3A237E98300011CAA8 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		52673B3B237E98300011CAA8 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		52715A3E2398F634001EF328 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		52715A402398F66B001EF328 /* NetworlConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworlConfig.swift; sourceTree = "<group>"; };
+		52715A4323990C5F001EF328 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
 		5275C3C92387722F0087219F /* AppDelegate+Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Callback.swift"; sourceTree = "<group>"; };
 		5275C3CB23877A970087219F /* AppDelegate+AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+AppService.swift"; sourceTree = "<group>"; };
 		5288F5B02378F6F1005B361A /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
-		5288F5B12378F6F1005B361A /* RequestLoadingPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLoadingPlugin.swift; sourceTree = "<group>"; };
 		5288F5B22378F6F1005B361A /* NetRequstApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequstApi.swift; sourceTree = "<group>"; };
 		5288F5B32378F6F1005B361A /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
 		5288F5B92378F774005B361A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -315,6 +321,8 @@
 		52EA8EF8237C043A008289BC /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		52EA8EFA237C04CF008289BC /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		52EA8EFC237C09C1008289BC /* 加载.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载.gif"; sourceTree = "<group>"; };
+		52EE377123B1D9B7002B8ED4 /* SwitchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchController.swift; sourceTree = "<group>"; };
+		52EED5C8239785D500492C3C /* payView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payView.swift; sourceTree = "<group>"; };
 		8EC762CAA3AC88069610D3E4 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -541,6 +549,7 @@
 			children = (
 				52673B2A237E51BE0011CAA8 /* View */,
 				525646DB2373F9EB007C100D /* ProfileController.swift */,
+				52EE377123B1D9B7002B8ED4 /* SwitchController.swift */,
 				523240FC238239B400346806 /* PicController.swift */,
 				52324107238278B700346806 /* TanAlertController.swift */,
 				525646DC2373F9EB007C100D /* ProfileController.xib */,
@@ -590,6 +599,7 @@
 		52673B2A237E51BE0011CAA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				52EED5C8239785D500492C3C /* payView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -630,11 +640,28 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		52715A3D2398F617001EF328 /* NetworkAFN */ = {
+			isa = PBXGroup;
+			children = (
+				52715A3E2398F634001EF328 /* NetworkTools.swift */,
+				52715A402398F66B001EF328 /* NetworlConfig.swift */,
+			);
+			path = NetworkAFN;
+			sourceTree = "<group>";
+		};
+		52715A4223990C45001EF328 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				52715A4323990C5F001EF328 /* CustomSwitch.swift */,
+			);
+			path = CustomSwitch;
+			sourceTree = "<group>";
+		};
 		5288F5AF2378F6F1005B361A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				52715A3D2398F617001EF328 /* NetworkAFN */,
 				5288F5B02378F6F1005B361A /* NetWorkManager.swift */,
-				5288F5B12378F6F1005B361A /* RequestLoadingPlugin.swift */,
 				5288F5B22378F6F1005B361A /* NetRequstApi.swift */,
 				5288F5B32378F6F1005B361A /* MoyaConfig.swift */,
 			);
@@ -655,6 +682,7 @@
 		5288F5BD2378FAC4005B361A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				52715A4223990C45001EF328 /* CustomSwitch */,
 				5296E19423866D2100612EE6 /* ThridPartPayMent */,
 				5296E0BF23865DD900612EE6 /* Photoselect */,
 				523240FE2382459300346806 /* CustomBtn */,
@@ -1064,10 +1092,12 @@
 				52324100238245AD00346806 /* BadgeButton.swift in Sources */,
 				52268C8523839C8500303698 /* UIView+Layout.m in Sources */,
 				52268C8A23839C8500303698 /* TZPhotoPickerController.m in Sources */,
+				52EE377223B1D9B7002B8ED4 /* SwitchController.swift in Sources */,
 				52268C8123839C8500303698 /* TZAssetCell.m in Sources */,
 				52268C8423839C8500303698 /* NSBundle+TZImagePicker.m in Sources */,
 				525646F623741E7A007C100D /* UIView+Ext.swift in Sources */,
 				525646D32373F53B007C100D /* Common.swift in Sources */,
+				52EED5C9239785D500492C3C /* payView.swift in Sources */,
 				5296E0C223865DD900612EE6 /* PhotoCell.swift in Sources */,
 				52673B2C237E51D00011CAA8 /* NoDataView.swift in Sources */,
 				52268C8323839C8500303698 /* TZAssetModel.m in Sources */,
@@ -1087,6 +1117,7 @@
 				5296E0C323865DD900612EE6 /* PhotoSelect.swift in Sources */,
 				5275C3CC23877A970087219F /* AppDelegate+AppService.swift in Sources */,
 				52673B34237E85E10011CAA8 /* CustomCollectionView.swift in Sources */,
+				52715A4423990C5F001EF328 /* CustomSwitch.swift in Sources */,
 				5288F5B62378F6F1005B361A /* NetRequstApi.swift in Sources */,
 				525646DD2373F9EB007C100D /* ProfileController.swift in Sources */,
 				52268C8923839C8500303698 /* TZImageManager.m in Sources */,
@@ -1102,11 +1133,12 @@
 				5288F5C323793548005B361A /* RefineSearchBar.swift in Sources */,
 				5275C3CA2387722F0087219F /* AppDelegate+Callback.swift in Sources */,
 				5296E19A23867C5800612EE6 /* ProjectCommon.swift in Sources */,
+				52715A412398F66B001EF328 /* NetworlConfig.swift in Sources */,
 				52A91212237CFCFD00E3A5D4 /* CustomTxt.swift in Sources */,
 				52673B39237E980D0011CAA8 /* UserManager.swift in Sources */,
+				52715A3F2398F634001EF328 /* NetworkTools.swift in Sources */,
 				5296E18F23866AE400612EE6 /* APOrderInfo.m in Sources */,
 				525646E023740295007C100D /* UIImage+Extension.swift in Sources */,
-				5288F5B52378F6F1005B361A /* RequestLoadingPlugin.swift in Sources */,
 				52268C8B23839C8500303698 /* TZPhotoPreviewCell.m in Sources */,
 				5296E19123866AE400612EE6 /* APRSASigner.m in Sources */,
 				52268C8223839C8500303698 /* TZVideoPlayerController.m in Sources */,

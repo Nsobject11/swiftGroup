@@ -24,7 +24,6 @@ enum LimitedType: Int{
 let kLetterNum:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 let kEmail:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.@"
 let kPassword:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_"
-
 class CustomTxt: UITextField {
     weak var limitDelegate : LimitedTextFieldDelegate?
     var type:LimitedType = .LimtedTypeNormal
@@ -207,6 +206,9 @@ extension CustomTxt:UITextFieldDelegate{
             self.insertText(newString)
             return false
         }else{
+            if self.filter.count <= 0{
+                return true
+            }
             let cs = NSCharacterSet.init(charactersIn: self.filter).inverted
             let filtered = string.components(separatedBy: cs).joined(separator: "")
             return string == filtered
@@ -241,7 +243,7 @@ extension CustomTxt:UITextFieldDelegate{
      
      @param textField LimitedTextField
      */
-    @objc optional func limitedTextFieldDidEndEditing(textField:UITextField);
+    @objc optional func limitedTextFieldDidEndEditing(textField:CustomTxt);
     /**
      输入开始
      

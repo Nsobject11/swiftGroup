@@ -13,7 +13,7 @@ import Result
 import RxSwift
 import HandyJSON
 //初始rovider
-let NetApiProvider = MoyaProvider<NetRequstApi>(plugins: [RequestLoadingPlugin()])
+let NetApiProvider = MoyaProvider<NetRequstApi>()
 
 //请求分类
 enum NetRequstApi {

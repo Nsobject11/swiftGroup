@@ -10,13 +10,10 @@ import UIKit
 
 extension AppDelegate{
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        var url1:String?
-        do{
-            url1 =  try String.init(contentsOf: url)
-        }catch{}
+        let url1 = url.absoluteString
         let flag:Bool = UMSocialManager.default()?.handleOpen(url) ?? false
         if (flag) {
-            if((url1?.contains("wx44d165dfead69155://oauth"))! || (url1?.contains("tencent1109408142://qzapp/mqzone"))!){
+            if(url1.contains("wx44d165dfead69155://oauth") || url1.contains("tencent1109408142://qzapp/mqzone")){
                 WXApi.handleOpen(url, delegate: self)
                 return true
             }
@@ -24,7 +21,7 @@ extension AppDelegate{
             return result!
         }else{
             //监听从hH5网页直接打开APP zhidi:
-            if((url1?.contains("zhidi://"))!){
+            if(url1.contains("zhidi://")){
                 return true
             }else{
                 DispatchQueue.main.async {

@@ -26,17 +26,25 @@ class HomeController: BaseViewController {
         txt.textAlignment = .left
         txt.limitDelegate = self
         self.view.addSubview(txt)
-        
+
         let x = CustomTextView.init(frame: CGRect(x: 15, y: 172, width: kScreenWidth-30, height: 100))
         x.SetPlaceholder("请输入...")
         x.SetMaxLength(100)
         self.view.addSubview(x)
-        
-        
+
+
         let arr = ["1","2","2"]
         for (index,value) in arr.enumerated() {
             print("哈哈:" + String(index) + String(value))
-        } 
+        }
+        
+        payView.payBlock { (flag) in
+            print(flag)
+        }
+    }
+    @IBAction func btnC(_ sender: UIButton) {
+        
+        payView.ThridBlock!(sender.tag)
     }
     
     @IBAction func btnClick(_ sender: UIButton) {

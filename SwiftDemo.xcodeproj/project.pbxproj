@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		291B1C99C6F5CC0D28BEC265 /* libPods-SwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4268E4C0EF0593396B623A16 /* libPods-SwiftDemo.a */; };
+		521B5BBE23B33CA400D03F87 /* SwipCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BBD23B33CA400D03F87 /* SwipCellVC.swift */; };
+		521B5BC323B36EF100D03F87 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BC023B36EF100D03F87 /* APIError.swift */; };
+		521B5BC423B36EF100D03F87 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BC123B36EF100D03F87 /* Router.swift */; };
+		521B5BC523B36EF100D03F87 /* APIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BC223B36EF100D03F87 /* APIUtil.swift */; };
 		52268C5F23837E0200303698 /* BannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52268C5E23837E0200303698 /* BannerController.swift */; };
 		52268C8023839C8500303698 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52268C6323839C8500303698 /* TZImageCropManager.m */; };
 		52268C8123839C8500303698 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52268C6523839C8500303698 /* TZAssetCell.m */; };
@@ -74,6 +78,7 @@
 		5288F5BC2378F774005B361A /* AppDelegate+LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5BA2378F774005B361A /* AppDelegate+LifeCycle.swift */; };
 		5288F5C02378FAE6005B361A /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5BF2378FAE6005B361A /* AlertUtil.swift */; };
 		5288F5C323793548005B361A /* RefineSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288F5C223793548005B361A /* RefineSearchBar.swift */; };
+		5293994E23B300400052F7BE /* SwipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293994D23B300400052F7BE /* SwipCell.swift */; };
 		5296E0C223865DD900612EE6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E0C023865DD900612EE6 /* PhotoCell.swift */; };
 		5296E0C323865DD900612EE6 /* PhotoSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296E0C123865DD900612EE6 /* PhotoSelect.swift */; };
 		5296E1292386651600612EE6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5296E11F2386651600612EE6 /* README.txt */; };
@@ -125,6 +130,10 @@
 /* Begin PBXFileReference section */
 		2CEC3CC35B80C1B25760A033 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4268E4C0EF0593396B623A16 /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521B5BBD23B33CA400D03F87 /* SwipCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipCellVC.swift; sourceTree = "<group>"; };
+		521B5BC023B36EF100D03F87 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		521B5BC123B36EF100D03F87 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		521B5BC223B36EF100D03F87 /* APIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUtil.swift; sourceTree = "<group>"; };
 		52268C5E23837E0200303698 /* BannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerController.swift; sourceTree = "<group>"; };
 		52268C6123839C8500303698 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
 		52268C6223839C8500303698 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
@@ -213,6 +222,7 @@
 		5288F5BA2378F774005B361A /* AppDelegate+LifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+LifeCycle.swift"; sourceTree = "<group>"; };
 		5288F5BF2378FAE6005B361A /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
 		5288F5C223793548005B361A /* RefineSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefineSearchBar.swift; sourceTree = "<group>"; };
+		5293994D23B300400052F7BE /* SwipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipCell.swift; sourceTree = "<group>"; };
 		5296E0C023865DD900612EE6 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		5296E0C123865DD900612EE6 /* PhotoSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelect.swift; sourceTree = "<group>"; };
 		5296E11D2386651600612EE6 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -361,6 +371,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521B5BBF23B36EF100D03F87 /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				521B5BC023B36EF100D03F87 /* APIError.swift */,
+				521B5BC123B36EF100D03F87 /* Router.swift */,
+				521B5BC223B36EF100D03F87 /* APIUtil.swift */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
 		52268C6023839C8500303698 /* TZImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +570,7 @@
 				52673B2A237E51BE0011CAA8 /* View */,
 				525646DB2373F9EB007C100D /* ProfileController.swift */,
 				52EE377123B1D9B7002B8ED4 /* SwitchController.swift */,
+				521B5BBD23B33CA400D03F87 /* SwipCellVC.swift */,
 				523240FC238239B400346806 /* PicController.swift */,
 				52324107238278B700346806 /* TanAlertController.swift */,
 				525646DC2373F9EB007C100D /* ProfileController.xib */,
@@ -660,6 +681,7 @@
 		5288F5AF2378F6F1005B361A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				521B5BBF23B36EF100D03F87 /* NetworkTool */,
 				52715A3D2398F617001EF328 /* NetworkAFN */,
 				5288F5B02378F6F1005B361A /* NetWorkManager.swift */,
 				5288F5B22378F6F1005B361A /* NetRequstApi.swift */,
@@ -682,6 +704,7 @@
 		5288F5BD2378FAC4005B361A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				5293994923B300030052F7BE /* SwipCell */,
 				52715A4223990C45001EF328 /* CustomSwitch */,
 				5296E19423866D2100612EE6 /* ThridPartPayMent */,
 				5296E0BF23865DD900612EE6 /* Photoselect */,
@@ -710,6 +733,14 @@
 				5288F5C223793548005B361A /* RefineSearchBar.swift */,
 			);
 			path = RefineSearchBar;
+			sourceTree = "<group>";
+		};
+		5293994923B300030052F7BE /* SwipCell */ = {
+			isa = PBXGroup;
+			children = (
+				5293994D23B300400052F7BE /* SwipCell.swift */,
+			);
+			path = SwipCell;
 			sourceTree = "<group>";
 		};
 		5296E0BF23865DD900612EE6 /* Photoselect */ = {
@@ -1087,8 +1118,10 @@
 				52EA8EF7237BEE0E008289BC /* MBProgressHUD+Ext.swift in Sources */,
 				525646942373EA3C007C100D /* ViewController.swift in Sources */,
 				525646E6237406BC007C100D /* OtherViewController.swift in Sources */,
+				521B5BC523B36EF100D03F87 /* APIUtil.swift in Sources */,
 				5288F5B42378F6F1005B361A /* NetWorkManager.swift in Sources */,
 				52268C8623839C8500303698 /* TZPhotoPreviewController.m in Sources */,
+				521B5BC423B36EF100D03F87 /* Router.swift in Sources */,
 				52324100238245AD00346806 /* BadgeButton.swift in Sources */,
 				52268C8523839C8500303698 /* UIView+Layout.m in Sources */,
 				52268C8A23839C8500303698 /* TZPhotoPickerController.m in Sources */,
@@ -1128,6 +1161,7 @@
 				52324109238278B700346806 /* TanAlertController.swift in Sources */,
 				525646CC2373ED56007C100D /* UIColor+Extension.swift in Sources */,
 				52268C8C23839C8500303698 /* TZImagePickerController.m in Sources */,
+				5293994E23B300400052F7BE /* SwipCell.swift in Sources */,
 				52268C5F23837E0200303698 /* BannerController.swift in Sources */,
 				525646F823741E9C007C100D /* NSObject+Ext.swift in Sources */,
 				5288F5C323793548005B361A /* RefineSearchBar.swift in Sources */,
@@ -1143,8 +1177,10 @@
 				5296E19123866AE400612EE6 /* APRSASigner.m in Sources */,
 				52268C8223839C8500303698 /* TZVideoPlayerController.m in Sources */,
 				52268C8823839C8500303698 /* TZProgressView.m in Sources */,
+				521B5BBE23B33CA400D03F87 /* SwipCellVC.swift in Sources */,
 				525646C32373EB11007C100D /* BaseNavController.swift in Sources */,
 				525646FA23741F1D007C100D /* String+Ext.swift in Sources */,
+				521B5BC323B36EF100D03F87 /* APIError.swift in Sources */,
 				52268C8F23839C8500303698 /* TZImageRequestOperation.m in Sources */,
 				525646C12373EAFA007C100D /* BaseViewController.swift in Sources */,
 				5296E19023866AE400612EE6 /* openssl_wrapper.m in Sources */,

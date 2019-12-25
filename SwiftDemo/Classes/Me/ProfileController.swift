@@ -10,7 +10,7 @@ import UIKit
 class ProfileController: BaseViewController {
 
     @IBOutlet weak var tab_B: CustomTab!
-    var arrData:[String] = ["图片加载","弹窗","轮播图","图片选择","自定义swiftch"]
+    var arrData:[String] = ["图片加载","弹窗","轮播图","图片选择","自定义swiftch","侧滑列表"]
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view.backgroundColor = kRandomColor;
@@ -71,6 +71,10 @@ extension ProfileController:UITableViewDelegate,UITableViewDataSource{
             let swi = SwitchController()
             swi.title = "自定义Switch"
             navigationController?.pushViewController(swi, animated: true)
+        }else if(indexPath.row == 5){
+            let swip = SwipCellVC()
+            swip.title = "侧滑列表"
+            navigationController?.pushViewController(swip, animated: true)
         }
     }
 }

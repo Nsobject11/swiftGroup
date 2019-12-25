@@ -8,6 +8,7 @@
 
 import UIKit
 import HandyJSON
+import RxSwift
 let UserinfoFile = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last!  + "/userInfo.data"
 class UserManager: NSObject {
     static let sharedInstance: UserManager = {
@@ -20,12 +21,19 @@ class UserManager: NSObject {
         let user = UserInfo()
         user.token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI4Njk1ZjU5YS0zNTM1LTQ5MTMtYTUzNS04NTE5MjQ1ZjQzNTciLCJuYmYiOjE1NzM4MDM1MDIsImV4cCI6MTYwNTQyNTkwMiwiaXNzIjoiQWRpbm5ldCIsImF1ZCI6IkFkaW5uZXQifQ.o-fE_zRG91PqvjMNb1A95DLwvz03hoLrCRFBoKTNPwI"
         UserManager.saveUserinfo(userInfo: user)
-        NetWorkRequest(.getuserinfo, completion: { (dic) -> (Void) in
-            let dic:NSDictionary = dic as! NSDictionary
-            if let object = UserInfo.deserialize(from: dic){
-                print("Data:" + object.nick_name!);
-            }
-        }, hud: true)
+//        NetWorkRequest(.getuserinfo, completion: { (dic) -> (Void) in
+//            let dic:NSDictionary = dic as! NSDictionary
+//            if let object = UserInfo.deserialize(from: dic){
+//                print("Data:" + object.nick_name!);
+//            }
+//        }, hud: true)
+        UserInfo().fetchSkyData().subscribe(onNext: { [weak self] model in
+            
+        }, onError: { (error) in
+                
+        }).disposed(by: DisposeBag())
+        
+       
     }
     
     /** 取出当前用户信息 */
@@ -81,5 +89,11 @@ class UserInfo: NSObject,HandyJSON,NSCoding {
         aCoder.encode(head_photo, forKey: "head_photo")
         aCoder.encode(birth_date, forKey: "birth_date")
         aCoder.encode(gender, forKey: "gender")
+    }
+    
+    func fetchSkyData() -> Observable<UserInfo> {
+        return APIUtil.fetchData(with: .getuserinfo, .post, nil, returnType: UserInfo.self).map({ (response: UserInfo) -> UserInfo in
+            return response
+        })
     }
 }

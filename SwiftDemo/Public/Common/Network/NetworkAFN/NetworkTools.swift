@@ -87,7 +87,7 @@ extension NetworkTools{
     }
     
     
-    /// POST 求情
+    /// POST 请求
     ///
     /// - Parameters:
     ///   - URLString: 请求链接

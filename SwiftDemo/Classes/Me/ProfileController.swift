@@ -10,7 +10,7 @@ import UIKit
 class ProfileController: BaseViewController {
 
     @IBOutlet weak var tab_B: CustomTab!
-    var arrData:[String] = ["图片加载","弹窗","轮播图","图片选择","自定义swiftch","侧滑列表"]
+    var arrData:[String] = ["图片加载","弹窗","轮播图","图片选择","自定义swiftch","侧滑列表","自定义尺子","3D模型简单演示", "Apple登录"]
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.view.backgroundColor = kRandomColor;
@@ -75,6 +75,18 @@ extension ProfileController:UITableViewDelegate,UITableViewDataSource{
             let swip = SwipCellVC()
             swip.title = "侧滑列表"
             navigationController?.pushViewController(swip, animated: true)
+        }else if(indexPath.row == 6){
+            let rule = RuleController()
+            rule.title = "自定义尺子刻度"
+            navigationController?.pushViewController(rule, animated: true)
+        }else if(indexPath.row == 7) {
+            let rule = DModelController()
+            rule.title = "3D模型加载与演示"
+            navigationController?.pushViewController(rule, animated: true)
+        }else if(indexPath.row == 8){
+            let login = AppleLoginController()
+            login.title =  "苹果登录"
+            navigationController?.pushViewController(login, animated: true)
         }
     }
 }

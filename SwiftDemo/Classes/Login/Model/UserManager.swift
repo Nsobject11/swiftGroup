@@ -92,7 +92,7 @@ class UserInfo: NSObject,HandyJSON,NSCoding {
     }
     
     func fetchSkyData() -> Observable<UserInfo> {
-        return APIUtil.fetchData(with: .getuserinfo, .post, nil, returnType: UserInfo.self).map({ (response: UserInfo) -> UserInfo in
+        return APIUtil.fetchData(with: .getuserinfo, .get, nil, returnType: UserInfo.self).map({ (response: UserInfo) -> UserInfo in
             return response
         })
     }

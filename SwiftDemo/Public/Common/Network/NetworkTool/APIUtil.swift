@@ -12,7 +12,7 @@ import HandyJSON
 import RxSwift
 
 struct APIUtil {
-    static var httpsHeaders: HTTPHeaders = ["Content-Type": "application/json"]
+    static var httpsHeaders: HTTPHeaders = ["Content-Type": "application/json","token":UserManager.userInfo().token ?? ""]
 }
 
 extension APIUtil {

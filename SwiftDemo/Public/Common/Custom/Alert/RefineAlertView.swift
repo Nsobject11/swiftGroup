@@ -8,11 +8,11 @@
 
 import UIKit
 enum RefineAlertViewStyle: Int{
-    case RefineAlertViewStyleTop// 从上到下
-    case RefineAlertViewStyleDown // 从下到上
-    case RefineAlertViewStyleRight// 从右到左
-    case RefineAlertViewStyleLeft // 从左到右
-    case RefineAlertViewStyleSpring //由上到下的回弹动画
+    case Top// 从上到下
+    case Down // 从下到上
+    case Right// 从右到左
+    case Left // 从左到右
+    case Spring //由上到下的回弹动画
 }
 
 class RefineAlertView: UIView {
@@ -27,7 +27,7 @@ class RefineAlertView: UIView {
     var bgView:UIView?
     var isOpen:Bool = false //是否允许点击背景
     var subView:UIView?
-    var ReStyle:RefineAlertViewStyle = .RefineAlertViewStyleDown
+    var ReStyle:RefineAlertViewStyle = .Down
     
     init(frame:CGRect,viewB:UIView,style:RefineAlertViewStyle) {
         super.init(frame: frame)
@@ -52,24 +52,24 @@ class RefineAlertView: UIView {
         let TANWIDTH:CGFloat  = subView!.frame.width
         let TANHIDTH:CGFloat = subView!.frame.height
         switch ReStyle {
-        case .RefineAlertViewStyleTop:
+        case .Top:
             subView?.k_height = 0
             frame = CGRect(x: 0, y: 0, width: kScreenWidth, height: 0)
             frameStart = CGRect(x: 0, y: 0, width: kScreenWidth, height: TANHIDTH)
             break
-        case .RefineAlertViewStyleDown:
+        case .Down:
             frame = CGRect(x: 0, y: kScreenHeight, width: kScreenWidth, height: TANHIDTH)
             frameStart = CGRect(x: 0, y: kScreenHeight-TANHIDTH, width: kScreenWidth, height: TANHIDTH)
             break
-        case .RefineAlertViewStyleRight:
+        case .Right:
             frame = CGRect(x: kScreenWidth, y: 0, width: TANWIDTH, height: TANHIDTH)
             frameStart = CGRect(x: kScreenWidth - TANWIDTH, y: 0, width: TANWIDTH, height: TANHIDTH)
             break
-        case .RefineAlertViewStyleLeft:
+        case .Left:
             frame = CGRect(x: -TANWIDTH, y: 0, width: TANWIDTH, height: TANHIDTH)
             frameStart = CGRect(x: 0, y: 0, width: TANWIDTH, height: TANHIDTH)
             break
-        case .RefineAlertViewStyleSpring:
+        case .Spring:
             frame = CGRect(x: kScreenWidth/2-TANWIDTH/2, y: -TANHIDTH, width: TANWIDTH, height: TANHIDTH)
             frameStart = CGRect(x: kScreenWidth/2-TANWIDTH/2, y: kScreenHeight/2-TANHIDTH/2, width: TANWIDTH, height: TANHIDTH)
             break
@@ -85,7 +85,7 @@ class RefineAlertView: UIView {
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(tapClose))
         self.blackView?.isUserInteractionEnabled = true
         self.blackView?.addGestureRecognizer(tap)
-        if self.ReStyle == .RefineAlertViewStyleSpring {
+        if self.ReStyle == .Spring {
             UIView.animate(withDuration: 0.5 , delay: 0 , usingSpringWithDamping: 0.65 , initialSpringVelocity: 0.5 , options: [] , animations: {
                 bView.frame = frameStart
             }, completion: nil)
@@ -105,14 +105,14 @@ class RefineAlertView: UIView {
         self.isOpen = false
         let TANWIDTH:CGFloat  = subView!.frame.width
         UIView.animate(withDuration: TimeInterval(animationTime), animations: {
-            if (self.ReStyle == .RefineAlertViewStyleRight) {
+            if (self.ReStyle == .Right) {
                 self.bgView?.k_x = kScreenWidth;
-            }else if(self.ReStyle == .RefineAlertViewStyleLeft){
+            }else if(self.ReStyle == .Left){
                 self.bgView?.k_x = -TANWIDTH;
-            }else if(self.ReStyle == .RefineAlertViewStyleTop){
+            }else if(self.ReStyle == .Top){
                 self.bgView?.k_height = 0
                 self.subView?.k_height = 0
-            } else if(self.ReStyle == .RefineAlertViewStyleDown){
+            } else if(self.ReStyle == .Down){
                 self.bgView?.k_y = kScreenHeight;
             } else{
                 self.subView?.alpha = 0

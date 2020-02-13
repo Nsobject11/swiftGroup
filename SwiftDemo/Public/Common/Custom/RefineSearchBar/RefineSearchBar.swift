@@ -11,7 +11,7 @@ import UIKit
 class RefineSearchBar: UIView {
     var text:String?{
         set{
-            self.textField.text = text ?? ""
+            self.textField.text = newValue ?? ""
         }
         get{
             return self.textField.text

@@ -37,24 +37,24 @@ class TanAlertController: BaseViewController {
         switch btn.tag {
         case 1:
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 300))
-            style = .RefineAlertViewStyleTop
+            style = .Top
             top = kTopHeight
             break
         case 2:
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: kScreenWidth, height: 300))
-            style = .RefineAlertViewStyleDown
+            style = .Down
             break
         case 3:
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: kScreenWidth-100, height: kScreenHeight))
-            style = .RefineAlertViewStyleRight
+            style = .Right
             break
         case 4:
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: kScreenWidth-100, height: kScreenHeight))
-            style = .RefineAlertViewStyleLeft
+            style = .Left
             break
         case 5:
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: 300, height: 150))
-            style = .RefineAlertViewStyleSpring
+            style = .Spring
             break
         default:
             break

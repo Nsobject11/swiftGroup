@@ -12,6 +12,7 @@ enum RefineAlertViewStyle: Int{
     case Down // 从下到上
     case Right// 从右到左
     case Left // 从左到右
+    case Center //中间
     case Spring //由上到下的回弹动画
 }
 
@@ -73,7 +74,12 @@ class RefineAlertView: UIView {
             frame = CGRect(x: kScreenWidth/2-TANWIDTH/2, y: -TANHIDTH, width: TANWIDTH, height: TANHIDTH)
             frameStart = CGRect(x: kScreenWidth/2-TANWIDTH/2, y: kScreenHeight/2-TANHIDTH/2, width: TANWIDTH, height: TANHIDTH)
             break
+        case .Center:
+            frame = CGRect(x: kScreenWidth/2-TANWIDTH/2, y: kScreenHeight/2-TANHIDTH/2, width: TANWIDTH, height: TANHIDTH)
+            subView?.alpha = 0
+            break
         }
+        
         
         let bView = UIView.init(frame: frame)
         bView.backgroundColor = .clear;
@@ -90,8 +96,13 @@ class RefineAlertView: UIView {
                 bView.frame = frameStart
             }, completion: nil)
         }else{
-            UIView.animate(withDuration: TimeInterval(animationTime)) {
-                bView.frame = frameStart
+            UIView.animate(withDuration: TimeInterval(animationTime)) {[weak self] in
+                guard let self = self else {return}
+                if self.ReStyle != .Center{
+                   bView.frame = frameStart
+                } else {
+                    self.subView?.alpha = 1
+                }
                 if(self.subView?.k_height==0){
                     self.subView?.k_height = TANHIDTH
                 }
@@ -106,7 +117,7 @@ class RefineAlertView: UIView {
         let TANWIDTH:CGFloat  = subView!.frame.width
         UIView.animate(withDuration: TimeInterval(animationTime), animations: {
             if (self.ReStyle == .Right) {
-                self.bgView?.k_x = kScreenWidth;
+                self.bgView?.k_x = kScreenWidth
             }else if(self.ReStyle == .Left){
                 self.bgView?.k_x = -TANWIDTH;
             }else if(self.ReStyle == .Top){

@@ -18,7 +18,7 @@ class TanAlertController: BaseViewController {
     var refineView:RefineAlertView?
     
     func setUI() {
-        let arr:[String] = ["上到下","下到上","右到左","左到右","上到下弹性"]
+        let arr:[String] = ["上到下","下到上","右到左","左到右","上到下弹性","中间"]
         for index in 0...arr.count-1 {
             let btn = UIButton.kCreatBtn(target: self, action: #selector(btnClick(btn:)), image: "", title: arr[index], rect: CGRect(x: 15 , y: (Int(kTopHeight + 15 + CGFloat(index*54))), width: Int(kScreenWidth-30), height: 44))
             btn.tag = index + 1
@@ -56,6 +56,9 @@ class TanAlertController: BaseViewController {
             viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: 300, height: 150))
             style = .Spring
             break
+        case 6:
+            viewSub  = UIView.init(frame: CGRect(x: 0, y: 0, width: 300, height: 150))
+            style = .Center
         default:
             break
         }

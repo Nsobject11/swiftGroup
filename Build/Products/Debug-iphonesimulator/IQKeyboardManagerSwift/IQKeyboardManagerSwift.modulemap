@@ -1,0 +1,12 @@
+module IQKeyboardManagerSwift {
+  umbrella header "IQKeyboardManagerSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module IQKeyboardManagerSwift.Swift {
+  header "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/Swift Compatibility Header/IQKeyboardManagerSwift-Swift.h"
+  requires objc
+}

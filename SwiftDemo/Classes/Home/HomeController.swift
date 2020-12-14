@@ -65,7 +65,7 @@ class HomeController: BaseViewController {
 //        print("dic" + String(kValidDict(f: dic as AnyObject)))
         
         UserManager.sharedInstance.userLoginWithPhone(phone: "123", psw: "123", flag: false) { (flag) in
-            
+
         }
     }
     

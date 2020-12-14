@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "95b35bad1eca334f31d1ddd96b5ec488"
+build_time: [1607660900, 791759000]
+inputs:
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/Result/Result/AnyError.swift": [1606970076, 172110196]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/Result/Result/NoError.swift": [1606970076, 172206909]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/Result/Result/Result.swift": [1606970076, 172321883]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/Result/Result/ResultProtocol.swift": [1606970076, 172428880]

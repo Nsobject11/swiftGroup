@@ -1,0 +1,444 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Transformer"
+- "CIImageProcessor"
+- "Filter"
+provides-nominal:
+- "10Kingfisher16CIImageProcessorP"
+- "10Kingfisher6FilterV"
+provides-member:
+- ["10Kingfisher16CIImageProcessorP", ""]
+- ["10Kingfisher6FilterV", ""]
+- ["10KingfisherAAC", ""]
+- ["10Kingfisher16CIImageProcessorP", "process"]
+- ["10Kingfisher6FilterV", "init"]
+- ["10KingfisherAAC", "apply"]
+provides-dynamic-lookup:
+depends-top-level:
+- ">>"
+- "AssignmentPrecedence"
+- "Base"
+- "CGFloat"
+- "CIColor"
+- "CIContext"
+- "CIFilter"
+- "CIImage"
+- "CIImageProcessor"
+- "Color"
+- "ColorElement"
+- !private "DefaultImageProcessor"
+- "Dictionary"
+- "Filter"
+- "Image"
+- "ImageProcessItem"
+- "ImageProcessor"
+- "Kingfisher"
+- "KingfisherOptionsInfo"
+- "StringLiteralType"
+- "Transformer"
+- !private "assertionFailure"
+- !private "base"
+- !private "cgImage"
+- !private "ciContext"
+- !private "filter"
+- "kCIInputBackgroundImageKey"
+- "kCIInputBrightnessKey"
+- "kCIInputColorKey"
+- "kCIInputContrastKey"
+- "kCIInputEVKey"
+- "kCIInputImageKey"
+- "kCIInputSaturationKey"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- !private ["Sz", ""]
+- ["So7CIColorC", "init"]
+- !private ["So9CIContextC", "createCGImage"]
+- ["So9CIContextC", "init"]
+- ["So8CIFilterC", "init"]
+- ["So8CIFilterC", "outputImage"]
+- ["So8CIFilterC", "setValue"]
+- ["So7CIImageC", "applyingFilter"]
+- ["So7CIImageC", "cropped"]
+- ["So7CIImageC", "extent"]
+- !private ["So7CIImageC", "init"]
+- !private ["10Kingfisher16CIImageProcessorP", "DefaultImageProcessor"]
+- ["10Kingfisher16CIImageProcessorP", "Filter"]
+- ["10Kingfisher16CIImageProcessorP", "Image"]
+- ["10Kingfisher16CIImageProcessorP", "ImageProcessItem"]
+- ["10Kingfisher16CIImageProcessorP", "KingfisherOptionsInfo"]
+- ["10Kingfisher16CIImageProcessorP", ""]
+- ["10Kingfisher16CIImageProcessorP", "filter"]
+- ["10Kingfisher16CIImageProcessorP", "process"]
+- ["s7CVarArgP", "applyingFilter"]
+- !private ["s7CVarArgP", "createCGImage"]
+- ["s7CVarArgP", "cropped"]
+- ["s7CVarArgP", "extent"]
+- !private ["s7CVarArgP", "imageOrientation"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kf"]
+- ["s7CVarArgP", "outputImage"]
+- !private ["s7CVarArgP", "scale"]
+- ["s7CVarArgP", "setValue"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "applyingFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "createCGImage"]
+- ["s28CustomDebugStringConvertibleP", "cropped"]
+- ["s28CustomDebugStringConvertibleP", "extent"]
+- !private ["s28CustomDebugStringConvertibleP", "imageOrientation"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kf"]
+- ["s28CustomDebugStringConvertibleP", "outputImage"]
+- !private ["s28CustomDebugStringConvertibleP", "scale"]
+- ["s28CustomDebugStringConvertibleP", "setValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "applyingFilter"]
+- !private ["s23CustomStringConvertibleP", "createCGImage"]
+- ["s23CustomStringConvertibleP", "cropped"]
+- ["s23CustomStringConvertibleP", "extent"]
+- !private ["s23CustomStringConvertibleP", "imageOrientation"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kf"]
+- ["s23CustomStringConvertibleP", "outputImage"]
+- !private ["s23CustomStringConvertibleP", "scale"]
+- ["s23CustomStringConvertibleP", "setValue"]
+- !private ["10Kingfisher21DefaultImageProcessorV", ""]
+- !private ["10Kingfisher21DefaultImageProcessorV", "default"]
+- ["SQ", ""]
+- ["SQ", "applyingFilter"]
+- !private ["SQ", "createCGImage"]
+- ["SQ", "cropped"]
+- ["SQ", "extent"]
+- !private ["SQ", "imageOrientation"]
+- ["SQ", "init"]
+- !private ["SQ", "kf"]
+- ["SQ", "outputImage"]
+- !private ["SQ", "scale"]
+- ["SQ", "setValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["10Kingfisher6FilterV", "CGFloat"]
+- ["10Kingfisher6FilterV", "CIColor"]
+- ["10Kingfisher6FilterV", "CIFilter"]
+- ["10Kingfisher6FilterV", "Color"]
+- ["10Kingfisher6FilterV", "ColorElement"]
+- ["10Kingfisher6FilterV", "Filter"]
+- ["10Kingfisher6FilterV", "Transformer"]
+- ["10Kingfisher6FilterV", ""]
+- ["10Kingfisher6FilterV", "colorControl"]
+- ["10Kingfisher6FilterV", "init"]
+- ["10Kingfisher6FilterV", "kCIInputBackgroundImageKey"]
+- ["10Kingfisher6FilterV", "kCIInputBrightnessKey"]
+- ["10Kingfisher6FilterV", "kCIInputColorKey"]
+- ["10Kingfisher6FilterV", "kCIInputContrastKey"]
+- ["10Kingfisher6FilterV", "kCIInputEVKey"]
+- ["10Kingfisher6FilterV", "kCIInputImageKey"]
+- ["10Kingfisher6FilterV", "kCIInputSaturationKey"]
+- ["10Kingfisher6FilterV", "tint"]
+- ["10Kingfisher6FilterV", "transform"]
+- ["SH", ""]
+- ["SH", "applyingFilter"]
+- !private ["SH", "createCGImage"]
+- ["SH", "cropped"]
+- ["SH", "extent"]
+- !private ["SH", "imageOrientation"]
+- ["SH", "init"]
+- !private ["SH", "kf"]
+- ["SH", "outputImage"]
+- !private ["SH", "scale"]
+- ["SH", "setValue"]
+- ["10Kingfisher16ImageProcessItemO", "data"]
+- ["10Kingfisher16ImageProcessItemO", "image"]
+- !private ["10Kingfisher14ImageProcessorP", "DefaultImageProcessor"]
+- ["10Kingfisher14ImageProcessorP", "Filter"]
+- ["10Kingfisher14ImageProcessorP", "Image"]
+- ["10Kingfisher14ImageProcessorP", "ImageProcessItem"]
+- ["10Kingfisher14ImageProcessorP", "KingfisherOptionsInfo"]
+- ["10Kingfisher14ImageProcessorP", ""]
+- !private ["10Kingfisher14ImageProcessorP", "default"]
+- ["10Kingfisher14ImageProcessorP", "filter"]
+- !private ["10Kingfisher14ImageProcessorP", "process"]
+- !private ["10KingfisherAAC", "CIImage"]
+- ["10KingfisherAAC", "Filter"]
+- ["10KingfisherAAC", "Image"]
+- ["10KingfisherAAC", ""]
+- ["10KingfisherAAC", "apply"]
+- !private ["10KingfisherAAC", "assertionFailure"]
+- !private ["10KingfisherAAC", "base"]
+- !private ["10KingfisherAAC", "cgImage"]
+- !private ["10KingfisherAAC", "ciContext"]
+- !private ["10Kingfisher0A10CompatibleP", "imageOrientation"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kf"]
+- !private ["10Kingfisher0A10CompatibleP", "scale"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So11MTLResourceP", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "applyingFilter"]
+- ["So8NSCodingP", "cropped"]
+- ["So8NSCodingP", "extent"]
+- !private ["So8NSCodingP", "imageOrientation"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kf"]
+- ["So8NSCodingP", "outputImage"]
+- !private ["So8NSCodingP", "scale"]
+- ["So8NSCodingP", "setValue"]
+- ["So9NSCopyingP", "applyingFilter"]
+- ["So9NSCopyingP", "cropped"]
+- ["So9NSCopyingP", "extent"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "outputImage"]
+- ["So9NSCopyingP", "setValue"]
+- !private ["So21NSItemProviderReadingP", "imageOrientation"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "kf"]
+- !private ["So21NSItemProviderReadingP", "scale"]
+- !private ["So21NSItemProviderWritingP", "imageOrientation"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "kf"]
+- !private ["So21NSItemProviderWritingP", "scale"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "applyingFilter"]
+- ["So8NSObjectC", "colorWithCGColor"]
+- ["So8NSObjectC", "colorWithRed"]
+- ["So8NSObjectC", "colorWithString"]
+- ["So8NSObjectC", "context"]
+- ["So8NSObjectC", "contextWithCGContext"]
+- ["So8NSObjectC", "contextWithEAGLContext"]
+- ["So8NSObjectC", "contextWithMTLCommandQueue"]
+- ["So8NSObjectC", "contextWithMTLDevice"]
+- ["So8NSObjectC", "contextWithOptions"]
+- !private ["So8NSObjectC", "createCGImage"]
+- ["So8NSObjectC", "cropped"]
+- ["So8NSObjectC", "cropping"]
+- ["So8NSObjectC", "extent"]
+- ["So8NSObjectC", "filterWithCVPixelBuffer"]
+- ["So8NSObjectC", "filterWithImageData"]
+- ["So8NSObjectC", "filterWithImageURL"]
+- ["So8NSObjectC", "filterWithName"]
+- ["So8NSObjectC", "imageByApplyingFilter"]
+- ["So8NSObjectC", "imageByCroppingToRect"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageOrientation"]
+- !private ["So8NSObjectC", "imageWithBitmapData"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCGImageSource"]
+- !private ["So8NSObjectC", "imageWithCGLayer"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithCVImageBuffer"]
+- !private ["So8NSObjectC", "imageWithCVPixelBuffer"]
+- !private ["So8NSObjectC", "imageWithColor"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithContentsOfURL"]
+- !private ["So8NSObjectC", "imageWithData"]
+- !private ["So8NSObjectC", "imageWithIOSurface"]
+- !private ["So8NSObjectC", "imageWithImageProvider"]
+- !private ["So8NSObjectC", "imageWithMTLTexture"]
+- !private ["So8NSObjectC", "imageWithTexture"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kf"]
+- ["So8NSObjectC", "outputImage"]
+- !private ["So8NSObjectC", "scale"]
+- ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "applyingFilter"]
+- ["So8NSObjectP", "colorWithCGColor"]
+- ["So8NSObjectP", "colorWithRed"]
+- ["So8NSObjectP", "colorWithString"]
+- ["So8NSObjectP", "context"]
+- ["So8NSObjectP", "contextWithCGContext"]
+- ["So8NSObjectP", "contextWithEAGLContext"]
+- ["So8NSObjectP", "contextWithMTLCommandQueue"]
+- ["So8NSObjectP", "contextWithMTLDevice"]
+- ["So8NSObjectP", "contextWithOptions"]
+- !private ["So8NSObjectP", "createCGImage"]
+- ["So8NSObjectP", "cropped"]
+- ["So8NSObjectP", "cropping"]
+- ["So8NSObjectP", "extent"]
+- ["So8NSObjectP", "filterWithCVPixelBuffer"]
+- ["So8NSObjectP", "filterWithImageData"]
+- ["So8NSObjectP", "filterWithImageURL"]
+- ["So8NSObjectP", "filterWithName"]
+- ["So8NSObjectP", "imageByApplyingFilter"]
+- ["So8NSObjectP", "imageByCroppingToRect"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageOrientation"]
+- !private ["So8NSObjectP", "imageWithBitmapData"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCGImageSource"]
+- !private ["So8NSObjectP", "imageWithCGLayer"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithCVImageBuffer"]
+- !private ["So8NSObjectP", "imageWithCVPixelBuffer"]
+- !private ["So8NSObjectP", "imageWithColor"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithContentsOfURL"]
+- !private ["So8NSObjectP", "imageWithData"]
+- !private ["So8NSObjectP", "imageWithIOSurface"]
+- !private ["So8NSObjectP", "imageWithImageProvider"]
+- !private ["So8NSObjectP", "imageWithMTLTexture"]
+- !private ["So8NSObjectP", "imageWithTexture"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kf"]
+- ["So8NSObjectP", "outputImage"]
+- !private ["So8NSObjectP", "scale"]
+- ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- ["So14NSSecureCodingP", "applyingFilter"]
+- ["So14NSSecureCodingP", "cropped"]
+- ["So14NSSecureCodingP", "extent"]
+- !private ["So14NSSecureCodingP", "imageOrientation"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "kf"]
+- ["So14NSSecureCodingP", "outputImage"]
+- !private ["So14NSSecureCodingP", "scale"]
+- ["So14NSSecureCodingP", "setValue"]
+- !private ["Sj", ""]
+- !private ["10Kingfisher11PlaceholderP", "imageOrientation"]
+- !private ["10Kingfisher11PlaceholderP", "init"]
+- !private ["10Kingfisher11PlaceholderP", "kf"]
+- !private ["10Kingfisher11PlaceholderP", "scale"]
+- ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "imageOrientation"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "kf"]
+- !private ["So29UIAccessibilityIdentificationP", "scale"]
+- !private ["So7UIImageC", ""]
+- !private ["So7UIImageC", "imageOrientation"]
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "kf"]
+- !private ["So7UIImageC", "scale"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "imageOrientation"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kf"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "scale"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByImageLiteralP", "imageOrientation"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "kf"]
+- !private ["s26_ExpressibleByImageLiteralP", "scale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applyingFilter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createCGImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cropped"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "extent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageOrientation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kf"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "outputImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applyingFilter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createCGImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cropped"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "extent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageOrientation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "outputImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "Sz"
+- "So7CIColorC"
+- "So9CIContextC"
+- "So8CIFilterC"
+- "So7CIImageC"
+- "10Kingfisher16CIImageProcessorP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "10Kingfisher21DefaultImageProcessorV"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "10Kingfisher6FilterV"
+- "SH"
+- "10Kingfisher16ImageProcessItemO"
+- "10Kingfisher14ImageProcessorP"
+- "10KingfisherAAC"
+- !private "10Kingfisher0A10CompatibleP"
+- "s25LosslessStringConvertibleP"
+- !private "So11MTLResourceP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sj"
+- !private "10Kingfisher11PlaceholderP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Kingfisher/Kingfisher.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Kingfisher/Kingfisher.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e02323608b35934f9f77ef38f7effce9"

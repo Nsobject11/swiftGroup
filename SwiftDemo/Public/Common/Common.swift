@@ -27,7 +27,7 @@ let kScreen_Bounds = UIScreen.main.bounds
 let kIsIphoneX = UIApplication.shared.statusBarFrame.size.height == 44 ? true : false
 let kStatusBarHeight = kIsIphoneX ? 44 : 20
 let kIndicatorHeight = kIsIphoneX ? 34 : 0
-let kNavBarHeight = 44.0
+let kNavBarHeight:CGFloat = 44
 let kTabBarHeight = kIsIphoneX ? 83 : 49
 let kTopHeight:CGFloat = kIsIphoneX ? 88 : 64 // 这个高度根据是否是iPhone X系列手机, 来设置导航条高度, 不能使用 [[UIApplication sharedApplication] statusBarFrame].size.height 动态获取, 定位/拨打电话/共享热点会导致页面布局错落
 

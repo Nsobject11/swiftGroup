@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "04a36a076305ca275d84976867df7f6e"
+build_time: [1607660900, 926244000]
+inputs:
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift": [1606970075, 896515165]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift": [1606970075, 898359137]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift": [1606970075, 895028322]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift": [1606970075, 894194457]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift": [1606970075, 894375609]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift": [1606970075, 895302611]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift": [1606970075, 892914346]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift": [1606970075, 898598671]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift": [1606970075, 895610083]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift": [1606970075, 898805305]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift": [1606970075, 899069990]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift": [1606970075, 893163445]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift": [1606970075, 893457825]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift": [1606970075, 893714247]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift": [1606970075, 899379863]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift": [1606970075, 893928580]

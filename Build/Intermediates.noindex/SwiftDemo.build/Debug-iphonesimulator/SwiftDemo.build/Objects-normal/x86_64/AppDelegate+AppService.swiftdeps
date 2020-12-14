@@ -1,0 +1,755 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "9SwiftDemo11AppDelegateC"
+provides-member:
+- ["9SwiftDemo11AppDelegateC", ""]
+- ["9SwiftDemo11AppDelegateC", "registerJPushWith"]
+- ["9SwiftDemo11AppDelegateC", "receiveNotice"]
+provides-dynamic-lookup:
+- "application"
+- "jpushNotificationCenter"
+- "receiveNotice"
+- "registerJPushWith"
+depends-top-level:
+- !private "+"
+- "AnyHashable"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "Error"
+- "Int"
+- "JPUSHRegisterDelegate"
+- !private "JPUSHService"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIBackgroundFetchResult"
+- "UNNotification"
+- !private "UNNotificationPresentationOptions"
+- "UNNotificationResponse"
+- "UNPushNotificationTrigger"
+- "UNUserNotificationCenter"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["9SwiftDemo11AppDelegateC", "AnyHashable"]
+- ["9SwiftDemo11AppDelegateC", "Bool"]
+- ["9SwiftDemo11AppDelegateC", "Data"]
+- ["9SwiftDemo11AppDelegateC", "Error"]
+- ["9SwiftDemo11AppDelegateC", "Int"]
+- !private ["9SwiftDemo11AppDelegateC", "JPUSHService"]
+- ["9SwiftDemo11AppDelegateC", "UIApplication"]
+- ["9SwiftDemo11AppDelegateC", "UIBackgroundFetchResult"]
+- ["9SwiftDemo11AppDelegateC", "UNNotification"]
+- !private ["9SwiftDemo11AppDelegateC", "UNNotificationPresentationOptions"]
+- ["9SwiftDemo11AppDelegateC", "UNNotificationResponse"]
+- !private ["9SwiftDemo11AppDelegateC", "UNPushNotificationTrigger"]
+- ["9SwiftDemo11AppDelegateC", "UNUserNotificationCenter"]
+- ["9SwiftDemo11AppDelegateC", "Void"]
+- ["9SwiftDemo11AppDelegateC", ""]
+- ["9SwiftDemo11AppDelegateC", "application"]
+- !private ["9SwiftDemo11AppDelegateC", "deviceToken"]
+- ["9SwiftDemo11AppDelegateC", "jpushNotificationCenter"]
+- !private ["9SwiftDemo11AppDelegateC", "print"]
+- ["9SwiftDemo11AppDelegateC", "receiveNotice"]
+- ["9SwiftDemo11AppDelegateC", "registerJPushWith"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "JPUSHService"]
+- ["s7CVarArgP", "LaunchOptionsKey"]
+- !private ["s7CVarArgP", "UIBackgroundFetchResult"]
+- !private ["s7CVarArgP", "UNNotificationPresentationOptions"]
+- !private ["s7CVarArgP", "content"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "deviceToken"]
+- !private ["s7CVarArgP", "handleRemoteNotification"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "jpushNotificationCenter"]
+- !private ["s7CVarArgP", "notification"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "receiveNotice"]
+- !private ["s7CVarArgP", "registerDeviceToken"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "trigger"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["Sl", "description"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["7SnapKit24ConstraintConstantTargetP", ""]
+- !private ["7SnapKit24ConstraintConstantTargetP", "init"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "init"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "init"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "init"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "JPUSHService"]
+- ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBackgroundFetchResult"]
+- !private ["s28CustomDebugStringConvertibleP", "UNNotificationPresentationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceToken"]
+- !private ["s28CustomDebugStringConvertibleP", "handleRemoteNotification"]
+- ["s28CustomDebugStringConvertibleP", "jpushNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "notification"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "receiveNotice"]
+- !private ["s28CustomDebugStringConvertibleP", "registerDeviceToken"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "trigger"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "notification"]
+- !private ["s17CustomReflectableP", "request"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "JPUSHService"]
+- ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "UIBackgroundFetchResult"]
+- !private ["s23CustomStringConvertibleP", "UNNotificationPresentationOptions"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "deviceToken"]
+- !private ["s23CustomStringConvertibleP", "handleRemoteNotification"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "jpushNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "notification"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "receiveNotice"]
+- !private ["s23CustomStringConvertibleP", "registerDeviceToken"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "trigger"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "notification"]
+- !private ["Se", "request"]
+- !private ["SD", "description"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "notification"]
+- !private ["SE", "request"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "JPUSHService"]
+- ["SQ", "LaunchOptionsKey"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "UIBackgroundFetchResult"]
+- !private ["SQ", "UNNotificationPresentationOptions"]
+- ["SQ", ""]
+- !private ["SQ", "alert"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "content"]
+- !private ["SQ", "description"]
+- !private ["SQ", "deviceToken"]
+- !private ["SQ", "handleRemoteNotification"]
+- !private ["SQ", "init"]
+- ["SQ", "jpushNotificationCenter"]
+- !private ["SQ", "newData"]
+- !private ["SQ", "notification"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "receiveNotice"]
+- !private ["SQ", "registerDeviceToken"]
+- !private ["SQ", "request"]
+- !private ["SQ", "trigger"]
+- !private ["SQ", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "alert"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "notification"]
+- !private ["s23ExpressibleByNilLiteralP", "request"]
+- !private ["s17FixedWidthIntegerP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Int"]
+- !private ["SH", "JPUSHService"]
+- ["SH", "LaunchOptionsKey"]
+- !private ["SH", "UIBackgroundFetchResult"]
+- !private ["SH", "UNNotificationPresentationOptions"]
+- !private ["SH", ""]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "content"]
+- !private ["SH", "description"]
+- !private ["SH", "deviceToken"]
+- !private ["SH", "handleRemoteNotification"]
+- !private ["SH", "init"]
+- ["SH", "jpushNotificationCenter"]
+- !private ["SH", "newData"]
+- !private ["SH", "notification"]
+- !private ["SH", "print"]
+- !private ["SH", "receiveNotice"]
+- !private ["SH", "registerDeviceToken"]
+- !private ["SH", "request"]
+- !private ["SH", "trigger"]
+- !private ["SH", "userInfo"]
+- !private ["Si", "init"]
+- !private ["9HandyJSON23IntegerPropertyProtocolP", "init"]
+- !private ["So21JPUSHRegisterDelegateP", "Int"]
+- !private ["So21JPUSHRegisterDelegateP", "JPUSHService"]
+- !private ["So21JPUSHRegisterDelegateP", "UIBackgroundFetchResult"]
+- !private ["So21JPUSHRegisterDelegateP", "UNNotificationPresentationOptions"]
+- ["So21JPUSHRegisterDelegateP", ""]
+- ["So21JPUSHRegisterDelegateP", "application"]
+- !private ["So21JPUSHRegisterDelegateP", "deviceToken"]
+- ["So21JPUSHRegisterDelegateP", "jpushNotificationCenter"]
+- !private ["So21JPUSHRegisterDelegateP", "print"]
+- ["So21JPUSHRegisterDelegateP", "receiveNotice"]
+- ["So21JPUSHRegisterDelegateP", "registerJPushWith"]
+- !private ["So12JPUSHServiceC", "handleRemoteNotification"]
+- !private ["So12JPUSHServiceC", "registerDeviceToken"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- ["10Kingfisher0A10CompatibleP", "LaunchOptionsKey"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "content"]
+- !private ["So8NSCodingP", "notification"]
+- !private ["So8NSCodingP", "request"]
+- !private ["So8NSCodingP", "trigger"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "content"]
+- !private ["So9NSCopyingP", "notification"]
+- !private ["So9NSCopyingP", "request"]
+- !private ["So9NSCopyingP", "trigger"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So16NSMutableCopyingP", "userInfo"]
+- ["So8NSObjectC", "AnyHashable"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JPUSHService"]
+- ["So8NSObjectC", "LaunchOptionsKey"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIBackgroundFetchResult"]
+- ["So8NSObjectC", "UNNotification"]
+- !private ["So8NSObjectC", "UNNotificationPresentationOptions"]
+- ["So8NSObjectC", "UNNotificationResponse"]
+- !private ["So8NSObjectC", "UNPushNotificationTrigger"]
+- ["So8NSObjectC", "UNUserNotificationCenter"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "application"]
+- !private ["So8NSObjectC", "content"]
+- !private ["So8NSObjectC", "deviceToken"]
+- !private ["So8NSObjectC", "handleRemoteNotification"]
+- ["So8NSObjectC", "jpushNotificationCenter"]
+- !private ["So8NSObjectC", "notification"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "receiveNotice"]
+- !private ["So8NSObjectC", "registerDeviceToken"]
+- ["So8NSObjectC", "registerJPushWith"]
+- !private ["So8NSObjectC", "request"]
+- !private ["So8NSObjectC", "trigger"]
+- !private ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Error"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "JPUSHService"]
+- ["So8NSObjectP", "LaunchOptionsKey"]
+- ["So8NSObjectP", "UIBackgroundFetchResult"]
+- ["So8NSObjectP", "UNNotification"]
+- !private ["So8NSObjectP", "UNNotificationPresentationOptions"]
+- ["So8NSObjectP", "UNNotificationResponse"]
+- !private ["So8NSObjectP", "UNPushNotificationTrigger"]
+- ["So8NSObjectP", "UNUserNotificationCenter"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "application"]
+- !private ["So8NSObjectP", "content"]
+- !private ["So8NSObjectP", "deviceToken"]
+- !private ["So8NSObjectP", "handleRemoteNotification"]
+- ["So8NSObjectP", "jpushNotificationCenter"]
+- !private ["So8NSObjectP", "notification"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "receiveNotice"]
+- !private ["So8NSObjectP", "registerDeviceToken"]
+- ["So8NSObjectP", "registerJPushWith"]
+- !private ["So8NSObjectP", "request"]
+- !private ["So8NSObjectP", "trigger"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So14NSSecureCodingP", "content"]
+- !private ["So14NSSecureCodingP", "notification"]
+- !private ["So14NSSecureCodingP", "request"]
+- !private ["So14NSSecureCodingP", "trigger"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "alert"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "notification"]
+- !private ["Sq", "request"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "alert"]
+- !private ["SY", "newData"]
+- !private ["SY", "rawValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Int"]
+- !private ["7RxSwift18ReactiveCompatibleP", "JPUSHService"]
+- ["7RxSwift18ReactiveCompatibleP", "LaunchOptionsKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIBackgroundFetchResult"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UNNotificationPresentationOptions"]
+- !private ["7RxSwift18ReactiveCompatibleP", "content"]
+- !private ["7RxSwift18ReactiveCompatibleP", "deviceToken"]
+- !private ["7RxSwift18ReactiveCompatibleP", "handleRemoteNotification"]
+- ["7RxSwift18ReactiveCompatibleP", "jpushNotificationCenter"]
+- !private ["7RxSwift18ReactiveCompatibleP", "notification"]
+- !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "receiveNotice"]
+- !private ["7RxSwift18ReactiveCompatibleP", "registerDeviceToken"]
+- !private ["7RxSwift18ReactiveCompatibleP", "request"]
+- !private ["7RxSwift18ReactiveCompatibleP", "trigger"]
+- !private ["7RxSwift18ReactiveCompatibleP", "userInfo"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "description"]
+- !private ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "alert"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "Int"]
+- !private ["So21UIApplicationDelegateP", "JPUSHService"]
+- !private ["So21UIApplicationDelegateP", "UIBackgroundFetchResult"]
+- !private ["So21UIApplicationDelegateP", "UNNotificationPresentationOptions"]
+- ["So21UIApplicationDelegateP", "application"]
+- !private ["So21UIApplicationDelegateP", "deviceToken"]
+- ["So21UIApplicationDelegateP", "jpushNotificationCenter"]
+- !private ["So21UIApplicationDelegateP", "print"]
+- ["So21UIApplicationDelegateP", "receiveNotice"]
+- ["So21UIApplicationDelegateP", "registerJPushWith"]
+- !private ["So23UIBackgroundFetchResultV", "newData"]
+- ["So30UIPasteConfigurationSupportingP", "Data"]
+- ["So30UIPasteConfigurationSupportingP", "Error"]
+- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "JPUSHService"]
+- ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- ["So30UIPasteConfigurationSupportingP", "UIBackgroundFetchResult"]
+- ["So30UIPasteConfigurationSupportingP", "UNNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "UNNotificationPresentationOptions"]
+- ["So30UIPasteConfigurationSupportingP", "UNNotificationResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "UNPushNotificationTrigger"]
+- ["So30UIPasteConfigurationSupportingP", "UNUserNotificationCenter"]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- !private ["So30UIPasteConfigurationSupportingP", "deviceToken"]
+- ["So30UIPasteConfigurationSupportingP", "jpushNotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "receiveNotice"]
+- ["So30UIPasteConfigurationSupportingP", "registerJPushWith"]
+- ["So11UIResponderC", "AnyHashable"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Data"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "JPUSHService"]
+- ["So11UIResponderC", "LaunchOptionsKey"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIBackgroundFetchResult"]
+- ["So11UIResponderC", "UNNotification"]
+- !private ["So11UIResponderC", "UNNotificationPresentationOptions"]
+- ["So11UIResponderC", "UNNotificationResponse"]
+- !private ["So11UIResponderC", "UNPushNotificationTrigger"]
+- ["So11UIResponderC", "UNUserNotificationCenter"]
+- ["So11UIResponderC", "Void"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "application"]
+- !private ["So11UIResponderC", "deviceToken"]
+- ["So11UIResponderC", "jpushNotificationCenter"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "receiveNotice"]
+- ["So11UIResponderC", "registerJPushWith"]
+- ["So30UIResponderStandardEditActionsP", "Data"]
+- ["So30UIResponderStandardEditActionsP", "Error"]
+- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "JPUSHService"]
+- ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- ["So30UIResponderStandardEditActionsP", "UIBackgroundFetchResult"]
+- ["So30UIResponderStandardEditActionsP", "UNNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "UNNotificationPresentationOptions"]
+- ["So30UIResponderStandardEditActionsP", "UNNotificationResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "UNPushNotificationTrigger"]
+- ["So30UIResponderStandardEditActionsP", "UNUserNotificationCenter"]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- !private ["So30UIResponderStandardEditActionsP", "deviceToken"]
+- ["So30UIResponderStandardEditActionsP", "jpushNotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "receiveNotice"]
+- ["So30UIResponderStandardEditActionsP", "registerJPushWith"]
+- ["So23UIUserActivityRestoringP", "Data"]
+- ["So23UIUserActivityRestoringP", "Error"]
+- !private ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "JPUSHService"]
+- ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- ["So23UIUserActivityRestoringP", "UIBackgroundFetchResult"]
+- ["So23UIUserActivityRestoringP", "UNNotification"]
+- !private ["So23UIUserActivityRestoringP", "UNNotificationPresentationOptions"]
+- ["So23UIUserActivityRestoringP", "UNNotificationResponse"]
+- !private ["So23UIUserActivityRestoringP", "UNPushNotificationTrigger"]
+- ["So23UIUserActivityRestoringP", "UNUserNotificationCenter"]
+- ["So23UIUserActivityRestoringP", "application"]
+- !private ["So23UIUserActivityRestoringP", "deviceToken"]
+- ["So23UIUserActivityRestoringP", "jpushNotificationCenter"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "receiveNotice"]
+- ["So23UIUserActivityRestoringP", "registerJPushWith"]
+- !private ["So14UNNotificationC", "request"]
+- !private ["So21UNNotificationContentC", "userInfo"]
+- !private ["So33UNNotificationPresentationOptionsV", "RawValue"]
+- !private ["So33UNNotificationPresentationOptionsV", "alert"]
+- !private ["So33UNNotificationPresentationOptionsV", "rawValue"]
+- !private ["So21UNNotificationRequestC", "content"]
+- !private ["So21UNNotificationRequestC", "trigger"]
+- !private ["So22UNNotificationResponseC", "notification"]
+- ["So21UNNotificationTriggerC", ""]
+- !private ["So13WXApiDelegateP", "Int"]
+- !private ["So13WXApiDelegateP", "JPUSHService"]
+- !private ["So13WXApiDelegateP", "UIBackgroundFetchResult"]
+- !private ["So13WXApiDelegateP", "UNNotificationPresentationOptions"]
+- ["So13WXApiDelegateP", "application"]
+- !private ["So13WXApiDelegateP", "deviceToken"]
+- ["So13WXApiDelegateP", "jpushNotificationCenter"]
+- !private ["So13WXApiDelegateP", "print"]
+- ["So13WXApiDelegateP", "receiveNotice"]
+- ["So13WXApiDelegateP", "registerJPushWith"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", ""]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "callAsFunction"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "description"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "notification"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "request"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JPUSHService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBackgroundFetchResult"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNNotificationPresentationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "content"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleRemoteNotification"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "jpushNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "receiveNotice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerDeviceToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trigger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JPUSHService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIBackgroundFetchResult"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNNotificationPresentationOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "content"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deviceToken"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleRemoteNotification"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpushNotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "receiveNotice"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerDeviceToken"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "request"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trigger"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
+- !private ["9HandyJSON11_MeasurableP", ""]
+- !private ["9HandyJSON11_MeasurableP", "callAsFunction"]
+- !private ["9HandyJSON11_MeasurableP", "description"]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "notification"]
+- !private ["9HandyJSON11_MeasurableP", "request"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "notification"]
+- !private ["s21_ObjectiveCBridgeableP", "request"]
+- !private ["9HandyJSON14_TransformableP", ""]
+- !private ["9HandyJSON14_TransformableP", "callAsFunction"]
+- !private ["9HandyJSON14_TransformableP", "description"]
+- !private ["9HandyJSON14_TransformableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "notification"]
+- !private ["9HandyJSON14_TransformableP", "request"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "9SwiftDemo11AppDelegateC"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit21ConstraintInsetTargetP"
+- !private "7SnapKit26ConstraintMultiplierTargetP"
+- !private "7SnapKit22ConstraintOffsetTargetP"
+- !private "7SnapKit24ConstraintPriorityTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "9HandyJSON23IntegerPropertyProtocolP"
+- "So21JPUSHRegisterDelegateP"
+- !private "So12JPUSHServiceC"
+- !private "7RxCocoa16KVORepresentableP"
+- "10Kingfisher0A10CompatibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- !private "So23UIBackgroundFetchResultV"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- !private "So14UNNotificationC"
+- !private "So21UNNotificationContentC"
+- !private "So33UNNotificationPresentationOptionsV"
+- !private "So21UNNotificationRequestC"
+- !private "So22UNNotificationResponseC"
+- "So21UNNotificationTriggerC"
+- "So13WXApiDelegateP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/AlipaySDK.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RX.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet-Swift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Result/Result-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/JPush/JPUSHService.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXObjCRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/RxCocoaRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMShare.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMConfigure.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialResponse.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialWarterMarkConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/NSBundle+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApi.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialGlobal.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetModel.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialImageUtil.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMCommon.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/APayAuthInfo.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/SwiftDemo-Header.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshStateHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshGifHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshNormalHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformProvider.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialDataManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImageManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZLocationManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/NSBundle+TZImagePicker.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialHandler.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImagePickerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZVideoPlayerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZGifPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/Utils/APRSASigner.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXKVOObserver.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialCoreImageUtils.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMCommonLogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSociallogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewObjcCompat.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialMessageObject.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApiObject.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/Swift Compatibility Header/HandyJSON-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/Swift Compatibility Header/RxCocoa-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Swift Compatibility Header/Moya-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Swift Compatibility Header/Kingfisher-Swift.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/Swift Compatibility Header/EmptyDataSet_Swift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/Swift Compatibility Header/IQKeyboardManagerSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/Swift Compatibility Header/RxSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Result/Swift Compatibility Header/Result-Swift.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/Swift Compatibility Header/FSPagerView-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/Swift Compatibility Header/RxRelay-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshComponent.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshConst.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/UIView+Layout.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXDelegateProxy.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "079b786a84e0a95213eaff5cc46a643b"

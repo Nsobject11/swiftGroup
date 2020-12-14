@@ -1,0 +1,12 @@
+module EmptyDataSet_Swift {
+  umbrella header "EmptyDataSet-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module EmptyDataSet_Swift.Swift {
+  header "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/Swift Compatibility Header/EmptyDataSet_Swift-Swift.h"
+  requires objc
+}

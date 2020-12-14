@@ -1,0 +1,1486 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseTabbarController"
+provides-nominal:
+- "9SwiftDemo20BaseTabbarControllerC"
+provides-member:
+- ["9SwiftDemo20BaseTabbarControllerC", ""]
+provides-dynamic-lookup:
+- "addChildViewController"
+- "addItems"
+- "changeItemTextColourAndFont"
+- "removeTabBarTopLine"
+- "sharedInstance"
+- "viewDidLoad"
+depends-top-level:
+- !private "-"
+- !private "..."
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BaseNavController"
+- "BaseTabbarController"
+- !private "CGSize"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- !private "HomeController"
+- !private "IntegerLiteralType"
+- !private "KHexColor"
+- !private "NSAttributedString"
+- !private "ProfileController"
+- "String"
+- !private "StringLiteralType"
+- !private "UIFont"
+- !private "UIImage"
+- "UITabBarController"
+- !private "UITabBarItem"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- !private "addChildViewController"
+- !private "addItems"
+- !private "changeItemTextColourAndFont"
+- !private "removeTabBarTopLine"
+depends-member:
+- !private ["10Accelerate0A6BufferP", ""]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["9SwiftDemo17BaseNavControllerC", ""]
+- !private ["9SwiftDemo17BaseNavControllerC", "init"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "BaseNavController"]
+- ["9SwiftDemo20BaseTabbarControllerC", "BaseTabbarController"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "CGSize"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "HomeController"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "KHexColor"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "NSAttributedString"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "ProfileController"]
+- ["9SwiftDemo20BaseTabbarControllerC", "String"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "UIFont"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "UIImage"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "UITabBarItem"]
+- ["9SwiftDemo20BaseTabbarControllerC", "UIViewController"]
+- ["9SwiftDemo20BaseTabbarControllerC", ""]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "addChild"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "addChildViewController"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "addItems"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "changeItemTextColourAndFont"]
+- ["9SwiftDemo20BaseTabbarControllerC", "deinit"]
+- ["9SwiftDemo20BaseTabbarControllerC", "init"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "removeTabBarTopLine"]
+- ["9SwiftDemo20BaseTabbarControllerC", "sharedInstance"]
+- !private ["9SwiftDemo20BaseTabbarControllerC", "tabBar"]
+- ["9SwiftDemo20BaseTabbarControllerC", "viewDidLoad"]
+- ["9SwiftDemo18BaseViewControllerC", ""]
+- !private ["9SwiftDemo18BaseViewControllerC", "init"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["So7CALayerC", "shadowColor"]
+- !private ["So7CALayerC", "shadowOffset"]
+- !private ["So7CALayerC", "shadowOpacity"]
+- !private ["So15CALayerDelegateP", "backgroundImage"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "shadowImage"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["So15CALayerDelegateP", "unselectedItemTintColor"]
+- !private ["So13CAMediaTimingP", "shadowColor"]
+- !private ["So13CAMediaTimingP", "shadowOffset"]
+- !private ["So13CAMediaTimingP", "shadowOpacity"]
+- !private ["So6CGSizeV", "init"]
+- !private ["s7CVarArgP", "BaseNavController"]
+- ["s7CVarArgP", "BaseTabbarController"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "HomeController"]
+- !private ["s7CVarArgP", "KHexColor"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "ProfileController"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UITabBarItem"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addChild"]
+- !private ["s7CVarArgP", "addChildViewController"]
+- !private ["s7CVarArgP", "addItems"]
+- !private ["s7CVarArgP", "appearance"]
+- !private ["s7CVarArgP", "backgroundImage"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "changeItemTextColourAndFont"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kImageWithColor"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "removeTabBarTopLine"]
+- !private ["s7CVarArgP", "selectedImage"]
+- !private ["s7CVarArgP", "setTitleTextAttributes"]
+- !private ["s7CVarArgP", "shadowColor"]
+- !private ["s7CVarArgP", "shadowImage"]
+- !private ["s7CVarArgP", "shadowOffset"]
+- !private ["s7CVarArgP", "shadowOpacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tabBar"]
+- !private ["s7CVarArgP", "tabBarItem"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "unselectedItemTintColor"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "withRenderingMode"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["7SnapKit24ConstraintConstantTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundImage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layer"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "shadowImage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "tintColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "unselectedItemTintColor"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "BaseNavController"]
+- ["s28CustomDebugStringConvertibleP", "BaseTabbarController"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "HomeController"]
+- !private ["s28CustomDebugStringConvertibleP", "KHexColor"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "ProfileController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UITabBarItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addChild"]
+- !private ["s28CustomDebugStringConvertibleP", "addChildViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "addItems"]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "changeItemTextColourAndFont"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kImageWithColor"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "removeTabBarTopLine"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitleTextAttributes"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowColor"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowImage"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowOpacity"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBar"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBarItem"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "unselectedItemTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "selectedImage"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "BaseNavController"]
+- ["s23CustomStringConvertibleP", "BaseTabbarController"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "HomeController"]
+- !private ["s23CustomStringConvertibleP", "KHexColor"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "ProfileController"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UITabBarItem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addChild"]
+- !private ["s23CustomStringConvertibleP", "addChildViewController"]
+- !private ["s23CustomStringConvertibleP", "addItems"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
+- !private ["s23CustomStringConvertibleP", "backgroundImage"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "changeItemTextColourAndFont"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kImageWithColor"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "removeTabBarTopLine"]
+- !private ["s23CustomStringConvertibleP", "selectedImage"]
+- !private ["s23CustomStringConvertibleP", "setTitleTextAttributes"]
+- !private ["s23CustomStringConvertibleP", "shadowColor"]
+- !private ["s23CustomStringConvertibleP", "shadowImage"]
+- !private ["s23CustomStringConvertibleP", "shadowOffset"]
+- !private ["s23CustomStringConvertibleP", "shadowOpacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tabBar"]
+- !private ["s23CustomStringConvertibleP", "tabBarItem"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "unselectedItemTintColor"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "withRenderingMode"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "selectedImage"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "selectedImage"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "BaseNavController"]
+- ["SQ", "BaseTabbarController"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "HomeController"]
+- !private ["SQ", "KHexColor"]
+- !private ["SQ", "Key"]
+- !private ["SQ", "NSAttributedString"]
+- !private ["SQ", "ProfileController"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "UITabBarItem"]
+- ["SQ", ""]
+- !private ["SQ", "addChild"]
+- !private ["SQ", "addChildViewController"]
+- !private ["SQ", "addItems"]
+- !private ["SQ", "alwaysOriginal"]
+- !private ["SQ", "appearance"]
+- !private ["SQ", "backgroundImage"]
+- !private ["SQ", "cgColor"]
+- !private ["SQ", "changeItemTextColourAndFont"]
+- !private ["SQ", "count"]
+- !private ["SQ", "font"]
+- !private ["SQ", "image"]
+- ["SQ", "init"]
+- !private ["SQ", "kImageWithColor"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "removeTabBarTopLine"]
+- !private ["SQ", "selected"]
+- !private ["SQ", "selectedImage"]
+- !private ["SQ", "setTitleTextAttributes"]
+- !private ["SQ", "shadowColor"]
+- !private ["SQ", "shadowImage"]
+- !private ["SQ", "shadowOffset"]
+- !private ["SQ", "shadowOpacity"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tabBar"]
+- !private ["SQ", "tabBarItem"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "title"]
+- !private ["SQ", "unselectedItemTintColor"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "withRenderingMode"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "selected"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "selectedImage"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- !private ["7RxCocoa11HasDelegateP", "BaseNavController"]
+- ["7RxCocoa11HasDelegateP", "BaseTabbarController"]
+- !private ["7RxCocoa11HasDelegateP", "CGSize"]
+- !private ["7RxCocoa11HasDelegateP", "HomeController"]
+- !private ["7RxCocoa11HasDelegateP", "KHexColor"]
+- !private ["7RxCocoa11HasDelegateP", "NSAttributedString"]
+- !private ["7RxCocoa11HasDelegateP", "ProfileController"]
+- !private ["7RxCocoa11HasDelegateP", "UIFont"]
+- !private ["7RxCocoa11HasDelegateP", "UIImage"]
+- !private ["7RxCocoa11HasDelegateP", "UITabBarItem"]
+- ["7RxCocoa11HasDelegateP", ""]
+- !private ["7RxCocoa11HasDelegateP", "addChild"]
+- !private ["7RxCocoa11HasDelegateP", "addChildViewController"]
+- !private ["7RxCocoa11HasDelegateP", "addItems"]
+- !private ["7RxCocoa11HasDelegateP", "backgroundImage"]
+- !private ["7RxCocoa11HasDelegateP", "changeItemTextColourAndFont"]
+- ["7RxCocoa11HasDelegateP", "init"]
+- !private ["7RxCocoa11HasDelegateP", "layer"]
+- !private ["7RxCocoa11HasDelegateP", "removeTabBarTopLine"]
+- !private ["7RxCocoa11HasDelegateP", "shadowImage"]
+- !private ["7RxCocoa11HasDelegateP", "tabBar"]
+- !private ["7RxCocoa11HasDelegateP", "tintColor"]
+- !private ["7RxCocoa11HasDelegateP", "unselectedItemTintColor"]
+- !private ["7RxCocoa11HasDelegateP", "viewDidLoad"]
+- !private ["SH", "BaseNavController"]
+- ["SH", "BaseTabbarController"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "HomeController"]
+- !private ["SH", "KHexColor"]
+- !private ["SH", "Key"]
+- !private ["SH", "NSAttributedString"]
+- !private ["SH", "ProfileController"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "UITabBarItem"]
+- ["SH", ""]
+- !private ["SH", "addChild"]
+- !private ["SH", "addChildViewController"]
+- !private ["SH", "addItems"]
+- !private ["SH", "alwaysOriginal"]
+- !private ["SH", "appearance"]
+- !private ["SH", "backgroundImage"]
+- !private ["SH", "cgColor"]
+- !private ["SH", "changeItemTextColourAndFont"]
+- !private ["SH", "count"]
+- !private ["SH", "font"]
+- !private ["SH", "image"]
+- ["SH", "init"]
+- !private ["SH", "kImageWithColor"]
+- !private ["SH", "layer"]
+- !private ["SH", "normal"]
+- !private ["SH", "removeTabBarTopLine"]
+- !private ["SH", "selected"]
+- !private ["SH", "selectedImage"]
+- !private ["SH", "setTitleTextAttributes"]
+- !private ["SH", "shadowColor"]
+- !private ["SH", "shadowImage"]
+- !private ["SH", "shadowOffset"]
+- !private ["SH", "shadowOpacity"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tabBar"]
+- !private ["SH", "tabBarItem"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "title"]
+- !private ["SH", "unselectedItemTintColor"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "withRenderingMode"]
+- !private ["9SwiftDemo14HomeControllerC", ""]
+- !private ["9SwiftDemo14HomeControllerC", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kImageWithColor"]
+- !private ["10Kingfisher0A10CompatibleP", "withRenderingMode"]
+- !private ["7SnapKit20LayoutConstraintItemP", "backgroundImage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "layer"]
+- !private ["7SnapKit20LayoutConstraintItemP", "shadowImage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "tintColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "unselectedItemTintColor"]
+- !private ["9SwiftDemo24LimitedTextFieldDelegateP", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So18NSAttributedStringC", "Key"]
+- !private ["So8NSCodingP", "BaseNavController"]
+- ["So8NSCodingP", "BaseTabbarController"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "HomeController"]
+- !private ["So8NSCodingP", "KHexColor"]
+- !private ["So8NSCodingP", "Key"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- !private ["So8NSCodingP", "ProfileController"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UITabBarItem"]
+- ["So8NSCodingP", "UIViewController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addChild"]
+- ["So8NSCodingP", "addChildViewController"]
+- ["So8NSCodingP", "addItems"]
+- !private ["So8NSCodingP", "appearance"]
+- !private ["So8NSCodingP", "backgroundImage"]
+- !private ["So8NSCodingP", "cgColor"]
+- ["So8NSCodingP", "changeItemTextColourAndFont"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kImageWithColor"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "removeTabBarTopLine"]
+- !private ["So8NSCodingP", "selectedImage"]
+- !private ["So8NSCodingP", "setTitleTextAttributes"]
+- !private ["So8NSCodingP", "shadowColor"]
+- !private ["So8NSCodingP", "shadowImage"]
+- !private ["So8NSCodingP", "shadowOffset"]
+- !private ["So8NSCodingP", "shadowOpacity"]
+- ["So8NSCodingP", "sharedInstance"]
+- !private ["So8NSCodingP", "tabBar"]
+- !private ["So8NSCodingP", "tabBarItem"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "unselectedItemTintColor"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "withRenderingMode"]
+- !private ["So9NSCopyingP", "Key"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "BaseNavController"]
+- ["So26NSExtensionRequestHandlingP", "BaseTabbarController"]
+- !private ["So26NSExtensionRequestHandlingP", "CGSize"]
+- !private ["So26NSExtensionRequestHandlingP", "HomeController"]
+- !private ["So26NSExtensionRequestHandlingP", "KHexColor"]
+- !private ["So26NSExtensionRequestHandlingP", "NSAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "ProfileController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UITabBarItem"]
+- ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addChild"]
+- ["So26NSExtensionRequestHandlingP", "addChildViewController"]
+- ["So26NSExtensionRequestHandlingP", "addItems"]
+- ["So26NSExtensionRequestHandlingP", "changeItemTextColourAndFont"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "removeTabBarTopLine"]
+- ["So26NSExtensionRequestHandlingP", "sharedInstance"]
+- !private ["So26NSExtensionRequestHandlingP", "tabBar"]
+- !private ["So26NSExtensionRequestHandlingP", "tabBarItem"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "Key"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "kImageWithColor"]
+- !private ["So21NSItemProviderReadingP", "withRenderingMode"]
+- !private ["So21NSItemProviderWritingP", "Key"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "kImageWithColor"]
+- !private ["So21NSItemProviderWritingP", "withRenderingMode"]
+- !private ["So16NSMutableCopyingP", "Key"]
+- !private ["So8NSObjectC", "BaseNavController"]
+- ["So8NSObjectC", "BaseTabbarController"]
+- !private ["So8NSObjectC", "CGSize"]
+- !private ["So8NSObjectC", "HomeController"]
+- !private ["So8NSObjectC", "KHexColor"]
+- !private ["So8NSObjectC", "Key"]
+- !private ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "ProfileController"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UITabBarItem"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addChild"]
+- ["So8NSObjectC", "addChildViewController"]
+- ["So8NSObjectC", "addItems"]
+- !private ["So8NSObjectC", "appearance"]
+- !private ["So8NSObjectC", "backgroundImage"]
+- !private ["So8NSObjectC", "cgColor"]
+- ["So8NSObjectC", "changeItemTextColourAndFont"]
+- !private ["So8NSObjectC", "fontWithDescriptor"]
+- !private ["So8NSObjectC", "fontWithName"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "imageNamed"]
+- !private ["So8NSObjectC", "imageWithCGImage"]
+- !private ["So8NSObjectC", "imageWithCIImage"]
+- !private ["So8NSObjectC", "imageWithContentsOfFile"]
+- !private ["So8NSObjectC", "imageWithData"]
+- !private ["So8NSObjectC", "imageWithRenderingMode"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "kImageWithColor"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "pngData"]
+- ["So8NSObjectC", "removeTabBarTopLine"]
+- !private ["So8NSObjectC", "selectedImage"]
+- !private ["So8NSObjectC", "setTitleTextAttributes"]
+- !private ["So8NSObjectC", "shadowColor"]
+- !private ["So8NSObjectC", "shadowImage"]
+- !private ["So8NSObjectC", "shadowOffset"]
+- !private ["So8NSObjectC", "shadowOpacity"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "systemImageNamed"]
+- !private ["So8NSObjectC", "tabBar"]
+- !private ["So8NSObjectC", "tabBarItem"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "unselectedItemTintColor"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "withRenderingMode"]
+- !private ["So8NSObjectP", "BaseNavController"]
+- ["So8NSObjectP", "BaseTabbarController"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "HomeController"]
+- !private ["So8NSObjectP", "KHexColor"]
+- !private ["So8NSObjectP", "Key"]
+- !private ["So8NSObjectP", "NSAttributedString"]
+- !private ["So8NSObjectP", "ProfileController"]
+- !private ["So8NSObjectP", "UIFont"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "UITabBarItem"]
+- ["So8NSObjectP", "UIViewController"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addChild"]
+- ["So8NSObjectP", "addChildViewController"]
+- ["So8NSObjectP", "addItems"]
+- !private ["So8NSObjectP", "appearance"]
+- !private ["So8NSObjectP", "backgroundImage"]
+- !private ["So8NSObjectP", "cgColor"]
+- ["So8NSObjectP", "changeItemTextColourAndFont"]
+- !private ["So8NSObjectP", "fontWithDescriptor"]
+- !private ["So8NSObjectP", "fontWithName"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "imageNamed"]
+- !private ["So8NSObjectP", "imageWithCGImage"]
+- !private ["So8NSObjectP", "imageWithCIImage"]
+- !private ["So8NSObjectP", "imageWithContentsOfFile"]
+- !private ["So8NSObjectP", "imageWithData"]
+- !private ["So8NSObjectP", "imageWithRenderingMode"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "kImageWithColor"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "pngData"]
+- ["So8NSObjectP", "removeTabBarTopLine"]
+- !private ["So8NSObjectP", "selectedImage"]
+- !private ["So8NSObjectP", "setTitleTextAttributes"]
+- !private ["So8NSObjectP", "shadowColor"]
+- !private ["So8NSObjectP", "shadowImage"]
+- !private ["So8NSObjectP", "shadowOffset"]
+- !private ["So8NSObjectP", "shadowOpacity"]
+- ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "systemImageNamed"]
+- !private ["So8NSObjectP", "tabBar"]
+- !private ["So8NSObjectP", "tabBarItem"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "unselectedItemTintColor"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "withRenderingMode"]
+- !private ["So14NSSecureCodingP", "Key"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "kImageWithColor"]
+- !private ["So14NSSecureCodingP", "shadowColor"]
+- !private ["So14NSSecureCodingP", "shadowOffset"]
+- !private ["So14NSSecureCodingP", "shadowOpacity"]
+- !private ["So14NSSecureCodingP", "withRenderingMode"]
+- !private ["Sj", ""]
+- !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "selected"]
+- !private ["Sq", "image"]
+- !private ["Sq", "selectedImage"]
+- !private ["10Kingfisher11PlaceholderP", "init"]
+- !private ["10Kingfisher11PlaceholderP", "kImageWithColor"]
+- !private ["10Kingfisher11PlaceholderP", "withRenderingMode"]
+- !private ["9SwiftDemo17ProfileControllerC", ""]
+- !private ["9SwiftDemo17ProfileControllerC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["SY", ""]
+- !private ["SY", "alwaysOriginal"]
+- !private ["SY", "font"]
+- !private ["SY", "normal"]
+- !private ["SY", "selected"]
+- !private ["7RxSwift18ReactiveCompatibleP", "BaseNavController"]
+- ["7RxSwift18ReactiveCompatibleP", "BaseTabbarController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGSize"]
+- !private ["7RxSwift18ReactiveCompatibleP", "HomeController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "KHexColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Key"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSAttributedString"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ProfileController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UITabBarItem"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "addChild"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addChildViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addItems"]
+- !private ["7RxSwift18ReactiveCompatibleP", "appearance"]
+- !private ["7RxSwift18ReactiveCompatibleP", "backgroundImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cgColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "changeItemTextColourAndFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "image"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "kImageWithColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "removeTabBarTopLine"]
+- !private ["7RxSwift18ReactiveCompatibleP", "selectedImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setTitleTextAttributes"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shadowColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shadowImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shadowOffset"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shadowOpacity"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tabBar"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tabBarItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tintColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "title"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unselectedItemTintColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- !private ["7RxSwift18ReactiveCompatibleP", "withRenderingMode"]
+- !private ["9SwiftDemo23RefineSearchBarDelegateP", "init"]
+- !private ["So20UIImageRenderingModeV", "alwaysOriginal"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "selected"]
+- !private ["s13SignedNumericP", ""]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["So14UIControlStateV", "selected"]
+- !private ["Sx", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundImage"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "kImageWithColor"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitleTextAttributes"]
+- !private ["So29UIAccessibilityIdentificationP", "shadowImage"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "unselectedItemTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "appearance"]
+- !private ["So12UIAppearanceP", "backgroundImage"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "selectedImage"]
+- !private ["So12UIAppearanceP", "setTitleTextAttributes"]
+- !private ["So12UIAppearanceP", "shadowImage"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "unselectedItemTintColor"]
+- !private ["So21UIAppearanceContainerP", "BaseNavController"]
+- ["So21UIAppearanceContainerP", "BaseTabbarController"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "HomeController"]
+- !private ["So21UIAppearanceContainerP", "KHexColor"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- !private ["So21UIAppearanceContainerP", "ProfileController"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UITabBarItem"]
+- ["So21UIAppearanceContainerP", "UIViewController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addChild"]
+- ["So21UIAppearanceContainerP", "addChildViewController"]
+- ["So21UIAppearanceContainerP", "addItems"]
+- !private ["So21UIAppearanceContainerP", "backgroundImage"]
+- ["So21UIAppearanceContainerP", "changeItemTextColourAndFont"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "removeTabBarTopLine"]
+- !private ["So21UIAppearanceContainerP", "shadowImage"]
+- ["So21UIAppearanceContainerP", "sharedInstance"]
+- !private ["So21UIAppearanceContainerP", "tabBar"]
+- !private ["So21UIAppearanceContainerP", "tabBarItem"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "unselectedItemTintColor"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So9UIBarItemC", ""]
+- !private ["So9UIBarItemC", "appearance"]
+- !private ["So9UIBarItemC", "image"]
+- !private ["So9UIBarItemC", "selectedImage"]
+- !private ["So9UIBarItemC", "setTitleTextAttributes"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So18UIContentContainerP", "BaseNavController"]
+- ["So18UIContentContainerP", "BaseTabbarController"]
+- !private ["So18UIContentContainerP", "CGSize"]
+- !private ["So18UIContentContainerP", "HomeController"]
+- !private ["So18UIContentContainerP", "KHexColor"]
+- !private ["So18UIContentContainerP", "NSAttributedString"]
+- !private ["So18UIContentContainerP", "ProfileController"]
+- !private ["So18UIContentContainerP", "UIFont"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UITabBarItem"]
+- ["So18UIContentContainerP", "UIViewController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addChild"]
+- ["So18UIContentContainerP", "addChildViewController"]
+- ["So18UIContentContainerP", "addItems"]
+- ["So18UIContentContainerP", "changeItemTextColourAndFont"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "removeTabBarTopLine"]
+- ["So18UIContentContainerP", "sharedInstance"]
+- !private ["So18UIContentContainerP", "tabBar"]
+- !private ["So18UIContentContainerP", "tabBarItem"]
+- !private ["So18UIContentContainerP", "title"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "backgroundImage"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "shadowImage"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So17UICoordinateSpaceP", "unselectedItemTintColor"]
+- !private ["So13UIDynamicItemP", "backgroundImage"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "shadowImage"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So13UIDynamicItemP", "unselectedItemTintColor"]
+- !private ["So18UIFocusEnvironmentP", "BaseNavController"]
+- ["So18UIFocusEnvironmentP", "BaseTabbarController"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "HomeController"]
+- !private ["So18UIFocusEnvironmentP", "KHexColor"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "ProfileController"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UITabBarItem"]
+- ["So18UIFocusEnvironmentP", "UIViewController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addChild"]
+- ["So18UIFocusEnvironmentP", "addChildViewController"]
+- ["So18UIFocusEnvironmentP", "addItems"]
+- !private ["So18UIFocusEnvironmentP", "backgroundImage"]
+- ["So18UIFocusEnvironmentP", "changeItemTextColourAndFont"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "removeTabBarTopLine"]
+- !private ["So18UIFocusEnvironmentP", "shadowImage"]
+- ["So18UIFocusEnvironmentP", "sharedInstance"]
+- !private ["So18UIFocusEnvironmentP", "tabBar"]
+- !private ["So18UIFocusEnvironmentP", "tabBarItem"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "unselectedItemTintColor"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundImage"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "shadowImage"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So11UIFocusItemP", "unselectedItemTintColor"]
+- !private ["So20UIFocusItemContainerP", "backgroundImage"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "shadowImage"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "unselectedItemTintColor"]
+- !private ["So6UIFontC", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So7UIImageC", "kImageWithColor"]
+- !private ["So7UIImageC", "withRenderingMode"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "kImageWithColor"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "withRenderingMode"]
+- !private ["So24UILargeContentViewerItemP", "backgroundImage"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "shadowImage"]
+- !private ["So24UILargeContentViewerItemP", "tintColor"]
+- !private ["So24UILargeContentViewerItemP", "unselectedItemTintColor"]
+- ["So22UINavigationControllerC", ""]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "BaseNavController"]
+- ["So30UIPasteConfigurationSupportingP", "BaseTabbarController"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "HomeController"]
+- !private ["So30UIPasteConfigurationSupportingP", "KHexColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "ProfileController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITabBarItem"]
+- ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addChild"]
+- ["So30UIPasteConfigurationSupportingP", "addChildViewController"]
+- ["So30UIPasteConfigurationSupportingP", "addItems"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundImage"]
+- ["So30UIPasteConfigurationSupportingP", "changeItemTextColourAndFont"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "removeTabBarTopLine"]
+- !private ["So30UIPasteConfigurationSupportingP", "shadowImage"]
+- ["So30UIPasteConfigurationSupportingP", "sharedInstance"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabBarItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "unselectedItemTintColor"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "BaseNavController"]
+- ["So11UIResponderC", "BaseTabbarController"]
+- !private ["So11UIResponderC", "CGSize"]
+- !private ["So11UIResponderC", "HomeController"]
+- !private ["So11UIResponderC", "KHexColor"]
+- !private ["So11UIResponderC", "NSAttributedString"]
+- !private ["So11UIResponderC", "ProfileController"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UITabBarItem"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "addChild"]
+- ["So11UIResponderC", "addChildViewController"]
+- ["So11UIResponderC", "addItems"]
+- !private ["So11UIResponderC", "backgroundImage"]
+- ["So11UIResponderC", "changeItemTextColourAndFont"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "removeTabBarTopLine"]
+- !private ["So11UIResponderC", "shadowImage"]
+- ["So11UIResponderC", "sharedInstance"]
+- !private ["So11UIResponderC", "tabBar"]
+- !private ["So11UIResponderC", "tabBarItem"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "unselectedItemTintColor"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "BaseNavController"]
+- ["So30UIResponderStandardEditActionsP", "BaseTabbarController"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "HomeController"]
+- !private ["So30UIResponderStandardEditActionsP", "KHexColor"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "ProfileController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UITabBarItem"]
+- ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addChild"]
+- ["So30UIResponderStandardEditActionsP", "addChildViewController"]
+- ["So30UIResponderStandardEditActionsP", "addItems"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundImage"]
+- ["So30UIResponderStandardEditActionsP", "changeItemTextColourAndFont"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "removeTabBarTopLine"]
+- !private ["So30UIResponderStandardEditActionsP", "shadowImage"]
+- ["So30UIResponderStandardEditActionsP", "sharedInstance"]
+- !private ["So30UIResponderStandardEditActionsP", "tabBar"]
+- !private ["So30UIResponderStandardEditActionsP", "tabBarItem"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "unselectedItemTintColor"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "appearance"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "backgroundImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "image"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "selectedImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitleTextAttributes"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "shadowImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "unselectedItemTintColor"]
+- !private ["So16UIStateRestoringP", "BaseNavController"]
+- ["So16UIStateRestoringP", "BaseTabbarController"]
+- !private ["So16UIStateRestoringP", "CGSize"]
+- !private ["So16UIStateRestoringP", "HomeController"]
+- !private ["So16UIStateRestoringP", "KHexColor"]
+- !private ["So16UIStateRestoringP", "NSAttributedString"]
+- !private ["So16UIStateRestoringP", "ProfileController"]
+- !private ["So16UIStateRestoringP", "UIFont"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UITabBarItem"]
+- ["So16UIStateRestoringP", "UIViewController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addChild"]
+- ["So16UIStateRestoringP", "addChildViewController"]
+- ["So16UIStateRestoringP", "addItems"]
+- ["So16UIStateRestoringP", "changeItemTextColourAndFont"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "removeTabBarTopLine"]
+- ["So16UIStateRestoringP", "sharedInstance"]
+- !private ["So16UIStateRestoringP", "tabBar"]
+- !private ["So16UIStateRestoringP", "tabBarItem"]
+- !private ["So16UIStateRestoringP", "title"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So8UITabBarC", "backgroundImage"]
+- !private ["So8UITabBarC", "layer"]
+- !private ["So8UITabBarC", "shadowImage"]
+- !private ["So8UITabBarC", "tintColor"]
+- !private ["So8UITabBarC", "unselectedItemTintColor"]
+- !private ["So18UITabBarControllerC", "BaseNavController"]
+- ["So18UITabBarControllerC", "BaseTabbarController"]
+- !private ["So18UITabBarControllerC", "CGSize"]
+- !private ["So18UITabBarControllerC", "HomeController"]
+- !private ["So18UITabBarControllerC", "KHexColor"]
+- !private ["So18UITabBarControllerC", "NSAttributedString"]
+- !private ["So18UITabBarControllerC", "ProfileController"]
+- ["So18UITabBarControllerC", "String"]
+- !private ["So18UITabBarControllerC", "UIFont"]
+- !private ["So18UITabBarControllerC", "UIImage"]
+- !private ["So18UITabBarControllerC", "UITabBarItem"]
+- ["So18UITabBarControllerC", "UIViewController"]
+- ["So18UITabBarControllerC", ""]
+- !private ["So18UITabBarControllerC", "addChild"]
+- ["So18UITabBarControllerC", "addChildViewController"]
+- ["So18UITabBarControllerC", "addItems"]
+- ["So18UITabBarControllerC", "changeItemTextColourAndFont"]
+- ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "removeTabBarTopLine"]
+- ["So18UITabBarControllerC", "sharedInstance"]
+- !private ["So18UITabBarControllerC", "tabBar"]
+- ["So18UITabBarControllerC", "viewDidLoad"]
+- !private ["So16UITabBarDelegateP", "BaseNavController"]
+- ["So16UITabBarDelegateP", "BaseTabbarController"]
+- !private ["So16UITabBarDelegateP", "CGSize"]
+- !private ["So16UITabBarDelegateP", "HomeController"]
+- !private ["So16UITabBarDelegateP", "KHexColor"]
+- !private ["So16UITabBarDelegateP", "NSAttributedString"]
+- !private ["So16UITabBarDelegateP", "ProfileController"]
+- ["So16UITabBarDelegateP", "String"]
+- !private ["So16UITabBarDelegateP", "UIFont"]
+- !private ["So16UITabBarDelegateP", "UIImage"]
+- !private ["So16UITabBarDelegateP", "UITabBarItem"]
+- ["So16UITabBarDelegateP", "UIViewController"]
+- ["So16UITabBarDelegateP", ""]
+- !private ["So16UITabBarDelegateP", "addChild"]
+- ["So16UITabBarDelegateP", "addChildViewController"]
+- ["So16UITabBarDelegateP", "addItems"]
+- ["So16UITabBarDelegateP", "changeItemTextColourAndFont"]
+- ["So16UITabBarDelegateP", "init"]
+- ["So16UITabBarDelegateP", "removeTabBarTopLine"]
+- ["So16UITabBarDelegateP", "sharedInstance"]
+- !private ["So16UITabBarDelegateP", "tabBar"]
+- ["So16UITabBarDelegateP", "viewDidLoad"]
+- !private ["So12UITabBarItemC", "appearance"]
+- !private ["So12UITabBarItemC", "image"]
+- !private ["So12UITabBarItemC", "selectedImage"]
+- !private ["So12UITabBarItemC", "setTitleTextAttributes"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "BaseNavController"]
+- ["So18UITraitEnvironmentP", "BaseTabbarController"]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "HomeController"]
+- !private ["So18UITraitEnvironmentP", "KHexColor"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- !private ["So18UITraitEnvironmentP", "ProfileController"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UITabBarItem"]
+- ["So18UITraitEnvironmentP", "UIViewController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addChild"]
+- ["So18UITraitEnvironmentP", "addChildViewController"]
+- ["So18UITraitEnvironmentP", "addItems"]
+- !private ["So18UITraitEnvironmentP", "backgroundImage"]
+- ["So18UITraitEnvironmentP", "changeItemTextColourAndFont"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "removeTabBarTopLine"]
+- !private ["So18UITraitEnvironmentP", "shadowImage"]
+- ["So18UITraitEnvironmentP", "sharedInstance"]
+- !private ["So18UITraitEnvironmentP", "tabBar"]
+- !private ["So18UITraitEnvironmentP", "tabBarItem"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "unselectedItemTintColor"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "BaseNavController"]
+- ["So23UIUserActivityRestoringP", "BaseTabbarController"]
+- !private ["So23UIUserActivityRestoringP", "CGSize"]
+- !private ["So23UIUserActivityRestoringP", "HomeController"]
+- !private ["So23UIUserActivityRestoringP", "KHexColor"]
+- !private ["So23UIUserActivityRestoringP", "NSAttributedString"]
+- !private ["So23UIUserActivityRestoringP", "ProfileController"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "UITabBarItem"]
+- ["So23UIUserActivityRestoringP", "UIViewController"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addChild"]
+- ["So23UIUserActivityRestoringP", "addChildViewController"]
+- ["So23UIUserActivityRestoringP", "addItems"]
+- !private ["So23UIUserActivityRestoringP", "backgroundImage"]
+- ["So23UIUserActivityRestoringP", "changeItemTextColourAndFont"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "removeTabBarTopLine"]
+- !private ["So23UIUserActivityRestoringP", "shadowImage"]
+- ["So23UIUserActivityRestoringP", "sharedInstance"]
+- !private ["So23UIUserActivityRestoringP", "tabBar"]
+- !private ["So23UIUserActivityRestoringP", "tabBarItem"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So23UIUserActivityRestoringP", "unselectedItemTintColor"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "backgroundImage"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "shadowImage"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So6UIViewC", "unselectedItemTintColor"]
+- !private ["So16UIViewControllerC", "BaseNavController"]
+- ["So16UIViewControllerC", "BaseTabbarController"]
+- !private ["So16UIViewControllerC", "CGSize"]
+- !private ["So16UIViewControllerC", "HomeController"]
+- !private ["So16UIViewControllerC", "KHexColor"]
+- !private ["So16UIViewControllerC", "NSAttributedString"]
+- !private ["So16UIViewControllerC", "ProfileController"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIFont"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "UITabBarItem"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addChild"]
+- ["So16UIViewControllerC", "addChildViewController"]
+- ["So16UIViewControllerC", "addItems"]
+- ["So16UIViewControllerC", "changeItemTextColourAndFont"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "removeTabBarTopLine"]
+- ["So16UIViewControllerC", "sharedInstance"]
+- !private ["So16UIViewControllerC", "tabBar"]
+- !private ["So16UIViewControllerC", "tabBarItem"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "count"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "image"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "selectedImage"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "kImageWithColor"]
+- !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BaseNavController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BaseTabbarController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KHexColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProfileController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITabBarItem"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChild"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChildViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changeItemTextColourAndFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kImageWithColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeTabBarTopLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitleTextAttributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowOpacity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unselectedItemTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BaseNavController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BaseTabbarController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HomeController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "KHexColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSAttributedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ProfileController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITabBarItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addChild"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addChildViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addItems"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appearance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "changeItemTextColourAndFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kImageWithColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeTabBarTopLine"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setTitleTextAttributes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowOpacity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unselectedItemTintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withRenderingMode"]
+- !private ["9HandyJSON11_MeasurableP", ""]
+- !private ["9HandyJSON11_MeasurableP", "count"]
+- !private ["9HandyJSON11_MeasurableP", "image"]
+- !private ["9HandyJSON11_MeasurableP", "selectedImage"]
+- !private ["9HandyJSON11_MeasurableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "selectedImage"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["9HandyJSON14_TransformableP", ""]
+- !private ["9HandyJSON14_TransformableP", "count"]
+- !private ["9HandyJSON14_TransformableP", "image"]
+- !private ["9HandyJSON14_TransformableP", "selectedImage"]
+- !private ["9HandyJSON14_TransformableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "shadowImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "unselectedItemTintColor"]
+depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "9SwiftDemo17BaseNavControllerC"
+- "9SwiftDemo20BaseTabbarControllerC"
+- "9SwiftDemo18BaseViewControllerC"
+- !private "SK"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So6CGSizeV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "7RxCocoa11HasDelegateP"
+- "SH"
+- !private "9SwiftDemo14HomeControllerC"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "So21NSAttributedStringKeya"
+- !private "10Kingfisher0A10CompatibleP"
+- !private "7SnapKit20LayoutConstraintItemP"
+- !private "9SwiftDemo24LimitedTextFieldDelegateP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10Kingfisher11PlaceholderP"
+- !private "9SwiftDemo17ProfileControllerC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "9SwiftDemo23RefineSearchBarDelegateP"
+- !private "So20UIImageRenderingModeV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "So14UIControlStateV"
+- !private "Sx"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So9UIBarItemC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So24UILargeContentViewerItemP"
+- "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So8UITabBarC"
+- "So18UITabBarControllerC"
+- "So16UITabBarDelegateP"
+- !private "So12UITabBarItemC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "9HandyJSON14_TransformableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/AlipaySDK.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RX.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet-Swift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Result/Result-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/JPush/JPUSHService.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXObjCRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/RxCocoaRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMShare.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMConfigure.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialResponse.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialWarterMarkConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/NSBundle+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApi.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialGlobal.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetModel.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialImageUtil.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMCommon.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/APayAuthInfo.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/SwiftDemo-Header.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshStateHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshGifHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshNormalHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformProvider.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialDataManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImageManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZLocationManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/NSBundle+TZImagePicker.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialHandler.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImagePickerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZVideoPlayerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZGifPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/Utils/APRSASigner.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXKVOObserver.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialCoreImageUtils.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMCommonLogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSociallogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewObjcCompat.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialMessageObject.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApiObject.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/Swift Compatibility Header/HandyJSON-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/Swift Compatibility Header/RxCocoa-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Swift Compatibility Header/Moya-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Swift Compatibility Header/Kingfisher-Swift.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/Swift Compatibility Header/EmptyDataSet_Swift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/Swift Compatibility Header/IQKeyboardManagerSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/Swift Compatibility Header/RxSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Result/Swift Compatibility Header/Result-Swift.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/Swift Compatibility Header/FSPagerView-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/Swift Compatibility Header/RxRelay-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshComponent.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshConst.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/UIView+Layout.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXDelegateProxy.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ac11c4bda9aa29a151c4b4f7f7ea986d"

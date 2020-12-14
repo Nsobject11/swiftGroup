@@ -1,0 +1,1547 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BadgeButton"
+provides-nominal:
+- "9SwiftDemo11BadgeButtonC"
+provides-member:
+- ["9SwiftDemo11BadgeButtonC", ""]
+provides-dynamic-lookup:
+- "badgeLabel"
+- "customInitialize"
+- "hideBadge"
+- "layoutSubviews"
+- "refresh"
+- "showBadgeWithNumber"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "=="
+- !private ">"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BadgeButton"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "KHexColor"
+- "NSCoder"
+- !private "String"
+- !private "StringLiteralType"
+- "UIButton"
+- !private "UIFont"
+- "UILabel"
+- !private "UnicodeScalarType"
+- !private "addSubview"
+- !private "badgeLabel"
+- !private "customInitialize"
+- !private "imageView"
+- !private "kValidStr"
+- !private "refresh"
+- !private "titleLabel"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["9SwiftDemo11BadgeButtonC", "AnyObject"]
+- ["9SwiftDemo11BadgeButtonC", "CGRect"]
+- ["9SwiftDemo11BadgeButtonC", "Int"]
+- !private ["9SwiftDemo11BadgeButtonC", "KHexColor"]
+- ["9SwiftDemo11BadgeButtonC", "NSCoder"]
+- !private ["9SwiftDemo11BadgeButtonC", "String"]
+- !private ["9SwiftDemo11BadgeButtonC", "UIFont"]
+- ["9SwiftDemo11BadgeButtonC", "UILabel"]
+- ["9SwiftDemo11BadgeButtonC", ""]
+- !private ["9SwiftDemo11BadgeButtonC", "addSubview"]
+- ["9SwiftDemo11BadgeButtonC", "badgeLabel"]
+- !private ["9SwiftDemo11BadgeButtonC", "clipsToBounds"]
+- ["9SwiftDemo11BadgeButtonC", "customInitialize"]
+- ["9SwiftDemo11BadgeButtonC", "deinit"]
+- ["9SwiftDemo11BadgeButtonC", "hideBadge"]
+- !private ["9SwiftDemo11BadgeButtonC", "imageView"]
+- ["9SwiftDemo11BadgeButtonC", "init"]
+- !private ["9SwiftDemo11BadgeButtonC", "kValidStr"]
+- !private ["9SwiftDemo11BadgeButtonC", "layoutIfNeeded"]
+- ["9SwiftDemo11BadgeButtonC", "layoutSubviews"]
+- ["9SwiftDemo11BadgeButtonC", "refresh"]
+- ["9SwiftDemo11BadgeButtonC", "showBadgeWithNumber"]
+- !private ["9SwiftDemo11BadgeButtonC", "titleLabel"]
+- ["SK", ""]
+- !private ["SK", "init"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "AnyObject"]
+- ["So15CALayerDelegateP", "CGRect"]
+- ["So15CALayerDelegateP", "Int"]
+- !private ["So15CALayerDelegateP", "KHexColor"]
+- ["So15CALayerDelegateP", "NSCoder"]
+- !private ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "UIFont"]
+- ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "__buttonWithType"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- ["So15CALayerDelegateP", "badgeLabel"]
+- ["So15CALayerDelegateP", "buttonWithType"]
+- !private ["So15CALayerDelegateP", "clipsToBounds"]
+- ["So15CALayerDelegateP", "customInitialize"]
+- !private ["So15CALayerDelegateP", "font"]
+- !private ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "hideBadge"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "kValidStr"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "layoutIfNeeded"]
+- ["So15CALayerDelegateP", "layoutSubviews"]
+- ["So15CALayerDelegateP", "refresh"]
+- ["So15CALayerDelegateP", "showBadgeWithNumber"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "textAlignment"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["So15CALayerDelegateP", "titleLabel"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "maxX"]
+- !private ["So6CGRectV", "origin"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "KHexColor"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "UILabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "badgeLabel"]
+- !private ["s7CVarArgP", "clipsToBounds"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "customInitialize"]
+- !private ["s7CVarArgP", "font"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hideBadge"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "kValidStr"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "layoutIfNeeded"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "refresh"]
+- !private ["s7CVarArgP", "systemFont"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "textAlignment"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "titleLabel"]
+- !private ["s7CVarArgP", "white"]
+- ["Sl", ""]
+- !private ["Sl", "init"]
+- ["SL", ""]
+- !private ["SL", "init"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "y"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "CGRect"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "KHexColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "String"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIFont"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UILabel"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "badgeLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "clipsToBounds"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "customInitialize"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "font"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "hideBadge"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "imageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "isHidden"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "kValidStr"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layer"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layoutIfNeeded"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "layoutSubviews"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "refresh"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "text"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "textAlignment"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "textColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "titleLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "KHexColor"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "UILabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "badgeLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "customInitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "font"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hideBadge"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "kValidStr"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "maxX"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- !private ["s28CustomDebugStringConvertibleP", "refresh"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "textAlignment"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "maxX"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "KHexColor"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "UILabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "badgeLabel"]
+- !private ["s23CustomStringConvertibleP", "clipsToBounds"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "customInitialize"]
+- !private ["s23CustomStringConvertibleP", "font"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hideBadge"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "kValidStr"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "layoutIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "refresh"]
+- !private ["s23CustomStringConvertibleP", "systemFont"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "textAlignment"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "init"]
+- !private ["Se", "maxX"]
+- !private ["Se", "origin"]
+- !private ["Se", "white"]
+- !private ["Se", "y"]
+- !private ["SE", "init"]
+- !private ["SE", "maxX"]
+- !private ["SE", "origin"]
+- !private ["SE", "white"]
+- !private ["SE", "y"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "KHexColor"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "UILabel"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "badgeLabel"]
+- !private ["SQ", "center"]
+- !private ["SQ", "clipsToBounds"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "customInitialize"]
+- !private ["SQ", "font"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "hideBadge"]
+- !private ["SQ", "imageView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "kValidStr"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "layoutIfNeeded"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "maxX"]
+- !private ["SQ", "origin"]
+- !private ["SQ", "refresh"]
+- !private ["SQ", "systemFont"]
+- !private ["SQ", "text"]
+- !private ["SQ", "textAlignment"]
+- !private ["SQ", "textColor"]
+- !private ["SQ", "titleLabel"]
+- !private ["SQ", "white"]
+- !private ["SQ", "y"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", ""]
+- !private ["SH", "CGRect"]
+- !private ["SH", "KHexColor"]
+- !private ["SH", "String"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "UILabel"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "badgeLabel"]
+- !private ["SH", "center"]
+- !private ["SH", "clipsToBounds"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "customInitialize"]
+- !private ["SH", "font"]
+- !private ["SH", "frame"]
+- !private ["SH", "hideBadge"]
+- !private ["SH", "imageView"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "kValidStr"]
+- !private ["SH", "layer"]
+- !private ["SH", "layoutIfNeeded"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "refresh"]
+- !private ["SH", "systemFont"]
+- !private ["SH", "text"]
+- !private ["SH", "textAlignment"]
+- !private ["SH", "textColor"]
+- !private ["SH", "titleLabel"]
+- !private ["SH", "white"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["7RxCocoa16KVORepresentableP", "maxX"]
+- !private ["7RxCocoa16KVORepresentableP", "origin"]
+- !private ["7RxCocoa16KVORepresentableP", "y"]
+- !private ["10Kingfisher0A10CompatibleP", "CGRect"]
+- !private ["10Kingfisher0A10CompatibleP", "KHexColor"]
+- !private ["10Kingfisher0A10CompatibleP", "String"]
+- !private ["10Kingfisher0A10CompatibleP", "UIFont"]
+- !private ["10Kingfisher0A10CompatibleP", "UILabel"]
+- ["10Kingfisher0A10CompatibleP", ""]
+- !private ["10Kingfisher0A10CompatibleP", "addSubview"]
+- !private ["10Kingfisher0A10CompatibleP", "badgeLabel"]
+- !private ["10Kingfisher0A10CompatibleP", "clipsToBounds"]
+- !private ["10Kingfisher0A10CompatibleP", "customInitialize"]
+- !private ["10Kingfisher0A10CompatibleP", "frame"]
+- !private ["10Kingfisher0A10CompatibleP", "hideBadge"]
+- !private ["10Kingfisher0A10CompatibleP", "imageView"]
+- !private ["10Kingfisher0A10CompatibleP", "init"]
+- !private ["10Kingfisher0A10CompatibleP", "kValidStr"]
+- !private ["10Kingfisher0A10CompatibleP", "layoutIfNeeded"]
+- !private ["10Kingfisher0A10CompatibleP", "layoutSubviews"]
+- !private ["10Kingfisher0A10CompatibleP", "refresh"]
+- !private ["10Kingfisher0A10CompatibleP", "titleLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "CGRect"]
+- !private ["7SnapKit20LayoutConstraintItemP", "KHexColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "String"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIFont"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UILabel"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "badgeLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "clipsToBounds"]
+- !private ["7SnapKit20LayoutConstraintItemP", "customInitialize"]
+- !private ["7SnapKit20LayoutConstraintItemP", "font"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- !private ["7SnapKit20LayoutConstraintItemP", "hideBadge"]
+- !private ["7SnapKit20LayoutConstraintItemP", "imageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "isHidden"]
+- !private ["7SnapKit20LayoutConstraintItemP", "kValidStr"]
+- !private ["7SnapKit20LayoutConstraintItemP", "layer"]
+- !private ["7SnapKit20LayoutConstraintItemP", "layoutIfNeeded"]
+- !private ["7SnapKit20LayoutConstraintItemP", "layoutSubviews"]
+- !private ["7SnapKit20LayoutConstraintItemP", "refresh"]
+- !private ["7SnapKit20LayoutConstraintItemP", "text"]
+- !private ["7SnapKit20LayoutConstraintItemP", "textAlignment"]
+- !private ["7SnapKit20LayoutConstraintItemP", "textColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "titleLabel"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AnyObject"]
+- ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "KHexColor"]
+- ["So8NSCodingP", "NSCoder"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "__buttonWithType"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- ["So8NSCodingP", "badgeLabel"]
+- ["So8NSCodingP", "buttonWithType"]
+- !private ["So8NSCodingP", "clipsToBounds"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- ["So8NSCodingP", "customInitialize"]
+- !private ["So8NSCodingP", "font"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "hideBadge"]
+- !private ["So8NSCodingP", "imageView"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "kValidStr"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "layoutIfNeeded"]
+- ["So8NSCodingP", "layoutSubviews"]
+- ["So8NSCodingP", "refresh"]
+- ["So8NSCodingP", "showBadgeWithNumber"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "textAlignment"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "titleLabel"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "systemFont"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "KHexColor"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__buttonWithType"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "badgeLabel"]
+- ["So8NSObjectC", "buttonWithType"]
+- !private ["So8NSObjectC", "clipsToBounds"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "customInitialize"]
+- !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "frameForAlignmentRect"]
+- ["So8NSObjectC", "hideBadge"]
+- !private ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "kValidStr"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "layoutIfNeeded"]
+- ["So8NSObjectC", "layoutSubviews"]
+- ["So8NSObjectC", "refresh"]
+- ["So8NSObjectC", "showBadgeWithNumber"]
+- !private ["So8NSObjectC", "systemFont"]
+- !private ["So8NSObjectC", "systemFontOfSize"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "textAlignment"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "titleLabel"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "AnyObject"]
+- ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "KHexColor"]
+- ["So8NSObjectP", "NSCoder"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__buttonWithType"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- ["So8NSObjectP", "badgeLabel"]
+- ["So8NSObjectP", "buttonWithType"]
+- !private ["So8NSObjectP", "clipsToBounds"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- ["So8NSObjectP", "customInitialize"]
+- !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "frameForAlignmentRect"]
+- ["So8NSObjectP", "hideBadge"]
+- !private ["So8NSObjectP", "imageView"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "kValidStr"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "layoutIfNeeded"]
+- ["So8NSObjectP", "layoutSubviews"]
+- ["So8NSObjectP", "refresh"]
+- ["So8NSObjectP", "showBadgeWithNumber"]
+- !private ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "systemFontOfSize"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "textAlignment"]
+- !private ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "titleLabel"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So15NSTextAlignmentV", "center"]
+- !private ["Sj", ""]
+- !private ["Sq", "white"]
+- !private ["Sm", "init"]
+- !private ["SY", "center"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGRect"]
+- !private ["7RxSwift18ReactiveCompatibleP", "KHexColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "String"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UILabel"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "addSubview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "backgroundColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "badgeLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "clipsToBounds"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cornerRadius"]
+- !private ["7RxSwift18ReactiveCompatibleP", "customInitialize"]
+- !private ["7RxSwift18ReactiveCompatibleP", "font"]
+- !private ["7RxSwift18ReactiveCompatibleP", "frame"]
+- !private ["7RxSwift18ReactiveCompatibleP", "hideBadge"]
+- !private ["7RxSwift18ReactiveCompatibleP", "imageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isHidden"]
+- !private ["7RxSwift18ReactiveCompatibleP", "kValidStr"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layoutIfNeeded"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layoutSubviews"]
+- !private ["7RxSwift18ReactiveCompatibleP", "refresh"]
+- !private ["7RxSwift18ReactiveCompatibleP", "systemFont"]
+- !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textAlignment"]
+- !private ["7RxSwift18ReactiveCompatibleP", "textColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "titleLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "white"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "AnyObject"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "CGRect"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "Int"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "KHexColor"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "NSCoder"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "String"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIFont"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UILabel"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addSubview"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "badgeLabel"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "clipsToBounds"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "customInitialize"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "hideBadge"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "imageView"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kValidStr"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layoutIfNeeded"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layoutSubviews"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "refresh"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "showBadgeWithNumber"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "AnyObject"]
+- ["So29UIAccessibilityIdentificationP", "CGRect"]
+- ["So29UIAccessibilityIdentificationP", "Int"]
+- !private ["So29UIAccessibilityIdentificationP", "KHexColor"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "UIFont"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "__buttonWithType"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- ["So29UIAccessibilityIdentificationP", "badgeLabel"]
+- ["So29UIAccessibilityIdentificationP", "buttonWithType"]
+- !private ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
+- ["So29UIAccessibilityIdentificationP", "customInitialize"]
+- !private ["So29UIAccessibilityIdentificationP", "font"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "hideBadge"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "kValidStr"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutIfNeeded"]
+- ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- ["So29UIAccessibilityIdentificationP", "refresh"]
+- ["So29UIAccessibilityIdentificationP", "showBadgeWithNumber"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
+- !private ["So12UIAppearanceP", "AnyObject"]
+- ["So12UIAppearanceP", "CGRect"]
+- ["So12UIAppearanceP", "Int"]
+- !private ["So12UIAppearanceP", "KHexColor"]
+- ["So12UIAppearanceP", "NSCoder"]
+- !private ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "UIFont"]
+- ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "__buttonWithType"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- ["So12UIAppearanceP", "badgeLabel"]
+- ["So12UIAppearanceP", "buttonWithType"]
+- !private ["So12UIAppearanceP", "clipsToBounds"]
+- ["So12UIAppearanceP", "customInitialize"]
+- !private ["So12UIAppearanceP", "font"]
+- !private ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "hideBadge"]
+- !private ["So12UIAppearanceP", "imageView"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "kValidStr"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "layoutIfNeeded"]
+- ["So12UIAppearanceP", "layoutSubviews"]
+- ["So12UIAppearanceP", "refresh"]
+- ["So12UIAppearanceP", "showBadgeWithNumber"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "textAlignment"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So12UIAppearanceP", "titleLabel"]
+- !private ["So21UIAppearanceContainerP", "AnyObject"]
+- ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "KHexColor"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "__buttonWithType"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", "badgeLabel"]
+- ["So21UIAppearanceContainerP", "buttonWithType"]
+- !private ["So21UIAppearanceContainerP", "clipsToBounds"]
+- ["So21UIAppearanceContainerP", "customInitialize"]
+- !private ["So21UIAppearanceContainerP", "font"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "hideBadge"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "kValidStr"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "layoutIfNeeded"]
+- ["So21UIAppearanceContainerP", "layoutSubviews"]
+- ["So21UIAppearanceContainerP", "refresh"]
+- ["So21UIAppearanceContainerP", "showBadgeWithNumber"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "textAlignment"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "titleLabel"]
+- !private ["So8UIButtonC", "AnyObject"]
+- ["So8UIButtonC", "CGRect"]
+- ["So8UIButtonC", "Int"]
+- !private ["So8UIButtonC", "KHexColor"]
+- ["So8UIButtonC", "NSCoder"]
+- !private ["So8UIButtonC", "String"]
+- !private ["So8UIButtonC", "UIFont"]
+- ["So8UIButtonC", "UILabel"]
+- ["So8UIButtonC", ""]
+- !private ["So8UIButtonC", "addSubview"]
+- ["So8UIButtonC", "badgeLabel"]
+- !private ["So8UIButtonC", "clipsToBounds"]
+- ["So8UIButtonC", "customInitialize"]
+- ["So8UIButtonC", "hideBadge"]
+- !private ["So8UIButtonC", "imageView"]
+- ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "kValidStr"]
+- !private ["So8UIButtonC", "layoutIfNeeded"]
+- ["So8UIButtonC", "layoutSubviews"]
+- ["So8UIButtonC", "refresh"]
+- ["So8UIButtonC", "showBadgeWithNumber"]
+- !private ["So8UIButtonC", "titleLabel"]
+- !private ["So7UIColorC", "white"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "clipsToBounds"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "font"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "frame"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isHidden"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "layer"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- !private ["So32UIContextMenuInteractionDelegateP", "AnyObject"]
+- ["So32UIContextMenuInteractionDelegateP", "CGRect"]
+- ["So32UIContextMenuInteractionDelegateP", "Int"]
+- !private ["So32UIContextMenuInteractionDelegateP", "KHexColor"]
+- ["So32UIContextMenuInteractionDelegateP", "NSCoder"]
+- !private ["So32UIContextMenuInteractionDelegateP", "String"]
+- !private ["So32UIContextMenuInteractionDelegateP", "UIFont"]
+- ["So32UIContextMenuInteractionDelegateP", "UILabel"]
+- ["So32UIContextMenuInteractionDelegateP", ""]
+- ["So32UIContextMenuInteractionDelegateP", "__buttonWithType"]
+- !private ["So32UIContextMenuInteractionDelegateP", "addSubview"]
+- ["So32UIContextMenuInteractionDelegateP", "badgeLabel"]
+- ["So32UIContextMenuInteractionDelegateP", "buttonWithType"]
+- !private ["So32UIContextMenuInteractionDelegateP", "clipsToBounds"]
+- ["So32UIContextMenuInteractionDelegateP", "customInitialize"]
+- ["So32UIContextMenuInteractionDelegateP", "hideBadge"]
+- !private ["So32UIContextMenuInteractionDelegateP", "imageView"]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- !private ["So32UIContextMenuInteractionDelegateP", "kValidStr"]
+- !private ["So32UIContextMenuInteractionDelegateP", "layoutIfNeeded"]
+- ["So32UIContextMenuInteractionDelegateP", "layoutSubviews"]
+- ["So32UIContextMenuInteractionDelegateP", "refresh"]
+- ["So32UIContextMenuInteractionDelegateP", "showBadgeWithNumber"]
+- !private ["So32UIContextMenuInteractionDelegateP", "titleLabel"]
+- !private ["So9UIControlC", "AnyObject"]
+- ["So9UIControlC", "CGRect"]
+- ["So9UIControlC", "Int"]
+- !private ["So9UIControlC", "KHexColor"]
+- ["So9UIControlC", "NSCoder"]
+- !private ["So9UIControlC", "String"]
+- !private ["So9UIControlC", "UIFont"]
+- ["So9UIControlC", "UILabel"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "__buttonWithType"]
+- !private ["So9UIControlC", "addSubview"]
+- ["So9UIControlC", "badgeLabel"]
+- ["So9UIControlC", "buttonWithType"]
+- !private ["So9UIControlC", "clipsToBounds"]
+- ["So9UIControlC", "customInitialize"]
+- ["So9UIControlC", "hideBadge"]
+- !private ["So9UIControlC", "imageView"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "kValidStr"]
+- !private ["So9UIControlC", "layoutIfNeeded"]
+- ["So9UIControlC", "layoutSubviews"]
+- ["So9UIControlC", "refresh"]
+- ["So9UIControlC", "showBadgeWithNumber"]
+- !private ["So9UIControlC", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", "AnyObject"]
+- ["So17UICoordinateSpaceP", "CGRect"]
+- ["So17UICoordinateSpaceP", "Int"]
+- !private ["So17UICoordinateSpaceP", "KHexColor"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "UIFont"]
+- ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "__buttonWithType"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- ["So17UICoordinateSpaceP", "badgeLabel"]
+- ["So17UICoordinateSpaceP", "buttonWithType"]
+- !private ["So17UICoordinateSpaceP", "clipsToBounds"]
+- ["So17UICoordinateSpaceP", "customInitialize"]
+- !private ["So17UICoordinateSpaceP", "font"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "hideBadge"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "kValidStr"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "layoutIfNeeded"]
+- ["So17UICoordinateSpaceP", "layoutSubviews"]
+- ["So17UICoordinateSpaceP", "refresh"]
+- ["So17UICoordinateSpaceP", "showBadgeWithNumber"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "textAlignment"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So13UIDynamicItemP", "AnyObject"]
+- ["So13UIDynamicItemP", "CGRect"]
+- ["So13UIDynamicItemP", "Int"]
+- !private ["So13UIDynamicItemP", "KHexColor"]
+- ["So13UIDynamicItemP", "NSCoder"]
+- !private ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "UIFont"]
+- ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "__buttonWithType"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- ["So13UIDynamicItemP", "badgeLabel"]
+- ["So13UIDynamicItemP", "buttonWithType"]
+- !private ["So13UIDynamicItemP", "clipsToBounds"]
+- ["So13UIDynamicItemP", "customInitialize"]
+- !private ["So13UIDynamicItemP", "font"]
+- !private ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "hideBadge"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "kValidStr"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "layoutIfNeeded"]
+- ["So13UIDynamicItemP", "layoutSubviews"]
+- ["So13UIDynamicItemP", "refresh"]
+- ["So13UIDynamicItemP", "showBadgeWithNumber"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "textAlignment"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So13UIDynamicItemP", "titleLabel"]
+- !private ["So18UIFocusEnvironmentP", "AnyObject"]
+- ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "KHexColor"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "__buttonWithType"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", "badgeLabel"]
+- ["So18UIFocusEnvironmentP", "buttonWithType"]
+- !private ["So18UIFocusEnvironmentP", "clipsToBounds"]
+- ["So18UIFocusEnvironmentP", "customInitialize"]
+- !private ["So18UIFocusEnvironmentP", "font"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "hideBadge"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "kValidStr"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "layoutIfNeeded"]
+- ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- ["So18UIFocusEnvironmentP", "refresh"]
+- ["So18UIFocusEnvironmentP", "showBadgeWithNumber"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "textAlignment"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "titleLabel"]
+- !private ["So11UIFocusItemP", "AnyObject"]
+- ["So11UIFocusItemP", "CGRect"]
+- ["So11UIFocusItemP", "Int"]
+- !private ["So11UIFocusItemP", "KHexColor"]
+- ["So11UIFocusItemP", "NSCoder"]
+- !private ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "UIFont"]
+- ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "__buttonWithType"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- ["So11UIFocusItemP", "badgeLabel"]
+- ["So11UIFocusItemP", "buttonWithType"]
+- !private ["So11UIFocusItemP", "clipsToBounds"]
+- ["So11UIFocusItemP", "customInitialize"]
+- !private ["So11UIFocusItemP", "font"]
+- !private ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "hideBadge"]
+- !private ["So11UIFocusItemP", "imageView"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "kValidStr"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "layoutIfNeeded"]
+- ["So11UIFocusItemP", "layoutSubviews"]
+- ["So11UIFocusItemP", "refresh"]
+- ["So11UIFocusItemP", "showBadgeWithNumber"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "textAlignment"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So11UIFocusItemP", "titleLabel"]
+- !private ["So20UIFocusItemContainerP", "AnyObject"]
+- ["So20UIFocusItemContainerP", "CGRect"]
+- ["So20UIFocusItemContainerP", "Int"]
+- !private ["So20UIFocusItemContainerP", "KHexColor"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
+- !private ["So20UIFocusItemContainerP", "String"]
+- !private ["So20UIFocusItemContainerP", "UIFont"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "__buttonWithType"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- ["So20UIFocusItemContainerP", "badgeLabel"]
+- ["So20UIFocusItemContainerP", "buttonWithType"]
+- !private ["So20UIFocusItemContainerP", "clipsToBounds"]
+- ["So20UIFocusItemContainerP", "customInitialize"]
+- !private ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- ["So20UIFocusItemContainerP", "hideBadge"]
+- !private ["So20UIFocusItemContainerP", "imageView"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "kValidStr"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "layoutIfNeeded"]
+- ["So20UIFocusItemContainerP", "layoutSubviews"]
+- ["So20UIFocusItemContainerP", "refresh"]
+- ["So20UIFocusItemContainerP", "showBadgeWithNumber"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "textAlignment"]
+- !private ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "titleLabel"]
+- !private ["So6UIFontC", "systemFont"]
+- !private ["So11UIImageViewC", "frame"]
+- !private ["So7UILabelC", "backgroundColor"]
+- !private ["So7UILabelC", "clipsToBounds"]
+- !private ["So7UILabelC", "font"]
+- !private ["So7UILabelC", "frame"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "isHidden"]
+- !private ["So7UILabelC", "layer"]
+- !private ["So7UILabelC", "text"]
+- !private ["So7UILabelC", "textAlignment"]
+- !private ["So7UILabelC", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "AnyObject"]
+- ["So24UILargeContentViewerItemP", "CGRect"]
+- ["So24UILargeContentViewerItemP", "Int"]
+- !private ["So24UILargeContentViewerItemP", "KHexColor"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
+- !private ["So24UILargeContentViewerItemP", "String"]
+- !private ["So24UILargeContentViewerItemP", "UIFont"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "__buttonWithType"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- ["So24UILargeContentViewerItemP", "badgeLabel"]
+- ["So24UILargeContentViewerItemP", "buttonWithType"]
+- !private ["So24UILargeContentViewerItemP", "clipsToBounds"]
+- ["So24UILargeContentViewerItemP", "customInitialize"]
+- !private ["So24UILargeContentViewerItemP", "font"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- ["So24UILargeContentViewerItemP", "hideBadge"]
+- !private ["So24UILargeContentViewerItemP", "imageView"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "kValidStr"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "layoutIfNeeded"]
+- ["So24UILargeContentViewerItemP", "layoutSubviews"]
+- ["So24UILargeContentViewerItemP", "refresh"]
+- ["So24UILargeContentViewerItemP", "showBadgeWithNumber"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So24UILargeContentViewerItemP", "textAlignment"]
+- !private ["So24UILargeContentViewerItemP", "textColor"]
+- !private ["So24UILargeContentViewerItemP", "titleLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "AnyObject"]
+- ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "KHexColor"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "__buttonWithType"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", "badgeLabel"]
+- ["So30UIPasteConfigurationSupportingP", "buttonWithType"]
+- !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- ["So30UIPasteConfigurationSupportingP", "customInitialize"]
+- !private ["So30UIPasteConfigurationSupportingP", "font"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "frameForAlignmentRect"]
+- ["So30UIPasteConfigurationSupportingP", "hideBadge"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "kValidStr"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutIfNeeded"]
+- ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- ["So30UIPasteConfigurationSupportingP", "refresh"]
+- ["So30UIPasteConfigurationSupportingP", "showBadgeWithNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleLabel"]
+- !private ["So11UIResponderC", "AnyObject"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "KHexColor"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIFont"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "__buttonWithType"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "badgeLabel"]
+- ["So11UIResponderC", "buttonWithType"]
+- !private ["So11UIResponderC", "clipsToBounds"]
+- ["So11UIResponderC", "customInitialize"]
+- !private ["So11UIResponderC", "font"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "frameForAlignmentRect"]
+- ["So11UIResponderC", "hideBadge"]
+- !private ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "kValidStr"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "layoutIfNeeded"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "refresh"]
+- ["So11UIResponderC", "showBadgeWithNumber"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "textAlignment"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So11UIResponderC", "titleLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "AnyObject"]
+- ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "KHexColor"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "__buttonWithType"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- ["So30UIResponderStandardEditActionsP", "badgeLabel"]
+- ["So30UIResponderStandardEditActionsP", "buttonWithType"]
+- !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- ["So30UIResponderStandardEditActionsP", "customInitialize"]
+- !private ["So30UIResponderStandardEditActionsP", "font"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frameForAlignmentRect"]
+- ["So30UIResponderStandardEditActionsP", "hideBadge"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "kValidStr"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutIfNeeded"]
+- ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- ["So30UIResponderStandardEditActionsP", "refresh"]
+- ["So30UIResponderStandardEditActionsP", "showBadgeWithNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "AnyObject"]
+- ["So35UISpringLoadedInteractionSupportingP", "CGRect"]
+- ["So35UISpringLoadedInteractionSupportingP", "Int"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "KHexColor"]
+- ["So35UISpringLoadedInteractionSupportingP", "NSCoder"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "String"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "UIFont"]
+- ["So35UISpringLoadedInteractionSupportingP", "UILabel"]
+- ["So35UISpringLoadedInteractionSupportingP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addSubview"]
+- ["So35UISpringLoadedInteractionSupportingP", "badgeLabel"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "clipsToBounds"]
+- ["So35UISpringLoadedInteractionSupportingP", "customInitialize"]
+- ["So35UISpringLoadedInteractionSupportingP", "hideBadge"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "imageView"]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "kValidStr"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layoutIfNeeded"]
+- ["So35UISpringLoadedInteractionSupportingP", "layoutSubviews"]
+- ["So35UISpringLoadedInteractionSupportingP", "refresh"]
+- ["So35UISpringLoadedInteractionSupportingP", "showBadgeWithNumber"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "titleLabel"]
+- !private ["So18UITraitEnvironmentP", "AnyObject"]
+- ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "KHexColor"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "__buttonWithType"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- ["So18UITraitEnvironmentP", "badgeLabel"]
+- ["So18UITraitEnvironmentP", "buttonWithType"]
+- !private ["So18UITraitEnvironmentP", "clipsToBounds"]
+- ["So18UITraitEnvironmentP", "customInitialize"]
+- !private ["So18UITraitEnvironmentP", "font"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "hideBadge"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "kValidStr"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "layoutIfNeeded"]
+- ["So18UITraitEnvironmentP", "layoutSubviews"]
+- ["So18UITraitEnvironmentP", "refresh"]
+- ["So18UITraitEnvironmentP", "showBadgeWithNumber"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "textAlignment"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "titleLabel"]
+- !private ["So23UIUserActivityRestoringP", "AnyObject"]
+- ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "KHexColor"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "__buttonWithType"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- ["So23UIUserActivityRestoringP", "badgeLabel"]
+- ["So23UIUserActivityRestoringP", "buttonWithType"]
+- !private ["So23UIUserActivityRestoringP", "clipsToBounds"]
+- ["So23UIUserActivityRestoringP", "customInitialize"]
+- !private ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "frameForAlignmentRect"]
+- ["So23UIUserActivityRestoringP", "hideBadge"]
+- !private ["So23UIUserActivityRestoringP", "imageView"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "kValidStr"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "layoutIfNeeded"]
+- ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- ["So23UIUserActivityRestoringP", "refresh"]
+- ["So23UIUserActivityRestoringP", "showBadgeWithNumber"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "textAlignment"]
+- !private ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "titleLabel"]
+- !private ["So6UIViewC", "AnyObject"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "Int"]
+- !private ["So6UIViewC", "KHexColor"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIFont"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "__buttonWithType"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "badgeLabel"]
+- ["So6UIViewC", "buttonWithType"]
+- !private ["So6UIViewC", "clipsToBounds"]
+- ["So6UIViewC", "customInitialize"]
+- !private ["So6UIViewC", "font"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "hideBadge"]
+- !private ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "kValidStr"]
+- !private ["So6UIViewC", "layer"]
+- !private ["So6UIViewC", "layoutIfNeeded"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "refresh"]
+- ["So6UIViewC", "showBadgeWithNumber"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "textAlignment"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["So6UIViewC", "titleLabel"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9HandyJSON17UTF8InitializableP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "init"]
+- !private ["9HandyJSON17_BuiltInBasicTypeP", "white"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "maxX"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KHexColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "badgeLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "customInitialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideBadge"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kValidStr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "refresh"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textAlignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "KHexColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UILabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "badgeLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clipsToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "customInitialize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "font"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hideBadge"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kValidStr"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutIfNeeded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refresh"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textAlignment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titleLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["9HandyJSON11_MeasurableP", ""]
+- !private ["9HandyJSON11_MeasurableP", "init"]
+- !private ["9HandyJSON11_MeasurableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "maxX"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["9HandyJSON14_TransformableP", ""]
+- !private ["9HandyJSON14_TransformableP", "init"]
+- !private ["9HandyJSON14_TransformableP", "white"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "KHexColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "String"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIFont"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UILabel"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "badgeLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "customInitialize"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "font"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hideBadge"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "kValidStr"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutIfNeeded"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "refresh"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "9SwiftDemo11BadgeButtonC"
+- "SK"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- !private "7RxCocoa16KVORepresentableP"
+- "10Kingfisher0A10CompatibleP"
+- "7SnapKit20LayoutConstraintItemP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So15NSTextAlignmentV"
+- !private "Sj"
+- !private "Sq"
+- !private "Sm"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So8UIButtonC"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9HandyJSON17UTF8InitializableP"
+- !private "9HandyJSON17_BuiltInBasicTypeP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "9HandyJSON11_MeasurableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "9HandyJSON14_TransformableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/AlipaySDK.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RX.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet-Swift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Result/Result-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/JPush/JPUSHService.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXObjCRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/RxCocoaRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMShare.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMConfigure.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialResponse.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialWarterMarkConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/NSBundle+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApi.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialGlobal.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetModel.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialImageUtil.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMCommon.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/APayAuthInfo.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/SwiftDemo-Header.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshStateHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshGifHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshNormalHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformProvider.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialDataManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImageManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZLocationManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/NSBundle+TZImagePicker.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialHandler.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImagePickerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZVideoPlayerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZGifPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/Utils/APRSASigner.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXKVOObserver.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialCoreImageUtils.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMCommonLogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSociallogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewObjcCompat.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialMessageObject.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApiObject.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/Swift Compatibility Header/HandyJSON-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/Swift Compatibility Header/RxCocoa-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Swift Compatibility Header/Moya-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Swift Compatibility Header/Kingfisher-Swift.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/Swift Compatibility Header/EmptyDataSet_Swift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/Swift Compatibility Header/IQKeyboardManagerSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/Swift Compatibility Header/RxSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Result/Swift Compatibility Header/Result-Swift.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/Swift Compatibility Header/FSPagerView-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/Swift Compatibility Header/RxRelay-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshComponent.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshConst.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/UIView+Layout.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXDelegateProxy.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a6a767d9d55ff9095cc16440c8a867b"

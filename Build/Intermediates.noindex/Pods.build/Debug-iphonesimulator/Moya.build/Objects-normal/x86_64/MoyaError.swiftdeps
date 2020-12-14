@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MoyaError"
+provides-nominal:
+- "4Moya0A5ErrorO"
+provides-member:
+- ["4Moya0A5ErrorO", ""]
+- ["4Moya0A5ErrorO", "response"]
+- ["4Moya0A5ErrorO", "underlyingError"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CustomNSError"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LocalizedError"
+- "Moya"
+- "MoyaError"
+- !private "NSLocalizedDescriptionKey"
+- !private "NSUnderlyingErrorKey"
+- "Response"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "errorDescription"
+- !private "underlyingError"
+depends-member:
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["10Foundation13CustomNSErrorP", "NSLocalizedDescriptionKey"]
+- !private ["10Foundation13CustomNSErrorP", "NSUnderlyingErrorKey"]
+- ["10Foundation13CustomNSErrorP", ""]
+- ["10Foundation13CustomNSErrorP", "_code"]
+- ["10Foundation13CustomNSErrorP", "_domain"]
+- ["10Foundation13CustomNSErrorP", "_getEmbeddedNSError"]
+- ["10Foundation13CustomNSErrorP", "_userInfo"]
+- ["10Foundation13CustomNSErrorP", "code"]
+- ["10Foundation13CustomNSErrorP", "domain"]
+- ["10Foundation13CustomNSErrorP", "encodableMapping"]
+- ["10Foundation13CustomNSErrorP", "errorCode"]
+- ["10Foundation13CustomNSErrorP", "errorDescription"]
+- ["10Foundation13CustomNSErrorP", "errorDomain"]
+- ["10Foundation13CustomNSErrorP", "errorUserInfo"]
+- ["10Foundation13CustomNSErrorP", "failureReason"]
+- ["10Foundation13CustomNSErrorP", "helpAnchor"]
+- ["10Foundation13CustomNSErrorP", "imageMapping"]
+- ["10Foundation13CustomNSErrorP", "jsonMapping"]
+- ["10Foundation13CustomNSErrorP", "objectMapping"]
+- ["10Foundation13CustomNSErrorP", "parameterEncoding"]
+- ["10Foundation13CustomNSErrorP", "recoverySuggestion"]
+- ["10Foundation13CustomNSErrorP", "requestMapping"]
+- ["10Foundation13CustomNSErrorP", "statusCode"]
+- ["10Foundation13CustomNSErrorP", "stringMapping"]
+- ["10Foundation13CustomNSErrorP", "underlying"]
+- !private ["10Foundation13CustomNSErrorP", "underlyingError"]
+- ["10Foundation13CustomNSErrorP", "userInfo"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "NSLocalizedDescriptionKey"]
+- !private ["s5ErrorP", "NSUnderlyingErrorKey"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "encodableMapping"]
+- ["s5ErrorP", "errorCode"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "errorDomain"]
+- ["s5ErrorP", "errorUserInfo"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "helpAnchor"]
+- ["s5ErrorP", "imageMapping"]
+- ["s5ErrorP", "jsonMapping"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "objectMapping"]
+- ["s5ErrorP", "parameterEncoding"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", "requestMapping"]
+- ["s5ErrorP", "statusCode"]
+- ["s5ErrorP", "stringMapping"]
+- ["s5ErrorP", "underlying"]
+- !private ["s5ErrorP", "underlyingError"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "subscript"]
+- !private ["10Foundation14LocalizedErrorP", "NSLocalizedDescriptionKey"]
+- !private ["10Foundation14LocalizedErrorP", "NSUnderlyingErrorKey"]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "code"]
+- ["10Foundation14LocalizedErrorP", "domain"]
+- ["10Foundation14LocalizedErrorP", "encodableMapping"]
+- ["10Foundation14LocalizedErrorP", "errorCode"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "errorDomain"]
+- ["10Foundation14LocalizedErrorP", "errorUserInfo"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- ["10Foundation14LocalizedErrorP", "imageMapping"]
+- ["10Foundation14LocalizedErrorP", "jsonMapping"]
+- ["10Foundation14LocalizedErrorP", "objectMapping"]
+- ["10Foundation14LocalizedErrorP", "parameterEncoding"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", "requestMapping"]
+- ["10Foundation14LocalizedErrorP", "statusCode"]
+- ["10Foundation14LocalizedErrorP", "stringMapping"]
+- ["10Foundation14LocalizedErrorP", "underlying"]
+- !private ["10Foundation14LocalizedErrorP", "underlyingError"]
+- ["10Foundation14LocalizedErrorP", "userInfo"]
+- ["4Moya0A5ErrorO", "Moya"]
+- !private ["4Moya0A5ErrorO", "NSLocalizedDescriptionKey"]
+- !private ["4Moya0A5ErrorO", "NSUnderlyingErrorKey"]
+- ["4Moya0A5ErrorO", "Response"]
+- ["4Moya0A5ErrorO", "String"]
+- ["4Moya0A5ErrorO", "Swift"]
+- ["4Moya0A5ErrorO", ""]
+- ["4Moya0A5ErrorO", "_code"]
+- ["4Moya0A5ErrorO", "_domain"]
+- ["4Moya0A5ErrorO", "_getEmbeddedNSError"]
+- ["4Moya0A5ErrorO", "_userInfo"]
+- ["4Moya0A5ErrorO", "code"]
+- ["4Moya0A5ErrorO", "domain"]
+- ["4Moya0A5ErrorO", "encodableMapping"]
+- ["4Moya0A5ErrorO", "errorCode"]
+- ["4Moya0A5ErrorO", "errorDescription"]
+- ["4Moya0A5ErrorO", "errorDomain"]
+- ["4Moya0A5ErrorO", "errorUserInfo"]
+- ["4Moya0A5ErrorO", "failureReason"]
+- ["4Moya0A5ErrorO", "helpAnchor"]
+- ["4Moya0A5ErrorO", "imageMapping"]
+- ["4Moya0A5ErrorO", "jsonMapping"]
+- ["4Moya0A5ErrorO", "objectMapping"]
+- ["4Moya0A5ErrorO", "parameterEncoding"]
+- ["4Moya0A5ErrorO", "recoverySuggestion"]
+- ["4Moya0A5ErrorO", "requestMapping"]
+- ["4Moya0A5ErrorO", "response"]
+- ["4Moya0A5ErrorO", "statusCode"]
+- ["4Moya0A5ErrorO", "stringMapping"]
+- ["4Moya0A5ErrorO", "underlying"]
+- ["4Moya0A5ErrorO", "underlyingError"]
+- ["4Moya0A5ErrorO", "userInfo"]
+- !private ["So8NSCodingP", ""]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- "10Foundation14LocalizedErrorP"
+- "4Moya0A5ErrorO"
+- !private "So8NSCodingP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Moya/Moya-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Swift Compatibility Header/Result-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Moya/Moya.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Alamofire/Alamofire.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/RxSwift/RxSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b96cbd208b038ec5dbb378510fb90d6d"

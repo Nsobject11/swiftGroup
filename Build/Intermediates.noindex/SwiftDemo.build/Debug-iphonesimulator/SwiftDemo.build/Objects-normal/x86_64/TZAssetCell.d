@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap \
+  /Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.m \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetModel.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/UIView+Layout.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZImageManager.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZImagePickerController.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/NSBundle+TZImagePicker.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZVideoPlayerController.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZGifPhotoPreviewController.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZLocationManager.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewController.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewCell.h \
+  SwiftDemo/Public/OCClass/TZImagePickerController/TZProgressView.h

@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "b7f9be0c364b8cc2199e3f78dddc1348"
+build_time: [1607660901, 490216000]
+inputs:
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPageControl.swift": [1606970075, 868903978]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerCollectionView.swift": [1606970075, 869353340]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerView.swift": [1606970075, 869558936]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewCell.swift": [1606970075, 869710124]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewLayoutAttributes.swift": [1606970075, 869826264]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPageViewLayout.swift": [1606970075, 869072066]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPageViewTransformer.swift": [1606970075, 869229416]

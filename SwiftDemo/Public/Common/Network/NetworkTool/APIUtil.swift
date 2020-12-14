@@ -13,11 +13,18 @@ import RxSwift
 
 struct APIUtil {
     static var httpsHeaders: HTTPHeaders = ["Content-Type": "application/json","token":UserManager.userInfo().token ?? ""]
+    
+    // MARK: - 设置为全局变量
+    static var SessionManager:Alamofire.SessionManager = {
+        let configuration = URLSessionConfiguration.default
+        //请求超时时间15秒
+        configuration.timeoutIntervalForRequest = 20
+        return Alamofire.SessionManager(configuration: configuration)
+    }()
 }
 
 extension APIUtil {
     /// 获取数据
-    ///
     /// - Parameters:
     ///   - url: 路由地址
     ///   - method: 请求方式
@@ -90,7 +97,7 @@ extension APIUtil {
     ///   - parameters: 参数
     ///   - returnType: 返回类型
     fileprivate static func request<T: HandyJSON>(observer: AnyObserver<T>, url: Router, method: HTTPMethod, parameters: Parameters?, returnType: T.Type) {
-        Alamofire.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: self.httpsHeaders).responseJSON { (response) in
+        SessionManager.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: self.httpsHeaders).responseJSON { (response) in
             switch response.result {
             case .success:
                 self.successHandle(observer: observer, result: response.result, retrunType: returnType)
@@ -111,7 +118,7 @@ extension APIUtil {
     ///   - parameters: 参数
     ///   - returnType: 返回类型
     fileprivate static func uploadRequest<T: HandyJSON>(observer: AnyObserver<T>, url: Router, method: HTTPMethod, uploadDatas: [UploadData]?, parameters: Parameters?, returnType: T.Type) {
-        Alamofire.upload(multipartFormData: { (data: MultipartFormData) in
+        SessionManager.upload(multipartFormData: { (data: MultipartFormData) in
             // Parameters
             if let parameters = parameters {
                 for param in parameters {
@@ -146,7 +153,6 @@ extension APIUtil {
         }
     }
 }
-
 /// 上传数据的模型
 struct UploadData {
     //可以自定义

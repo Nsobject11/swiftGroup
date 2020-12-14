@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA12DF22578A44A002370C8 /* BaseNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA12DF12578A44A002370C8 /* BaseNavBar.swift */; };
 		291B1C99C6F5CC0D28BEC265 /* libPods-SwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4268E4C0EF0593396B623A16 /* libPods-SwiftDemo.a */; };
 		521B5BBE23B33CA400D03F87 /* SwipCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BBD23B33CA400D03F87 /* SwipCellVC.swift */; };
 		521B5BC323B36EF100D03F87 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5BC023B36EF100D03F87 /* APIError.swift */; };
@@ -150,6 +151,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AA12DF12578A44A002370C8 /* BaseNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavBar.swift; sourceTree = "<group>"; };
 		2CEC3CC35B80C1B25760A033 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4268E4C0EF0593396B623A16 /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		521B5BBD23B33CA400D03F87 /* SwipCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipCellVC.swift; sourceTree = "<group>"; };
@@ -556,6 +558,7 @@
 				525646C02373EAFA007C100D /* BaseViewController.swift */,
 				525646C22373EB11007C100D /* BaseNavController.swift */,
 				525646C42373EB29007C100D /* BaseTabbarController.swift */,
+				1AA12DF12578A44A002370C8 /* BaseNavBar.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1230,6 +1233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA12DF22578A44A002370C8 /* BaseNavBar.swift in Sources */,
 				5288F5C02378FAE6005B361A /* AlertUtil.swift in Sources */,
 				5288F5BB2378F774005B361A /* AppDelegate.swift in Sources */,
 				5288F5B72378F6F1005B361A /* MoyaConfig.swift in Sources */,

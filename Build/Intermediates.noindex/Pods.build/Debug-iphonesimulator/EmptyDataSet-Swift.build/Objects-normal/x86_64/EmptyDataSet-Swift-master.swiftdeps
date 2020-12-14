@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "76ee650afbef5d4fc9eecdaa72df295b"
+build_time: [1607660901, 575396000]
+inputs:
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/EmptyDataSet-Swift/EmptyDataSet-Swift/EmptyDataSet/EmptyDataSet.swift": [1606970075, 867494198]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/EmptyDataSet-Swift/EmptyDataSet-Swift/EmptyDataSet/EmptyDataSetDelegate.swift": [1606970075, 867662728]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/EmptyDataSet-Swift/EmptyDataSet-Swift/EmptyDataSet/EmptyDataSetSource.swift": [1606970075, 867796704]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/EmptyDataSet-Swift/EmptyDataSet-Swift/EmptyDataSet/EmptyDataSetView+Extension.swift": [1606970075, 867934338]
+  "/Users/yq/Project/Swift/SwiftGroup/Pods/EmptyDataSet-Swift/EmptyDataSet-Swift/EmptyDataSet/EmptyDataSetView.swift": [1606970075, 868091264]

@@ -1,0 +1,82 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmptyDataSetDelegate"
+provides-nominal:
+- "18EmptyDataSet_Swift0abC8DelegateP"
+provides-member:
+- ["18EmptyDataSet_Swift0abC8DelegateP", ""]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldFadeIn"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldBeForcedToDisplay"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldDisplay"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAllowTouch"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAllowScroll"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAnimateImageView"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSet"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSet"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetWillAppear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetDidAppear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetWillDisappear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetDidDisappear"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "EmptyDataSetDelegate"
+- "UIButton"
+- "UIScrollView"
+- "UIView"
+depends-member:
+- ["18EmptyDataSet_Swift0abC8DelegateP", "Bool"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "UIButton"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "UIScrollView"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "UIView"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", ""]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSet"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetDidAppear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetDidDisappear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAllowScroll"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAllowTouch"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldAnimateImageView"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldBeForcedToDisplay"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldDisplay"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetShouldFadeIn"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetWillAppear"]
+- ["18EmptyDataSet_Swift0abC8DelegateP", "emptyDataSetWillDisappear"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "18EmptyDataSet_Swift0abC8DelegateP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/EmptyDataSet_Swift/EmptyDataSet-Swift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/EmptyDataSet_Swift/EmptyDataSet-Swift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/RxSwift/RxSwift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "abe9de6f8fc9ad6e02f823645760f7d6"

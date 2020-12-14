@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultProtocol"
+- "ErrorConvertible"
+- "ErrorProtocolConvertible"
+- "=="
+- "??"
+- "??"
+provides-nominal:
+- "6Result0A8ProtocolP"
+- "6ResultAAO"
+- "6Result16ErrorConvertibleP"
+- "6Result24ErrorProtocolConvertibleP"
+provides-member:
+- ["6Result0A8ProtocolP", ""]
+- ["6ResultAAO", ""]
+- ["6Result16ErrorConvertibleP", ""]
+- ["6Result24ErrorProtocolConvertibleP", ""]
+- ["6ResultAAO", "value"]
+- ["6ResultAAO", "error"]
+- ["6ResultAAO", "map"]
+- ["6ResultAAO", "flatMap"]
+- ["6ResultAAO", "fanout"]
+- ["6ResultAAO", "mapError"]
+- ["6ResultAAO", "flatMapError"]
+- ["6ResultAAO", "bimap"]
+- ["6ResultAAO", "recover"]
+- ["6ResultAAO", "recover"]
+- ["6ResultAAO", "tryMap"]
+- ["6ResultAAO", "=="]
+- ["6ResultAAO", "??"]
+- ["6ResultAAO", "??"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "Error"
+- "ErrorConvertible"
+- "ErrorProtocolConvertible"
+- "Result"
+- "ResultProtocol"
+- "Self"
+- "Swift"
+- "Value"
+- !private "flatMap"
+- !private "flatMapError"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "Error"]
+- ["s28CustomDebugStringConvertibleP", "Failure"]
+- ["s28CustomDebugStringConvertibleP", "Success"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMapError"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "recover"]
+- ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Error"]
+- ["s23CustomStringConvertibleP", "Failure"]
+- ["s23CustomStringConvertibleP", "Success"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "flatMapError"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "recover"]
+- ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- ["SQ", "=="]
+- !private ["SQ", "Error"]
+- ["SQ", "Failure"]
+- ["SQ", "Success"]
+- ["SQ", ""]
+- !private ["SQ", "error"]
+- ["SQ", "failure"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "map"]
+- !private ["SQ", "recover"]
+- ["SQ", "success"]
+- !private ["SQ", "value"]
+- ["s5ErrorP", "Swift"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "error"]
+- ["6Result16ErrorConvertibleP", "Swift"]
+- ["6Result16ErrorConvertibleP", ""]
+- ["6Result16ErrorConvertibleP", "error"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["6ResultAAO", "=="]
+- ["6ResultAAO", "??"]
+- ["6ResultAAO", "Bool"]
+- ["6ResultAAO", "Equatable"]
+- !private ["6ResultAAO", "Error"]
+- ["6ResultAAO", "ErrorConvertible"]
+- ["6ResultAAO", "Failure"]
+- ["6ResultAAO", "Result"]
+- ["6ResultAAO", "Success"]
+- ["6ResultAAO", ""]
+- ["6ResultAAO", "bimap"]
+- ["6ResultAAO", "error"]
+- ["6ResultAAO", "failure"]
+- ["6ResultAAO", "fanout"]
+- ["6ResultAAO", "flatMap"]
+- ["6ResultAAO", "flatMapError"]
+- ["6ResultAAO", "map"]
+- ["6ResultAAO", "mapError"]
+- ["6ResultAAO", "recover"]
+- ["6ResultAAO", "success"]
+- ["6ResultAAO", "tryMap"]
+- ["6ResultAAO", "value"]
+- ["6Result0A8ProtocolP", "=="]
+- ["6Result0A8ProtocolP", "Error"]
+- ["6Result0A8ProtocolP", "Failure"]
+- ["6Result0A8ProtocolP", "Result"]
+- ["6Result0A8ProtocolP", "Success"]
+- ["6Result0A8ProtocolP", "Swift"]
+- ["6Result0A8ProtocolP", "Value"]
+- !private ["6Result0A8ProtocolP", "error"]
+- ["6Result0A8ProtocolP", "failure"]
+- !private ["6Result0A8ProtocolP", "flatMap"]
+- !private ["6Result0A8ProtocolP", "flatMapError"]
+- ["6Result0A8ProtocolP", "init"]
+- !private ["6Result0A8ProtocolP", "map"]
+- !private ["6Result0A8ProtocolP", "recover"]
+- ["6Result0A8ProtocolP", "result"]
+- ["6Result0A8ProtocolP", "success"]
+- !private ["6Result0A8ProtocolP", "value"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- "6Result16ErrorConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "6ResultAAO"
+- "6Result0A8ProtocolP"
+- "So18UIFocusEnvironmentP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Result/Result-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Kingfisher/Kingfisher.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/Result/Result.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9c289b377b12a07cd173f0b0807a1e22"

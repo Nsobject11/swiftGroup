@@ -1,0 +1,913 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserinfoFile"
+- "UserManager"
+- "UserInfo"
+provides-nominal:
+- "9SwiftDemo11UserManagerC"
+- "9SwiftDemo8UserInfoC"
+provides-member:
+- ["9SwiftDemo11UserManagerC", ""]
+- ["9SwiftDemo8UserInfoC", ""]
+provides-dynamic-lookup:
+- "ID"
+- "birth_date"
+- "deleteUserinfo"
+- "encode"
+- "fetchSkyData"
+- "gender"
+- "head_photo"
+- "nick_name"
+- "phone"
+- "saveUserinfo"
+- "sharedInstance"
+- "token"
+- "userInfo"
+- "userLoginWithPhone"
+depends-top-level:
+- "+"
+- !private "??"
+- !private "APIUtil"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "FileManager"
+- "HandyJSON"
+- "Int"
+- "NSCoder"
+- "NSCoding"
+- "NSDictionary"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- "NSObject"
+- "NSSearchPathForDirectoriesInDomains"
+- !private "NetWorkRequest"
+- "Observable"
+- "String"
+- "StringLiteralType"
+- "UserInfo"
+- "UserManager"
+- "UserinfoFile"
+- "Void"
+- !private "birth_date"
+- !private "gender"
+- !private "head_photo"
+- !private "nick_name"
+- !private "phone"
+- "print"
+- !private "token"
+depends-member:
+- !private ["9SwiftDemo7APIUtilV", "fetchData"]
+- ["10Accelerate0A6BufferP", ""]
+- ["10Accelerate0A6BufferP", "last"]
+- ["10Accelerate0A13MutableBufferP", "last"]
+- ["Sa", "last"]
+- ["SK", ""]
+- ["SK", "last"]
+- !private ["s7CVarArgP", "APIUtil"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "NSKeyedArchiver"]
+- !private ["s7CVarArgP", "NSKeyedUnarchiver"]
+- !private ["s7CVarArgP", "NetWorkRequest"]
+- !private ["s7CVarArgP", "UserInfo"]
+- ["s7CVarArgP", "UserManager"]
+- !private ["s7CVarArgP", "UserinfoFile"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "archiveRootObject"]
+- !private ["s7CVarArgP", "birth_date"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "deleteUserinfo"]
+- !private ["s7CVarArgP", "deserialize"]
+- ["s7CVarArgP", "didFinishMapping"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "gender"]
+- !private ["s7CVarArgP", "head_photo"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "last"]
+- ["s7CVarArgP", "mapping"]
+- !private ["s7CVarArgP", "nick_name"]
+- !private ["s7CVarArgP", "phone"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "saveUserinfo"]
+- !private ["s7CVarArgP", "token"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["s7CVarArgP", "userLoginWithPhone"]
+- ["s7CVarArgP", "willStartMapping"]
+- ["Sl", ""]
+- ["Sl", "last"]
+- ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "APIUtil"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyedArchiver"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s28CustomDebugStringConvertibleP", "NetWorkRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "UserInfo"]
+- ["s28CustomDebugStringConvertibleP", "UserManager"]
+- !private ["s28CustomDebugStringConvertibleP", "UserinfoFile"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "archiveRootObject"]
+- !private ["s28CustomDebugStringConvertibleP", "birth_date"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "deleteUserinfo"]
+- !private ["s28CustomDebugStringConvertibleP", "deserialize"]
+- ["s28CustomDebugStringConvertibleP", "didFinishMapping"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "gender"]
+- !private ["s28CustomDebugStringConvertibleP", "head_photo"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "last"]
+- ["s28CustomDebugStringConvertibleP", "mapping"]
+- !private ["s28CustomDebugStringConvertibleP", "nick_name"]
+- !private ["s28CustomDebugStringConvertibleP", "phone"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "saveUserinfo"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s28CustomDebugStringConvertibleP", "userLoginWithPhone"]
+- ["s28CustomDebugStringConvertibleP", "willStartMapping"]
+- ["s17CustomReflectableP", "last"]
+- !private ["s23CustomStringConvertibleP", "APIUtil"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "NSKeyedArchiver"]
+- !private ["s23CustomStringConvertibleP", "NSKeyedUnarchiver"]
+- !private ["s23CustomStringConvertibleP", "NetWorkRequest"]
+- !private ["s23CustomStringConvertibleP", "UserInfo"]
+- ["s23CustomStringConvertibleP", "UserManager"]
+- !private ["s23CustomStringConvertibleP", "UserinfoFile"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "archiveRootObject"]
+- !private ["s23CustomStringConvertibleP", "birth_date"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "deleteUserinfo"]
+- !private ["s23CustomStringConvertibleP", "deserialize"]
+- ["s23CustomStringConvertibleP", "didFinishMapping"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "gender"]
+- !private ["s23CustomStringConvertibleP", "head_photo"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "last"]
+- ["s23CustomStringConvertibleP", "mapping"]
+- !private ["s23CustomStringConvertibleP", "nick_name"]
+- !private ["s23CustomStringConvertibleP", "phone"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "saveUserinfo"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "userLoginWithPhone"]
+- ["s23CustomStringConvertibleP", "willStartMapping"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "last"]
+- ["Se", "last"]
+- ["SE", "last"]
+- !private ["SQ", "APIUtil"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "NSKeyedArchiver"]
+- !private ["SQ", "NSKeyedUnarchiver"]
+- !private ["SQ", "NetWorkRequest"]
+- !private ["SQ", "UserInfo"]
+- ["SQ", "UserManager"]
+- !private ["SQ", "UserinfoFile"]
+- ["SQ", ""]
+- !private ["SQ", "archiveRootObject"]
+- !private ["SQ", "birth_date"]
+- !private ["SQ", "decodeObject"]
+- !private ["SQ", "deleteUserinfo"]
+- !private ["SQ", "deserialize"]
+- ["SQ", "didFinishMapping"]
+- ["SQ", "documentDirectory"]
+- ["SQ", "encode"]
+- ["SQ", "encodeWithCoder"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "gender"]
+- !private ["SQ", "get"]
+- !private ["SQ", "getuserinfo"]
+- !private ["SQ", "head_photo"]
+- ["SQ", "init"]
+- ["SQ", "last"]
+- ["SQ", "mapping"]
+- !private ["SQ", "nick_name"]
+- !private ["SQ", "phone"]
+- !private ["SQ", "print"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "saveUserinfo"]
+- !private ["SQ", "token"]
+- !private ["SQ", "unarchiveObject"]
+- ["SQ", "userDomainMask"]
+- !private ["SQ", "userLoginWithPhone"]
+- ["SQ", "willStartMapping"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "last"]
+- ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "init"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9HandyJSONAAP", "APIUtil"]
+- !private ["9HandyJSONAAP", "UserInfo"]
+- ["9HandyJSONAAP", ""]
+- !private ["9HandyJSONAAP", "birth_date"]
+- !private ["9HandyJSONAAP", "deserialize"]
+- ["9HandyJSONAAP", "didFinishMapping"]
+- ["9HandyJSONAAP", "encode"]
+- ["9HandyJSONAAP", "encodeWithCoder"]
+- !private ["9HandyJSONAAP", "gender"]
+- !private ["9HandyJSONAAP", "head_photo"]
+- ["9HandyJSONAAP", "init"]
+- ["9HandyJSONAAP", "mapping"]
+- !private ["9HandyJSONAAP", "nick_name"]
+- !private ["9HandyJSONAAP", "phone"]
+- !private ["9HandyJSONAAP", "token"]
+- ["9HandyJSONAAP", "willStartMapping"]
+- !private ["SH", "APIUtil"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "NSKeyedArchiver"]
+- !private ["SH", "NSKeyedUnarchiver"]
+- !private ["SH", "NetWorkRequest"]
+- !private ["SH", "UserInfo"]
+- ["SH", "UserManager"]
+- !private ["SH", "UserinfoFile"]
+- ["SH", ""]
+- !private ["SH", "archiveRootObject"]
+- !private ["SH", "birth_date"]
+- !private ["SH", "decodeObject"]
+- !private ["SH", "deleteUserinfo"]
+- !private ["SH", "deserialize"]
+- ["SH", "didFinishMapping"]
+- ["SH", "documentDirectory"]
+- ["SH", "encode"]
+- ["SH", "encodeWithCoder"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "gender"]
+- !private ["SH", "get"]
+- !private ["SH", "getuserinfo"]
+- !private ["SH", "head_photo"]
+- ["SH", "init"]
+- ["SH", "last"]
+- ["SH", "mapping"]
+- !private ["SH", "nick_name"]
+- !private ["SH", "phone"]
+- !private ["SH", "print"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "saveUserinfo"]
+- !private ["SH", "token"]
+- !private ["SH", "unarchiveObject"]
+- !private ["SH", "userLoginWithPhone"]
+- ["SH", "willStartMapping"]
+- ["SM", ""]
+- ["SM", "last"]
+- ["10Foundation19MutableDataProtocolP", "last"]
+- ["So7NSCoderC", ""]
+- !private ["So7NSCoderC", "archiveRootObject"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So7NSCoderC", "unarchiveObjectWithData"]
+- !private ["So7NSCoderC", "unarchiveObjectWithFile"]
+- !private ["So8NSCodingP", "APIUtil"]
+- ["So8NSCodingP", "ID"]
+- !private ["So8NSCodingP", "UserInfo"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "birth_date"]
+- ["So8NSCodingP", "deinit"]
+- !private ["So8NSCodingP", "deserialize"]
+- ["So8NSCodingP", "didFinishMapping"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- ["So8NSCodingP", "fetchSkyData"]
+- ["So8NSCodingP", "gender"]
+- ["So8NSCodingP", "head_photo"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "mapping"]
+- ["So8NSCodingP", "nick_name"]
+- ["So8NSCodingP", "phone"]
+- ["So8NSCodingP", "token"]
+- ["So8NSCodingP", "willStartMapping"]
+- !private ["So15NSKeyedArchiverC", "archiveRootObject"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So8NSObjectC", "APIUtil"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "ID"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSKeyedArchiver"]
+- !private ["So8NSObjectC", "NSKeyedUnarchiver"]
+- !private ["So8NSObjectC", "NetWorkRequest"]
+- ["So8NSObjectC", "Observable"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UserInfo"]
+- ["So8NSObjectC", "UserManager"]
+- !private ["So8NSObjectC", "UserinfoFile"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "archiveRootObject"]
+- ["So8NSObjectC", "birth_date"]
+- !private ["So8NSObjectC", "cgAffineTransform"]
+- !private ["So8NSObjectC", "cgPoint"]
+- !private ["So8NSObjectC", "cgRect"]
+- !private ["So8NSObjectC", "cgSize"]
+- !private ["So8NSObjectC", "cgVector"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "decodeObjectForKey"]
+- !private ["So8NSObjectC", "decodeObjectOfClass"]
+- ["So8NSObjectC", "deleteUserinfo"]
+- !private ["So8NSObjectC", "deserialize"]
+- ["So8NSObjectC", "didFinishMapping"]
+- ["So8NSObjectC", "encode"]
+- !private ["So8NSObjectC", "encodeBool"]
+- !private ["So8NSObjectC", "encodeCGAffineTransform"]
+- !private ["So8NSObjectC", "encodeCGPoint"]
+- !private ["So8NSObjectC", "encodeCGRect"]
+- !private ["So8NSObjectC", "encodeCGSize"]
+- !private ["So8NSObjectC", "encodeCGVector"]
+- !private ["So8NSObjectC", "encodeCMTime"]
+- !private ["So8NSObjectC", "encodeCMTimeMapping"]
+- !private ["So8NSObjectC", "encodeCMTimeRange"]
+- !private ["So8NSObjectC", "encodeDataObject"]
+- !private ["So8NSObjectC", "encodeDirectionalEdgeInsets"]
+- !private ["So8NSObjectC", "encodeDouble"]
+- !private ["So8NSObjectC", "encodeFloat"]
+- !private ["So8NSObjectC", "encodeInt32"]
+- !private ["So8NSObjectC", "encodeInt64"]
+- !private ["So8NSObjectC", "encodeInteger"]
+- !private ["So8NSObjectC", "encodeObject"]
+- !private ["So8NSObjectC", "encodeUIEdgeInsets"]
+- !private ["So8NSObjectC", "encodeUIOffset"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "fetchSkyData"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "fileExistsAtPath"]
+- ["So8NSObjectC", "gender"]
+- ["So8NSObjectC", "head_photo"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mapping"]
+- ["So8NSObjectC", "nick_name"]
+- !private ["So8NSObjectC", "nsDirectionalEdgeInsets"]
+- ["So8NSObjectC", "phone"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "removeItemAtPath"]
+- !private ["So8NSObjectC", "removeItemAtURL"]
+- ["So8NSObjectC", "saveUserinfo"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "token"]
+- !private ["So8NSObjectC", "uiEdgeInsets"]
+- !private ["So8NSObjectC", "uiOffset"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- !private ["So8NSObjectC", "unarchiveObjectWithData"]
+- !private ["So8NSObjectC", "unarchiveObjectWithFile"]
+- ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectC", "userLoginWithPhone"]
+- ["So8NSObjectC", "willStartMapping"]
+- !private ["So8NSObjectP", "APIUtil"]
+- ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "FileManager"]
+- ["So8NSObjectP", "ID"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "NSCoder"]
+- !private ["So8NSObjectP", "NSDictionary"]
+- !private ["So8NSObjectP", "NSKeyedArchiver"]
+- !private ["So8NSObjectP", "NSKeyedUnarchiver"]
+- !private ["So8NSObjectP", "NetWorkRequest"]
+- ["So8NSObjectP", "Observable"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UserInfo"]
+- ["So8NSObjectP", "UserManager"]
+- !private ["So8NSObjectP", "UserinfoFile"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "archiveRootObject"]
+- ["So8NSObjectP", "birth_date"]
+- !private ["So8NSObjectP", "cgAffineTransform"]
+- !private ["So8NSObjectP", "cgPoint"]
+- !private ["So8NSObjectP", "cgRect"]
+- !private ["So8NSObjectP", "cgSize"]
+- !private ["So8NSObjectP", "cgVector"]
+- !private ["So8NSObjectP", "decodeObject"]
+- !private ["So8NSObjectP", "decodeObjectForKey"]
+- !private ["So8NSObjectP", "decodeObjectOfClass"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "deleteUserinfo"]
+- !private ["So8NSObjectP", "deserialize"]
+- ["So8NSObjectP", "didFinishMapping"]
+- ["So8NSObjectP", "encode"]
+- !private ["So8NSObjectP", "encodeBool"]
+- !private ["So8NSObjectP", "encodeCGAffineTransform"]
+- !private ["So8NSObjectP", "encodeCGPoint"]
+- !private ["So8NSObjectP", "encodeCGRect"]
+- !private ["So8NSObjectP", "encodeCGSize"]
+- !private ["So8NSObjectP", "encodeCGVector"]
+- !private ["So8NSObjectP", "encodeCMTime"]
+- !private ["So8NSObjectP", "encodeCMTimeMapping"]
+- !private ["So8NSObjectP", "encodeCMTimeRange"]
+- !private ["So8NSObjectP", "encodeDataObject"]
+- !private ["So8NSObjectP", "encodeDirectionalEdgeInsets"]
+- !private ["So8NSObjectP", "encodeDouble"]
+- !private ["So8NSObjectP", "encodeFloat"]
+- !private ["So8NSObjectP", "encodeInt32"]
+- !private ["So8NSObjectP", "encodeInt64"]
+- !private ["So8NSObjectP", "encodeInteger"]
+- !private ["So8NSObjectP", "encodeObject"]
+- !private ["So8NSObjectP", "encodeUIEdgeInsets"]
+- !private ["So8NSObjectP", "encodeUIOffset"]
+- ["So8NSObjectP", "encodeWithCoder"]
+- ["So8NSObjectP", "fetchSkyData"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "fileExistsAtPath"]
+- ["So8NSObjectP", "gender"]
+- ["So8NSObjectP", "head_photo"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "mapping"]
+- ["So8NSObjectP", "nick_name"]
+- !private ["So8NSObjectP", "nsDirectionalEdgeInsets"]
+- ["So8NSObjectP", "phone"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "removeItemAtPath"]
+- !private ["So8NSObjectP", "removeItemAtURL"]
+- ["So8NSObjectP", "saveUserinfo"]
+- ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "string"]
+- ["So8NSObjectP", "token"]
+- !private ["So8NSObjectP", "uiEdgeInsets"]
+- !private ["So8NSObjectP", "uiOffset"]
+- !private ["So8NSObjectP", "unarchiveObject"]
+- !private ["So8NSObjectP", "unarchiveObjectWithData"]
+- !private ["So8NSObjectP", "unarchiveObjectWithFile"]
+- ["So8NSObjectP", "userInfo"]
+- ["So8NSObjectP", "userLoginWithPhone"]
+- ["So8NSObjectP", "willStartMapping"]
+- !private ["9SwiftDemo12NetRequstApiO", "getuserinfo"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["s9OptionSetP", "userDomainMask"]
+- ["Sk", ""]
+- ["Sk", "last"]
+- ["Sm", ""]
+- ["Sm", "last"]
+- ["SY", ""]
+- ["SY", "documentDirectory"]
+- !private ["SY", "get"]
+- !private ["SY", "getuserinfo"]
+- ["SY", "userDomainMask"]
+- !private ["7RxSwift18ReactiveCompatibleP", "APIUtil"]
+- !private ["7RxSwift18ReactiveCompatibleP", "FileManager"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSKeyedArchiver"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSKeyedUnarchiver"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NetWorkRequest"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UserInfo"]
+- ["7RxSwift18ReactiveCompatibleP", "UserManager"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UserinfoFile"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "archiveRootObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "birth_date"]
+- !private ["7RxSwift18ReactiveCompatibleP", "decodeObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "deleteUserinfo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "deserialize"]
+- ["7RxSwift18ReactiveCompatibleP", "didFinishMapping"]
+- ["7RxSwift18ReactiveCompatibleP", "encode"]
+- ["7RxSwift18ReactiveCompatibleP", "encodeWithCoder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fileExists"]
+- !private ["7RxSwift18ReactiveCompatibleP", "gender"]
+- !private ["7RxSwift18ReactiveCompatibleP", "head_photo"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "mapping"]
+- !private ["7RxSwift18ReactiveCompatibleP", "nick_name"]
+- !private ["7RxSwift18ReactiveCompatibleP", "phone"]
+- !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "removeItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "saveUserinfo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "token"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unarchiveObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "userLoginWithPhone"]
+- ["7RxSwift18ReactiveCompatibleP", "willStartMapping"]
+- !private ["9SwiftDemo6RouterO", "getuserinfo"]
+- ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- ["ST", ""]
+- ["ST", "last"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "userDomainMask"]
+- !private ["4Moya10TargetTypeP", "getuserinfo"]
+- !private ["9Alamofire14URLConvertibleP", "getuserinfo"]
+- !private ["9SwiftDemo8UserInfoC", "APIUtil"]
+- ["9SwiftDemo8UserInfoC", "ID"]
+- ["9SwiftDemo8UserInfoC", "Int"]
+- ["9SwiftDemo8UserInfoC", "NSCoder"]
+- ["9SwiftDemo8UserInfoC", "Observable"]
+- ["9SwiftDemo8UserInfoC", "String"]
+- ["9SwiftDemo8UserInfoC", "UserInfo"]
+- ["9SwiftDemo8UserInfoC", ""]
+- ["9SwiftDemo8UserInfoC", "birth_date"]
+- ["9SwiftDemo8UserInfoC", "deinit"]
+- !private ["9SwiftDemo8UserInfoC", "deserialize"]
+- ["9SwiftDemo8UserInfoC", "didFinishMapping"]
+- ["9SwiftDemo8UserInfoC", "encode"]
+- ["9SwiftDemo8UserInfoC", "encodeWithCoder"]
+- ["9SwiftDemo8UserInfoC", "fetchSkyData"]
+- ["9SwiftDemo8UserInfoC", "gender"]
+- ["9SwiftDemo8UserInfoC", "head_photo"]
+- ["9SwiftDemo8UserInfoC", "init"]
+- ["9SwiftDemo8UserInfoC", "mapping"]
+- ["9SwiftDemo8UserInfoC", "nick_name"]
+- ["9SwiftDemo8UserInfoC", "phone"]
+- ["9SwiftDemo8UserInfoC", "token"]
+- ["9SwiftDemo8UserInfoC", "willStartMapping"]
+- ["9SwiftDemo11UserManagerC", "Bool"]
+- !private ["9SwiftDemo11UserManagerC", "FileManager"]
+- !private ["9SwiftDemo11UserManagerC", "NSDictionary"]
+- !private ["9SwiftDemo11UserManagerC", "NSKeyedArchiver"]
+- !private ["9SwiftDemo11UserManagerC", "NSKeyedUnarchiver"]
+- !private ["9SwiftDemo11UserManagerC", "NetWorkRequest"]
+- ["9SwiftDemo11UserManagerC", "String"]
+- ["9SwiftDemo11UserManagerC", "UserInfo"]
+- ["9SwiftDemo11UserManagerC", "UserManager"]
+- !private ["9SwiftDemo11UserManagerC", "UserinfoFile"]
+- ["9SwiftDemo11UserManagerC", "Void"]
+- ["9SwiftDemo11UserManagerC", ""]
+- ["9SwiftDemo11UserManagerC", "deinit"]
+- ["9SwiftDemo11UserManagerC", "deleteUserinfo"]
+- ["9SwiftDemo11UserManagerC", "init"]
+- !private ["9SwiftDemo11UserManagerC", "print"]
+- ["9SwiftDemo11UserManagerC", "saveUserinfo"]
+- ["9SwiftDemo11UserManagerC", "sharedInstance"]
+- ["9SwiftDemo11UserManagerC", "userInfo"]
+- ["9SwiftDemo11UserManagerC", "userLoginWithPhone"]
+- ["s14_ArrayProtocolP", "last"]
+- ["9HandyJSON17_BuiltInBasicTypeP", "last"]
+- ["s24_DestructorSafeContainerP", "last"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "APIUtil"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "UserInfo"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", ""]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "birth_date"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "deserialize"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "didFinishMapping"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "encode"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "encodeWithCoder"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "gender"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "head_photo"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "init"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "mapping"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "nick_name"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "phone"]
+- !private ["9HandyJSON22_ExtendCustomModelTypeP", "token"]
+- ["9HandyJSON22_ExtendCustomModelTypeP", "willStartMapping"]
+- ["s19_HasContiguousBytesP", "last"]
+- ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "APIUtil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyedArchiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyedUnarchiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetWorkRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserInfo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UserManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserinfoFile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archiveRootObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "birth_date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deleteUserinfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deserialize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didFinishMapping"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gender"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "head_photo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapping"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nick_name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveUserinfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userLoginWithPhone"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "willStartMapping"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "APIUtil"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSKeyedArchiver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSKeyedUnarchiver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetWorkRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserInfo"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserinfoFile"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "archiveRootObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "birth_date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "decodeObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deleteUserinfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deserialize"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didFinishMapping"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "encode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "encodeWithCoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gender"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "head_photo"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mapping"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nick_name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "phone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveUserinfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "token"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unarchiveObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userLoginWithPhone"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willStartMapping"]
+- !private ["9HandyJSON11_MeasurableP", "APIUtil"]
+- !private ["9HandyJSON11_MeasurableP", "UserInfo"]
+- ["9HandyJSON11_MeasurableP", ""]
+- !private ["9HandyJSON11_MeasurableP", "birth_date"]
+- !private ["9HandyJSON11_MeasurableP", "deserialize"]
+- ["9HandyJSON11_MeasurableP", "didFinishMapping"]
+- ["9HandyJSON11_MeasurableP", "encode"]
+- ["9HandyJSON11_MeasurableP", "encodeWithCoder"]
+- !private ["9HandyJSON11_MeasurableP", "gender"]
+- !private ["9HandyJSON11_MeasurableP", "head_photo"]
+- ["9HandyJSON11_MeasurableP", "init"]
+- ["9HandyJSON11_MeasurableP", "last"]
+- ["9HandyJSON11_MeasurableP", "mapping"]
+- !private ["9HandyJSON11_MeasurableP", "nick_name"]
+- !private ["9HandyJSON11_MeasurableP", "phone"]
+- !private ["9HandyJSON11_MeasurableP", "token"]
+- ["9HandyJSON11_MeasurableP", "willStartMapping"]
+- ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["9HandyJSON14_TransformableP", "APIUtil"]
+- !private ["9HandyJSON14_TransformableP", "UserInfo"]
+- ["9HandyJSON14_TransformableP", ""]
+- !private ["9HandyJSON14_TransformableP", "birth_date"]
+- !private ["9HandyJSON14_TransformableP", "deserialize"]
+- ["9HandyJSON14_TransformableP", "didFinishMapping"]
+- ["9HandyJSON14_TransformableP", "encode"]
+- ["9HandyJSON14_TransformableP", "encodeWithCoder"]
+- !private ["9HandyJSON14_TransformableP", "gender"]
+- !private ["9HandyJSON14_TransformableP", "head_photo"]
+- ["9HandyJSON14_TransformableP", "init"]
+- ["9HandyJSON14_TransformableP", "last"]
+- ["9HandyJSON14_TransformableP", "mapping"]
+- !private ["9HandyJSON14_TransformableP", "nick_name"]
+- !private ["9HandyJSON14_TransformableP", "phone"]
+- !private ["9HandyJSON14_TransformableP", "token"]
+- ["9HandyJSON14_TransformableP", "willStartMapping"]
+depends-nominal:
+- !private "9SwiftDemo7APIUtilV"
+- "10Accelerate0A6BufferP"
+- "10Accelerate0A13MutableBufferP"
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "So13NSFileManagerC"
+- !private "9Alamofire10HTTPMethodO"
+- "9HandyJSONAAP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "9SwiftDemo12NetRequstApiO"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- "s9OptionSetP"
+- "Sk"
+- "Sm"
+- "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "9SwiftDemo6RouterO"
+- "So21NSSearchPathDirectoryV"
+- "So22NSSearchPathDomainMaskV"
+- "ST"
+- "s10SetAlgebraP"
+- !private "4Moya10TargetTypeP"
+- !private "9Alamofire14URLConvertibleP"
+- "9SwiftDemo8UserInfoC"
+- "9SwiftDemo11UserManagerC"
+- "s14_ArrayProtocolP"
+- "9HandyJSON17_BuiltInBasicTypeP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "9HandyJSON22_ExtendCustomModelTypeP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "9HandyJSON11_MeasurableP"
+- "s21_ObjectiveCBridgeableP"
+- "9HandyJSON14_TransformableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/AlipaySDK.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/HandyJSON/Source/HandyJSON.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RX.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet-Swift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/Result/Result-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView-umbrella.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay-umbrella.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/JPush/JPUSHService.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXObjCRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/RxCocoaRuntime.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMShare.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMConfigure.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialResponse.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialWarterMarkConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformConfig.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/NSBundle+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefresh.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApi.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialGlobal.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetModel.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialImageUtil.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZAssetCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewCell.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/UIScrollView+MJExtension.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCCommon/UMCommon.framework/Headers/UMCommon.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/AlipaySDK.framework/Headers/APayAuthInfo.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/SwiftDemo-Header.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshStateHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshGifHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshNormalHeader.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialPlatformProvider.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialDataManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImageManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZLocationManager.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/NSBundle+TZImagePicker.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialHandler.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZImagePickerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZVideoPlayerController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/TZGifPhotoPreviewController.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/Alipay/Utils/APRSASigner.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoStateFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoGifFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshBackNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoNormalFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshAutoFooter.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXKVOObserver.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialCoreImageUtils.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMCommonLogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSociallogMacros.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/FSPagerView/Sources/FSPagerViewObjcCompat.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/UMCShare/UMShare/UMShare.framework/Headers/UMSocialMessageObject.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/WechtSDK1.8.2/WXApiObject.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/Swift Compatibility Header/HandyJSON-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/Swift Compatibility Header/RxCocoa-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Moya/Swift Compatibility Header/Moya-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Swift Compatibility Header/Kingfisher-Swift.h"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/Swift Compatibility Header/EmptyDataSet_Swift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/Swift Compatibility Header/IQKeyboardManagerSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxSwift/Swift Compatibility Header/RxSwift-Swift.h"
+- "Build/Products/Debug-iphonesimulator/SnapKit/Swift Compatibility Header/SnapKit-Swift.h"
+- "Build/Products/Debug-iphonesimulator/Result/Swift Compatibility Header/Result-Swift.h"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/Swift Compatibility Header/FSPagerView-Swift.h"
+- "Build/Products/Debug-iphonesimulator/RxRelay/Swift Compatibility Header/RxRelay-Swift.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshComponent.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Public/MJRefresh/MJRefreshConst.h"
+- "/Users/yq/Project/Swift/SwiftGroup/SwiftDemo/Public/OCClass/TZImagePickerController/UIView+Layout.h"
+- "/Users/yq/Project/Swift/SwiftGroup/Pods/Headers/Private/RxCocoa/_RXDelegateProxy.h"
+- "Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.modulemap"
+- "Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.modulemap"
+- "Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.modulemap"
+- "Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.modulemap"
+- "Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.modulemap"
+- "Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Result/Result.modulemap"
+- "Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/FSPagerView/FSPagerView.modulemap"
+- "Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9cab8e84173499a5226fe5511bbcf68"

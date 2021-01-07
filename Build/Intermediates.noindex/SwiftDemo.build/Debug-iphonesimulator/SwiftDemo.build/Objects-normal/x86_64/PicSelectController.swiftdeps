@@ -50,7 +50,6 @@ depends-member:
 - ["9SwiftDemo18BaseViewControllerC", "self"]
 - !private ["9SwiftDemo18BaseViewControllerC", "view"]
 - ["9SwiftDemo18BaseViewControllerC", "viewDidLoad"]
-- ["SK", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - ["So15CALayerDelegateP", "allowTakeVideo"]
 - ["So15CALayerDelegateP", "delegate"]
@@ -74,8 +73,6 @@ depends-member:
 - ["s7CVarArgP", "showTakeVideoBtnSwitch"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["Sl", ""]
-- ["SL", ""]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
 - ["7SnapKit25ConstraintRelatableTargetP", "allowTakeVideo"]
 - ["7SnapKit25ConstraintRelatableTargetP", "delegate"]
@@ -138,13 +135,9 @@ depends-member:
 - ["SQ", "showTakeVideoBtnSwitch"]
 - !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SH", "CGRect"]
 - ["SH", "PhotoSelect"]
 - ["SH", ""]
@@ -168,20 +161,16 @@ depends-member:
 - ["7SnapKit20LayoutConstraintItemP", "delegate"]
 - ["7SnapKit20LayoutConstraintItemP", "init"]
 - ["7SnapKit20LayoutConstraintItemP", "showTakeVideoBtnSwitch"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_photoS"]
 - ["So8NSCodingP", "CGRect"]
 - ["So8NSCodingP", "NSArray"]
 - ["So8NSCodingP", "PhotoSelect"]
-- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_photoS"]
 - !private ["So8NSCodingP", "addSubview"]
 - ["So8NSCodingP", "allowTakeVideo"]
 - ["So8NSCodingP", "delegate"]
 - ["So8NSCodingP", "init"]
-- ["So8NSCodingP", "initBarItem"]
-- ["So8NSCodingP", "isTap"]
 - ["So8NSCodingP", "kScreenWidth"]
 - ["So8NSCodingP", "kTopHeight"]
 - ["So8NSCodingP", "photoS"]
@@ -190,19 +179,15 @@ depends-member:
 - ["So8NSCodingP", "selectVideo"]
 - ["So8NSCodingP", "self"]
 - ["So8NSCodingP", "showTakeVideoBtnSwitch"]
-- ["So8NSCodingP", "touchesBegan"]
 - !private ["So8NSCodingP", "view"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_photoS"]
 - ["So26NSExtensionRequestHandlingP", "CGRect"]
 - ["So26NSExtensionRequestHandlingP", "NSArray"]
 - ["So26NSExtensionRequestHandlingP", "PhotoSelect"]
-- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_photoS"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- ["So26NSExtensionRequestHandlingP", "initBarItem"]
-- ["So26NSExtensionRequestHandlingP", "isTap"]
 - ["So26NSExtensionRequestHandlingP", "kScreenWidth"]
 - ["So26NSExtensionRequestHandlingP", "kTopHeight"]
 - ["So26NSExtensionRequestHandlingP", "photoS"]
@@ -210,7 +195,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "selectImageArr"]
 - ["So26NSExtensionRequestHandlingP", "selectVideo"]
 - ["So26NSExtensionRequestHandlingP", "self"]
-- ["So26NSExtensionRequestHandlingP", "touchesBegan"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "$__lazy_storage_$_photoS"]
@@ -238,15 +222,12 @@ depends-member:
 - ["So8NSObjectP", "CGRect"]
 - ["So8NSObjectP", "NSArray"]
 - ["So8NSObjectP", "PhotoSelect"]
-- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_photoS"]
 - !private ["So8NSObjectP", "addSubview"]
 - ["So8NSObjectP", "allowTakeVideo"]
 - ["So8NSObjectP", "delegate"]
 - ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "initBarItem"]
-- ["So8NSObjectP", "isTap"]
 - ["So8NSObjectP", "kScreenWidth"]
 - ["So8NSObjectP", "kTopHeight"]
 - ["So8NSObjectP", "photoS"]
@@ -255,7 +236,6 @@ depends-member:
 - ["So8NSObjectP", "selectVideo"]
 - ["So8NSObjectP", "self"]
 - ["So8NSObjectP", "showTakeVideoBtnSwitch"]
-- ["So8NSObjectP", "touchesBegan"]
 - !private ["So8NSObjectP", "view"]
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["Sq", "addSubview"]
@@ -312,16 +292,10 @@ depends-member:
 - ["7RxSwift18ReactiveCompatibleP", "showTakeVideoBtnSwitch"]
 - !private ["7RxSwift18ReactiveCompatibleP", "view"]
 - !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
-- ["ST", ""]
-- ["Sx", "_step"]
-- ["Sx", "advanced"]
-- ["Sx", "distance"]
 - ["So31TZImagePickerControllerDelegateP", "allowTakeVideo"]
 - ["So31TZImagePickerControllerDelegateP", "delegate"]
 - ["So31TZImagePickerControllerDelegateP", "init"]
 - ["So31TZImagePickerControllerDelegateP", "showTakeVideoBtnSwitch"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - ["So29UIAccessibilityIdentificationP", "allowTakeVideo"]
 - ["So29UIAccessibilityIdentificationP", "delegate"]
@@ -336,15 +310,12 @@ depends-member:
 - ["So21UIAppearanceContainerP", "CGRect"]
 - ["So21UIAppearanceContainerP", "NSArray"]
 - ["So21UIAppearanceContainerP", "PhotoSelect"]
-- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_photoS"]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
 - ["So21UIAppearanceContainerP", "allowTakeVideo"]
 - ["So21UIAppearanceContainerP", "delegate"]
 - ["So21UIAppearanceContainerP", "init"]
-- ["So21UIAppearanceContainerP", "initBarItem"]
-- ["So21UIAppearanceContainerP", "isTap"]
 - ["So21UIAppearanceContainerP", "kScreenWidth"]
 - ["So21UIAppearanceContainerP", "kTopHeight"]
 - ["So21UIAppearanceContainerP", "photoS"]
@@ -353,7 +324,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "selectVideo"]
 - ["So21UIAppearanceContainerP", "self"]
 - ["So21UIAppearanceContainerP", "showTakeVideoBtnSwitch"]
-- ["So21UIAppearanceContainerP", "touchesBegan"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So26UICollectionViewDataSourceP", "allowTakeVideo"]
@@ -368,12 +338,9 @@ depends-member:
 - ["So18UIContentContainerP", "CGRect"]
 - ["So18UIContentContainerP", "NSArray"]
 - ["So18UIContentContainerP", "PhotoSelect"]
-- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_photoS"]
 - ["So18UIContentContainerP", "init"]
-- ["So18UIContentContainerP", "initBarItem"]
-- ["So18UIContentContainerP", "isTap"]
 - ["So18UIContentContainerP", "kScreenWidth"]
 - ["So18UIContentContainerP", "kTopHeight"]
 - ["So18UIContentContainerP", "photoS"]
@@ -381,7 +348,6 @@ depends-member:
 - ["So18UIContentContainerP", "selectImageArr"]
 - ["So18UIContentContainerP", "selectVideo"]
 - ["So18UIContentContainerP", "self"]
-- ["So18UIContentContainerP", "touchesBegan"]
 - !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
@@ -398,15 +364,12 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "CGRect"]
 - ["So18UIFocusEnvironmentP", "NSArray"]
 - ["So18UIFocusEnvironmentP", "PhotoSelect"]
-- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_photoS"]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
 - ["So18UIFocusEnvironmentP", "allowTakeVideo"]
 - ["So18UIFocusEnvironmentP", "delegate"]
 - ["So18UIFocusEnvironmentP", "init"]
-- ["So18UIFocusEnvironmentP", "initBarItem"]
-- ["So18UIFocusEnvironmentP", "isTap"]
 - ["So18UIFocusEnvironmentP", "kScreenWidth"]
 - ["So18UIFocusEnvironmentP", "kTopHeight"]
 - ["So18UIFocusEnvironmentP", "photoS"]
@@ -415,7 +378,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "selectVideo"]
 - ["So18UIFocusEnvironmentP", "self"]
 - ["So18UIFocusEnvironmentP", "showTakeVideoBtnSwitch"]
-- ["So18UIFocusEnvironmentP", "touchesBegan"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So11UIFocusItemP", "addSubview"]
@@ -433,8 +395,6 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "PhotoSelect"]
 - ["So27UIGestureRecognizerDelegateP", ""]
 - ["So27UIGestureRecognizerDelegateP", "init"]
-- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
-- ["So27UIGestureRecognizerDelegateP", "isTap"]
 - ["So27UIGestureRecognizerDelegateP", "kScreenWidth"]
 - ["So27UIGestureRecognizerDelegateP", "kTopHeight"]
 - ["So27UIGestureRecognizerDelegateP", "photoS"]
@@ -442,7 +402,6 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "selectImageArr"]
 - ["So27UIGestureRecognizerDelegateP", "selectVideo"]
 - ["So27UIGestureRecognizerDelegateP", "self"]
-- ["So27UIGestureRecognizerDelegateP", "touchesBegan"]
 - !private ["So27UIGestureRecognizerDelegateP", "view"]
 - ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
 - ["So31UIImagePickerControllerDelegateP", "allowTakeVideo"]
@@ -462,15 +421,12 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - ["So30UIPasteConfigurationSupportingP", "NSArray"]
 - ["So30UIPasteConfigurationSupportingP", "PhotoSelect"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_photoS"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - ["So30UIPasteConfigurationSupportingP", "allowTakeVideo"]
 - ["So30UIPasteConfigurationSupportingP", "delegate"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
-- ["So30UIPasteConfigurationSupportingP", "isTap"]
 - ["So30UIPasteConfigurationSupportingP", "kScreenWidth"]
 - ["So30UIPasteConfigurationSupportingP", "kTopHeight"]
 - ["So30UIPasteConfigurationSupportingP", "photoS"]
@@ -479,7 +435,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "selectVideo"]
 - ["So30UIPasteConfigurationSupportingP", "self"]
 - ["So30UIPasteConfigurationSupportingP", "showTakeVideoBtnSwitch"]
-- ["So30UIPasteConfigurationSupportingP", "touchesBegan"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "$__lazy_storage_$_photoS"]
@@ -507,15 +462,12 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "CGRect"]
 - ["So30UIResponderStandardEditActionsP", "NSArray"]
 - ["So30UIResponderStandardEditActionsP", "PhotoSelect"]
-- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_photoS"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - ["So30UIResponderStandardEditActionsP", "allowTakeVideo"]
 - ["So30UIResponderStandardEditActionsP", "delegate"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- ["So30UIResponderStandardEditActionsP", "initBarItem"]
-- ["So30UIResponderStandardEditActionsP", "isTap"]
 - ["So30UIResponderStandardEditActionsP", "kScreenWidth"]
 - ["So30UIResponderStandardEditActionsP", "kTopHeight"]
 - ["So30UIResponderStandardEditActionsP", "photoS"]
@@ -524,7 +476,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "selectVideo"]
 - ["So30UIResponderStandardEditActionsP", "self"]
 - ["So30UIResponderStandardEditActionsP", "showTakeVideoBtnSwitch"]
-- ["So30UIResponderStandardEditActionsP", "touchesBegan"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So20UIScrollViewDelegateP", ""]
@@ -536,12 +487,9 @@ depends-member:
 - ["So16UIStateRestoringP", "CGRect"]
 - ["So16UIStateRestoringP", "NSArray"]
 - ["So16UIStateRestoringP", "PhotoSelect"]
-- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_photoS"]
 - ["So16UIStateRestoringP", "init"]
-- ["So16UIStateRestoringP", "initBarItem"]
-- ["So16UIStateRestoringP", "isTap"]
 - ["So16UIStateRestoringP", "kScreenWidth"]
 - ["So16UIStateRestoringP", "kTopHeight"]
 - ["So16UIStateRestoringP", "photoS"]
@@ -549,22 +497,18 @@ depends-member:
 - ["So16UIStateRestoringP", "selectImageArr"]
 - ["So16UIStateRestoringP", "selectVideo"]
 - ["So16UIStateRestoringP", "self"]
-- ["So16UIStateRestoringP", "touchesBegan"]
 - !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_photoS"]
 - ["So18UITraitEnvironmentP", "CGRect"]
 - ["So18UITraitEnvironmentP", "NSArray"]
 - ["So18UITraitEnvironmentP", "PhotoSelect"]
-- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_photoS"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
 - ["So18UITraitEnvironmentP", "allowTakeVideo"]
 - ["So18UITraitEnvironmentP", "delegate"]
 - ["So18UITraitEnvironmentP", "init"]
-- ["So18UITraitEnvironmentP", "initBarItem"]
-- ["So18UITraitEnvironmentP", "isTap"]
 - ["So18UITraitEnvironmentP", "kScreenWidth"]
 - ["So18UITraitEnvironmentP", "kTopHeight"]
 - ["So18UITraitEnvironmentP", "photoS"]
@@ -573,22 +517,18 @@ depends-member:
 - ["So18UITraitEnvironmentP", "selectVideo"]
 - ["So18UITraitEnvironmentP", "self"]
 - ["So18UITraitEnvironmentP", "showTakeVideoBtnSwitch"]
-- ["So18UITraitEnvironmentP", "touchesBegan"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_photoS"]
 - ["So23UIUserActivityRestoringP", "CGRect"]
 - ["So23UIUserActivityRestoringP", "NSArray"]
 - ["So23UIUserActivityRestoringP", "PhotoSelect"]
-- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_photoS"]
 - !private ["So23UIUserActivityRestoringP", "addSubview"]
 - ["So23UIUserActivityRestoringP", "allowTakeVideo"]
 - ["So23UIUserActivityRestoringP", "delegate"]
 - ["So23UIUserActivityRestoringP", "init"]
-- ["So23UIUserActivityRestoringP", "initBarItem"]
-- ["So23UIUserActivityRestoringP", "isTap"]
 - ["So23UIUserActivityRestoringP", "kScreenWidth"]
 - ["So23UIUserActivityRestoringP", "kTopHeight"]
 - ["So23UIUserActivityRestoringP", "photoS"]
@@ -597,7 +537,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "selectVideo"]
 - ["So23UIUserActivityRestoringP", "self"]
 - ["So23UIUserActivityRestoringP", "showTakeVideoBtnSwitch"]
-- ["So23UIUserActivityRestoringP", "touchesBegan"]
 - !private ["So23UIUserActivityRestoringP", "view"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So6UIViewC", ""]
@@ -626,10 +565,8 @@ depends-member:
 - !private ["9HandyJSON17_BuiltInBasicTypeP", "addSubview"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "PhotoSelect"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -677,12 +614,9 @@ depends-member:
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "showTakeVideoBtnSwitch"]
 depends-nominal:
 - "9SwiftDemo18BaseViewControllerC"
-- "SK"
 - "So15CALayerDelegateP"
 - "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
 - "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -690,16 +624,11 @@ depends-nominal:
 - "Se"
 - "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - "7RxCocoa16KVORepresentableP"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
@@ -709,11 +638,7 @@ depends-nominal:
 - "9SwiftDemo19PhotoSelectDelegateP"
 - "9SwiftDemo19PicSelectControllerC"
 - "7RxSwift18ReactiveCompatibleP"
-- "ST"
-- "Sx"
 - "So31TZImagePickerControllerDelegateP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -741,10 +666,8 @@ depends-nominal:
 - !private "9HandyJSON17_BuiltInBasicTypeP"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "9HandyJSON11_MeasurableP"
@@ -753,7 +676,7 @@ depends-nominal:
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -761,29 +684,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

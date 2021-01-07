@@ -96,12 +96,11 @@ depends-member:
 - !private ["9SwiftDemo18BaseViewControllerC", "view"]
 - ["9SwiftDemo18BaseViewControllerC", "viewDidLoad"]
 - ["9SwiftDemo18BaseViewControllerC", "viewWillAppear"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "enumerated"]
 - !private ["SK", "init"]
-- ["So15CALayerDelegateP", "SetMaxLength"]
-- ["So15CALayerDelegateP", "SetPlaceholder"]
-- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "SetMaxLength"]
+- !private ["So15CALayerDelegateP", "SetPlaceholder"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - ["So15CALayerDelegateP", "backgroundColor"]
 - ["So15CALayerDelegateP", "delegate"]
@@ -162,10 +161,10 @@ depends-member:
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "viewWillAppear"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "enumerated"]
 - !private ["Sl", "init"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "SetMaxLength"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "SetPlaceholder"]
@@ -357,19 +356,19 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
-- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
-- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["SH", "CGRect"]
 - !private ["SH", "CustomTextView"]
@@ -510,23 +509,22 @@ depends-member:
 - ["9SwiftDemo24LimitedTextFieldDelegateP", "viewWillAppear"]
 - !private ["9SwiftDemo20LimitedTextFieldTypeO", "LimitedTextFieldTypeEmail"]
 - !private ["s25LosslessStringConvertibleP", "Element"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["SM", ""]
 - !private ["SM", "enumerated"]
 - !private ["10Foundation19MutableDataProtocolP", "enumerated"]
 - ["So8NSCodingP", "$__lazy_storage_$_searchBar"]
-- ["So8NSCodingP", "Bool"]
 - ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "CustomTextView"]
 - !private ["So8NSCodingP", "CustomTxt"]
 - ["So8NSCodingP", "KWitheColor"]
 - ["So8NSCodingP", "NSRange"]
 - ["So8NSCodingP", "RefineSearchBar"]
-- ["So8NSCodingP", "SetMaxLength"]
-- ["So8NSCodingP", "SetPlaceholder"]
-- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "SetMaxLength"]
+- !private ["So8NSCodingP", "SetPlaceholder"]
+- !private ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "UIButton"]
 - ["So8NSCodingP", "UITextField"]
 - !private ["So8NSCodingP", "UserManager"]
@@ -539,8 +537,6 @@ depends-member:
 - ["So8NSCodingP", "btnClick"]
 - ["So8NSCodingP", "delegate"]
 - ["So8NSCodingP", "init"]
-- ["So8NSCodingP", "initBarItem"]
-- ["So8NSCodingP", "isTap"]
 - !private ["So8NSCodingP", "kRandomColor"]
 - ["So8NSCodingP", "kScreenWidth"]
 - !private ["So8NSCodingP", "limitDelegate"]
@@ -565,19 +561,17 @@ depends-member:
 - !private ["So8NSCodingP", "tag"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "textAlignment"]
-- ["So8NSCodingP", "touchesBegan"]
 - !private ["So8NSCodingP", "view"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewWillAppear"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_searchBar"]
-- ["So26NSExtensionRequestHandlingP", "Bool"]
 - ["So26NSExtensionRequestHandlingP", "CGRect"]
 - !private ["So26NSExtensionRequestHandlingP", "CustomTextView"]
 - !private ["So26NSExtensionRequestHandlingP", "CustomTxt"]
 - ["So26NSExtensionRequestHandlingP", "KWitheColor"]
 - ["So26NSExtensionRequestHandlingP", "NSRange"]
 - ["So26NSExtensionRequestHandlingP", "RefineSearchBar"]
-- ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", "UIButton"]
 - ["So26NSExtensionRequestHandlingP", "UITextField"]
 - !private ["So26NSExtensionRequestHandlingP", "UserManager"]
@@ -587,8 +581,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "btnC"]
 - ["So26NSExtensionRequestHandlingP", "btnClick"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- ["So26NSExtensionRequestHandlingP", "initBarItem"]
-- ["So26NSExtensionRequestHandlingP", "isTap"]
 - !private ["So26NSExtensionRequestHandlingP", "kRandomColor"]
 - ["So26NSExtensionRequestHandlingP", "kScreenWidth"]
 - ["So26NSExtensionRequestHandlingP", "limitedTextFieldDidBeginEditing"]
@@ -606,7 +598,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "searchBarSearchButtonClicked"]
 - ["So26NSExtensionRequestHandlingP", "searchBarTextClear"]
 - ["So26NSExtensionRequestHandlingP", "self"]
-- ["So26NSExtensionRequestHandlingP", "touchesBegan"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
@@ -665,16 +656,14 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewWillAppear"]
 - ["So8NSObjectP", "$__lazy_storage_$_searchBar"]
-- ["So8NSObjectP", "Bool"]
 - ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "CustomTextView"]
 - !private ["So8NSObjectP", "CustomTxt"]
 - ["So8NSObjectP", "KWitheColor"]
-- ["So8NSObjectP", "NSRange"]
 - ["So8NSObjectP", "RefineSearchBar"]
-- ["So8NSObjectP", "SetMaxLength"]
-- ["So8NSObjectP", "SetPlaceholder"]
-- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "SetMaxLength"]
+- !private ["So8NSObjectP", "SetPlaceholder"]
+- !private ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "ThridBlock"]
 - ["So8NSObjectP", "UIButton"]
 - ["So8NSObjectP", "UITextField"]
@@ -688,8 +677,6 @@ depends-member:
 - ["So8NSObjectP", "btnClick"]
 - ["So8NSObjectP", "delegate"]
 - ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "initBarItem"]
-- ["So8NSObjectP", "isTap"]
 - !private ["So8NSObjectP", "kRandomColor"]
 - ["So8NSObjectP", "kScreenWidth"]
 - !private ["So8NSObjectP", "limitDelegate"]
@@ -716,8 +703,7 @@ depends-member:
 - !private ["So8NSObjectP", "tag"]
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "textAlignment"]
-- ["So8NSObjectP", "touchesBegan"]
-- ["So8NSObjectP", "userLoginWithPhone"]
+- !private ["So8NSObjectP", "userLoginWithPhone"]
 - !private ["So8NSObjectP", "view"]
 - ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewWillAppear"]
@@ -820,7 +806,7 @@ depends-member:
 - ["9SwiftDemo23RefineSearchBarDelegateP", "viewWillAppear"]
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "enumerated"]
 - !private ["ST", "init"]
 - !private ["ST", "makeIterator"]
@@ -830,14 +816,13 @@ depends-member:
 - !private ["Sx", "distance"]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
-- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "init"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tag"]
-- ["So29UIAccessibilityIdentificationP", "SetMaxLength"]
-- ["So29UIAccessibilityIdentificationP", "SetPlaceholder"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "SetMaxLength"]
+- !private ["So29UIAccessibilityIdentificationP", "SetPlaceholder"]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - ["So29UIAccessibilityIdentificationP", "delegate"]
@@ -849,9 +834,8 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "tag"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
-- ["So12UIAppearanceP", "SetMaxLength"]
-- ["So12UIAppearanceP", "SetPlaceholder"]
-- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "SetMaxLength"]
+- !private ["So12UIAppearanceP", "SetPlaceholder"]
 - !private ["So12UIAppearanceP", "addSubview"]
 - ["So12UIAppearanceP", "backgroundColor"]
 - ["So12UIAppearanceP", "delegate"]
@@ -864,16 +848,15 @@ depends-member:
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "textAlignment"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_searchBar"]
-- ["So21UIAppearanceContainerP", "Bool"]
 - ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "CustomTextView"]
 - !private ["So21UIAppearanceContainerP", "CustomTxt"]
 - ["So21UIAppearanceContainerP", "KWitheColor"]
 - ["So21UIAppearanceContainerP", "NSRange"]
 - ["So21UIAppearanceContainerP", "RefineSearchBar"]
-- ["So21UIAppearanceContainerP", "SetMaxLength"]
-- ["So21UIAppearanceContainerP", "SetPlaceholder"]
-- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "SetMaxLength"]
+- !private ["So21UIAppearanceContainerP", "SetPlaceholder"]
+- !private ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "UIButton"]
 - ["So21UIAppearanceContainerP", "UITextField"]
 - !private ["So21UIAppearanceContainerP", "UserManager"]
@@ -886,8 +869,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "btnClick"]
 - ["So21UIAppearanceContainerP", "delegate"]
 - ["So21UIAppearanceContainerP", "init"]
-- ["So21UIAppearanceContainerP", "initBarItem"]
-- ["So21UIAppearanceContainerP", "isTap"]
 - !private ["So21UIAppearanceContainerP", "kRandomColor"]
 - ["So21UIAppearanceContainerP", "kScreenWidth"]
 - !private ["So21UIAppearanceContainerP", "limitDelegate"]
@@ -912,20 +893,18 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "tag"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textAlignment"]
-- ["So21UIAppearanceContainerP", "touchesBegan"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewWillAppear"]
 - !private ["So8UIButtonC", "tag"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_searchBar"]
-- ["So18UIContentContainerP", "Bool"]
 - ["So18UIContentContainerP", "CGRect"]
 - !private ["So18UIContentContainerP", "CustomTextView"]
 - !private ["So18UIContentContainerP", "CustomTxt"]
 - ["So18UIContentContainerP", "KWitheColor"]
 - ["So18UIContentContainerP", "NSRange"]
 - ["So18UIContentContainerP", "RefineSearchBar"]
-- ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", "UIButton"]
 - ["So18UIContentContainerP", "UITextField"]
 - !private ["So18UIContentContainerP", "UserManager"]
@@ -935,8 +914,6 @@ depends-member:
 - ["So18UIContentContainerP", "btnC"]
 - ["So18UIContentContainerP", "btnClick"]
 - ["So18UIContentContainerP", "init"]
-- ["So18UIContentContainerP", "initBarItem"]
-- ["So18UIContentContainerP", "isTap"]
 - !private ["So18UIContentContainerP", "kRandomColor"]
 - ["So18UIContentContainerP", "kScreenWidth"]
 - ["So18UIContentContainerP", "limitedTextFieldDidBeginEditing"]
@@ -954,7 +931,6 @@ depends-member:
 - ["So18UIContentContainerP", "searchBarSearchButtonClicked"]
 - ["So18UIContentContainerP", "searchBarTextClear"]
 - ["So18UIContentContainerP", "self"]
-- ["So18UIContentContainerP", "touchesBegan"]
 - !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewWillAppear"]
@@ -986,9 +962,8 @@ depends-member:
 - !private ["So9UIControlC", "tag"]
 - !private ["So9UIControlC", "text"]
 - !private ["So9UIControlC", "textAlignment"]
-- ["So17UICoordinateSpaceP", "SetMaxLength"]
-- ["So17UICoordinateSpaceP", "SetPlaceholder"]
-- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "SetMaxLength"]
+- !private ["So17UICoordinateSpaceP", "SetPlaceholder"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - ["So17UICoordinateSpaceP", "backgroundColor"]
 - ["So17UICoordinateSpaceP", "delegate"]
@@ -1000,9 +975,8 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "tag"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "textAlignment"]
-- ["So13UIDynamicItemP", "SetMaxLength"]
-- ["So13UIDynamicItemP", "SetPlaceholder"]
-- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "SetMaxLength"]
+- !private ["So13UIDynamicItemP", "SetPlaceholder"]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - ["So13UIDynamicItemP", "backgroundColor"]
 - ["So13UIDynamicItemP", "delegate"]
@@ -1015,16 +989,15 @@ depends-member:
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textAlignment"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_searchBar"]
-- ["So18UIFocusEnvironmentP", "Bool"]
 - ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "CustomTextView"]
 - !private ["So18UIFocusEnvironmentP", "CustomTxt"]
 - ["So18UIFocusEnvironmentP", "KWitheColor"]
 - ["So18UIFocusEnvironmentP", "NSRange"]
 - ["So18UIFocusEnvironmentP", "RefineSearchBar"]
-- ["So18UIFocusEnvironmentP", "SetMaxLength"]
-- ["So18UIFocusEnvironmentP", "SetPlaceholder"]
-- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "SetMaxLength"]
+- !private ["So18UIFocusEnvironmentP", "SetPlaceholder"]
+- !private ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "UIButton"]
 - ["So18UIFocusEnvironmentP", "UITextField"]
 - !private ["So18UIFocusEnvironmentP", "UserManager"]
@@ -1037,8 +1010,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "btnClick"]
 - ["So18UIFocusEnvironmentP", "delegate"]
 - ["So18UIFocusEnvironmentP", "init"]
-- ["So18UIFocusEnvironmentP", "initBarItem"]
-- ["So18UIFocusEnvironmentP", "isTap"]
 - !private ["So18UIFocusEnvironmentP", "kRandomColor"]
 - ["So18UIFocusEnvironmentP", "kScreenWidth"]
 - !private ["So18UIFocusEnvironmentP", "limitDelegate"]
@@ -1063,13 +1034,11 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "tag"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "textAlignment"]
-- ["So18UIFocusEnvironmentP", "touchesBegan"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewWillAppear"]
-- ["So11UIFocusItemP", "SetMaxLength"]
-- ["So11UIFocusItemP", "SetPlaceholder"]
-- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "SetMaxLength"]
+- !private ["So11UIFocusItemP", "SetPlaceholder"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - ["So11UIFocusItemP", "backgroundColor"]
 - ["So11UIFocusItemP", "delegate"]
@@ -1081,9 +1050,8 @@ depends-member:
 - !private ["So11UIFocusItemP", "tag"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "textAlignment"]
-- ["So20UIFocusItemContainerP", "SetMaxLength"]
-- ["So20UIFocusItemContainerP", "SetPlaceholder"]
-- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "SetMaxLength"]
+- !private ["So20UIFocusItemContainerP", "SetPlaceholder"]
 - !private ["So20UIFocusItemContainerP", "addSubview"]
 - ["So20UIFocusItemContainerP", "backgroundColor"]
 - ["So20UIFocusItemContainerP", "delegate"]
@@ -1108,8 +1076,6 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "btnC"]
 - ["So27UIGestureRecognizerDelegateP", "btnClick"]
 - ["So27UIGestureRecognizerDelegateP", "init"]
-- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
-- ["So27UIGestureRecognizerDelegateP", "isTap"]
 - !private ["So27UIGestureRecognizerDelegateP", "kRandomColor"]
 - ["So27UIGestureRecognizerDelegateP", "kScreenWidth"]
 - ["So27UIGestureRecognizerDelegateP", "limitedTextFieldDidBeginEditing"]
@@ -1127,7 +1093,6 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "searchBarSearchButtonClicked"]
 - ["So27UIGestureRecognizerDelegateP", "searchBarTextClear"]
 - ["So27UIGestureRecognizerDelegateP", "self"]
-- ["So27UIGestureRecognizerDelegateP", "touchesBegan"]
 - !private ["So27UIGestureRecognizerDelegateP", "view"]
 - ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
 - ["So27UIGestureRecognizerDelegateP", "viewWillAppear"]
@@ -1140,9 +1105,8 @@ depends-member:
 - !private ["So10UIKeyInputP", "placeholder"]
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So10UIKeyInputP", "textAlignment"]
-- ["So24UILargeContentViewerItemP", "SetMaxLength"]
-- ["So24UILargeContentViewerItemP", "SetPlaceholder"]
-- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "SetMaxLength"]
+- !private ["So24UILargeContentViewerItemP", "SetPlaceholder"]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - ["So24UILargeContentViewerItemP", "backgroundColor"]
 - ["So24UILargeContentViewerItemP", "delegate"]
@@ -1155,16 +1119,14 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "text"]
 - !private ["So24UILargeContentViewerItemP", "textAlignment"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_searchBar"]
-- ["So30UIPasteConfigurationSupportingP", "Bool"]
 - ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "CustomTextView"]
 - !private ["So30UIPasteConfigurationSupportingP", "CustomTxt"]
 - ["So30UIPasteConfigurationSupportingP", "KWitheColor"]
-- ["So30UIPasteConfigurationSupportingP", "NSRange"]
 - ["So30UIPasteConfigurationSupportingP", "RefineSearchBar"]
-- ["So30UIPasteConfigurationSupportingP", "SetMaxLength"]
-- ["So30UIPasteConfigurationSupportingP", "SetPlaceholder"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "SetMaxLength"]
+- !private ["So30UIPasteConfigurationSupportingP", "SetPlaceholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - ["So30UIPasteConfigurationSupportingP", "UITextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "UserManager"]
@@ -1177,8 +1139,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "btnClick"]
 - ["So30UIPasteConfigurationSupportingP", "delegate"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
-- ["So30UIPasteConfigurationSupportingP", "isTap"]
 - !private ["So30UIPasteConfigurationSupportingP", "kRandomColor"]
 - ["So30UIPasteConfigurationSupportingP", "kScreenWidth"]
 - !private ["So30UIPasteConfigurationSupportingP", "limitDelegate"]
@@ -1203,7 +1163,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "tag"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "textAlignment"]
-- ["So30UIPasteConfigurationSupportingP", "touchesBegan"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
@@ -1258,16 +1217,14 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewWillAppear"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_searchBar"]
-- ["So30UIResponderStandardEditActionsP", "Bool"]
 - ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "CustomTextView"]
 - !private ["So30UIResponderStandardEditActionsP", "CustomTxt"]
 - ["So30UIResponderStandardEditActionsP", "KWitheColor"]
-- ["So30UIResponderStandardEditActionsP", "NSRange"]
 - ["So30UIResponderStandardEditActionsP", "RefineSearchBar"]
-- ["So30UIResponderStandardEditActionsP", "SetMaxLength"]
-- ["So30UIResponderStandardEditActionsP", "SetPlaceholder"]
-- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "SetMaxLength"]
+- !private ["So30UIResponderStandardEditActionsP", "SetPlaceholder"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "UIButton"]
 - ["So30UIResponderStandardEditActionsP", "UITextField"]
 - !private ["So30UIResponderStandardEditActionsP", "UserManager"]
@@ -1280,8 +1237,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "btnClick"]
 - ["So30UIResponderStandardEditActionsP", "delegate"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- ["So30UIResponderStandardEditActionsP", "initBarItem"]
-- ["So30UIResponderStandardEditActionsP", "isTap"]
 - !private ["So30UIResponderStandardEditActionsP", "kRandomColor"]
 - ["So30UIResponderStandardEditActionsP", "kScreenWidth"]
 - !private ["So30UIResponderStandardEditActionsP", "limitDelegate"]
@@ -1306,24 +1261,22 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "tag"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
-- ["So30UIResponderStandardEditActionsP", "touchesBegan"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
-- ["So20UIScrollViewDelegateP", "SetMaxLength"]
-- ["So20UIScrollViewDelegateP", "SetPlaceholder"]
+- !private ["So20UIScrollViewDelegateP", "SetMaxLength"]
+- !private ["So20UIScrollViewDelegateP", "SetPlaceholder"]
 - !private ["So20UIScrollViewDelegateP", ""]
-- ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "tag"]
 - ["So16UIStateRestoringP", "$__lazy_storage_$_searchBar"]
-- ["So16UIStateRestoringP", "Bool"]
 - ["So16UIStateRestoringP", "CGRect"]
 - !private ["So16UIStateRestoringP", "CustomTextView"]
 - !private ["So16UIStateRestoringP", "CustomTxt"]
 - ["So16UIStateRestoringP", "KWitheColor"]
 - ["So16UIStateRestoringP", "NSRange"]
 - ["So16UIStateRestoringP", "RefineSearchBar"]
-- ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", "UIButton"]
 - ["So16UIStateRestoringP", "UITextField"]
 - !private ["So16UIStateRestoringP", "UserManager"]
@@ -1333,8 +1286,6 @@ depends-member:
 - ["So16UIStateRestoringP", "btnC"]
 - ["So16UIStateRestoringP", "btnClick"]
 - ["So16UIStateRestoringP", "init"]
-- ["So16UIStateRestoringP", "initBarItem"]
-- ["So16UIStateRestoringP", "isTap"]
 - !private ["So16UIStateRestoringP", "kRandomColor"]
 - ["So16UIStateRestoringP", "kScreenWidth"]
 - ["So16UIStateRestoringP", "limitedTextFieldDidBeginEditing"]
@@ -1352,7 +1303,6 @@ depends-member:
 - ["So16UIStateRestoringP", "searchBarSearchButtonClicked"]
 - ["So16UIStateRestoringP", "searchBarTextClear"]
 - ["So16UIStateRestoringP", "self"]
-- ["So16UIStateRestoringP", "touchesBegan"]
 - !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewWillAppear"]
@@ -1417,20 +1367,19 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "placeholder"]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So34UITextPasteConfigurationSupportingP", "textAlignment"]
-- ["So18UITextViewDelegateP", "SetMaxLength"]
-- ["So18UITextViewDelegateP", "SetPlaceholder"]
-- ["So18UITextViewDelegateP", "init"]
+- !private ["So18UITextViewDelegateP", "SetMaxLength"]
+- !private ["So18UITextViewDelegateP", "SetPlaceholder"]
+- !private ["So18UITextViewDelegateP", "init"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_searchBar"]
-- ["So18UITraitEnvironmentP", "Bool"]
 - ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "CustomTextView"]
 - !private ["So18UITraitEnvironmentP", "CustomTxt"]
 - ["So18UITraitEnvironmentP", "KWitheColor"]
 - ["So18UITraitEnvironmentP", "NSRange"]
 - ["So18UITraitEnvironmentP", "RefineSearchBar"]
-- ["So18UITraitEnvironmentP", "SetMaxLength"]
-- ["So18UITraitEnvironmentP", "SetPlaceholder"]
-- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "SetMaxLength"]
+- !private ["So18UITraitEnvironmentP", "SetPlaceholder"]
+- !private ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "UIButton"]
 - ["So18UITraitEnvironmentP", "UITextField"]
 - !private ["So18UITraitEnvironmentP", "UserManager"]
@@ -1443,8 +1392,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "btnClick"]
 - ["So18UITraitEnvironmentP", "delegate"]
 - ["So18UITraitEnvironmentP", "init"]
-- ["So18UITraitEnvironmentP", "initBarItem"]
-- ["So18UITraitEnvironmentP", "isTap"]
 - !private ["So18UITraitEnvironmentP", "kRandomColor"]
 - ["So18UITraitEnvironmentP", "kScreenWidth"]
 - !private ["So18UITraitEnvironmentP", "limitDelegate"]
@@ -1469,21 +1416,18 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "tag"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textAlignment"]
-- ["So18UITraitEnvironmentP", "touchesBegan"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewWillAppear"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_searchBar"]
-- ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "CGRect"]
 - !private ["So23UIUserActivityRestoringP", "CustomTextView"]
 - !private ["So23UIUserActivityRestoringP", "CustomTxt"]
 - ["So23UIUserActivityRestoringP", "KWitheColor"]
-- ["So23UIUserActivityRestoringP", "NSRange"]
 - ["So23UIUserActivityRestoringP", "RefineSearchBar"]
-- ["So23UIUserActivityRestoringP", "SetMaxLength"]
-- ["So23UIUserActivityRestoringP", "SetPlaceholder"]
-- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "SetMaxLength"]
+- !private ["So23UIUserActivityRestoringP", "SetPlaceholder"]
+- !private ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "UIButton"]
 - ["So23UIUserActivityRestoringP", "UITextField"]
 - !private ["So23UIUserActivityRestoringP", "UserManager"]
@@ -1496,8 +1440,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "btnClick"]
 - ["So23UIUserActivityRestoringP", "delegate"]
 - ["So23UIUserActivityRestoringP", "init"]
-- ["So23UIUserActivityRestoringP", "initBarItem"]
-- ["So23UIUserActivityRestoringP", "isTap"]
 - !private ["So23UIUserActivityRestoringP", "kRandomColor"]
 - ["So23UIUserActivityRestoringP", "kScreenWidth"]
 - !private ["So23UIUserActivityRestoringP", "limitDelegate"]
@@ -1522,7 +1464,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "tag"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "textAlignment"]
-- ["So23UIUserActivityRestoringP", "touchesBegan"]
 - !private ["So23UIUserActivityRestoringP", "view"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewWillAppear"]
@@ -1590,11 +1531,11 @@ depends-member:
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "enumerated"]
 - !private ["s19_HasContiguousBytesP", "init"]
@@ -1728,12 +1669,12 @@ depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "Sa"
 - "9SwiftDemo18BaseViewControllerC"
-- "SK"
+- !private "SK"
 - "So15CALayerDelegateP"
 - "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - "7SnapKit25ConstraintRelatableTargetP"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
@@ -1746,12 +1687,12 @@ depends-nominal:
 - "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - "9SwiftDemo14HomeControllerC"
 - "7RxCocoa16KVORepresentableP"
@@ -1759,7 +1700,7 @@ depends-nominal:
 - "7SnapKit20LayoutConstraintItemP"
 - "9SwiftDemo24LimitedTextFieldDelegateP"
 - !private "9SwiftDemo20LimitedTextFieldTypeO"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
@@ -1776,12 +1717,12 @@ depends-nominal:
 - "7RxSwift18ReactiveCompatibleP"
 - "9SwiftDemo15RefineSearchBarC"
 - "9SwiftDemo23RefineSearchBarDelegateP"
-- "ST"
+- !private "ST"
 - !private "Sx"
 - !private "SS"
 - !private "Sy"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -1802,7 +1743,7 @@ depends-nominal:
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
-- "So20UIScrollViewDelegateP"
+- !private "So20UIScrollViewDelegateP"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - "So15UITextDraggableP"
@@ -1812,7 +1753,7 @@ depends-nominal:
 - "So11UITextInputP"
 - "So17UITextInputTraitsP"
 - "So34UITextPasteConfigurationSupportingP"
-- "So18UITextViewDelegateP"
+- !private "So18UITextViewDelegateP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
@@ -1825,10 +1766,10 @@ depends-nominal:
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -1840,7 +1781,7 @@ depends-nominal:
 - !private "9SwiftDemo7payViewC"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1848,29 +1789,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

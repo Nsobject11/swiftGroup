@@ -58,6 +58,7 @@ depends-member:
 - !private ["9SwiftDemo11AppDelegateC", "print"]
 - ["9SwiftDemo11AppDelegateC", "receiveNotice"]
 - ["9SwiftDemo11AppDelegateC", "registerJPushWith"]
+- ["SK", ""]
 - !private ["Sz", ""]
 - !private ["Sz", "init"]
 - !private ["s7CVarArgP", "Int"]
@@ -78,8 +79,9 @@ depends-member:
 - !private ["s7CVarArgP", "request"]
 - !private ["s7CVarArgP", "trigger"]
 - !private ["s7CVarArgP", "userInfo"]
+- ["Sl", ""]
 - !private ["Sl", "description"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "init"]
 - !private ["7SnapKit24ConstraintConstantTargetP", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", "init"]
@@ -116,7 +118,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "UIBackgroundFetchResult"]
 - !private ["s23CustomStringConvertibleP", "UNNotificationPresentationOptions"]
-- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "content"]
 - !private ["s23CustomStringConvertibleP", "description"]
 - !private ["s23CustomStringConvertibleP", "deviceToken"]
@@ -170,11 +172,15 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "alert"]
 - !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
 - !private ["s23ExpressibleByNilLiteralP", "notification"]
 - !private ["s23ExpressibleByNilLiteralP", "request"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s17FixedWidthIntegerP", ""]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["SH", "Int"]
@@ -182,7 +188,7 @@ depends-member:
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "UIBackgroundFetchResult"]
 - !private ["SH", "UNNotificationPresentationOptions"]
-- !private ["SH", ""]
+- ["SH", ""]
 - !private ["SH", "callAsFunction"]
 - !private ["SH", "content"]
 - !private ["SH", "description"]
@@ -215,7 +221,7 @@ depends-member:
 - !private ["So12JPUSHServiceC", "registerDeviceToken"]
 - !private ["7RxCocoa16KVORepresentableP", "init"]
 - ["10Kingfisher0A10CompatibleP", "LaunchOptionsKey"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", ""]
@@ -259,17 +265,21 @@ depends-member:
 - !private ["So8NSObjectC", "request"]
 - !private ["So8NSObjectC", "trigger"]
 - !private ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectP", "AnyHashable"]
+- ["So8NSObjectP", "Bool"]
 - ["So8NSObjectP", "Data"]
 - ["So8NSObjectP", "Error"]
-- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "Int"]
 - !private ["So8NSObjectP", "JPUSHService"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
+- ["So8NSObjectP", "UIApplication"]
 - ["So8NSObjectP", "UIBackgroundFetchResult"]
 - ["So8NSObjectP", "UNNotification"]
 - !private ["So8NSObjectP", "UNNotificationPresentationOptions"]
 - ["So8NSObjectP", "UNNotificationResponse"]
 - !private ["So8NSObjectP", "UNPushNotificationTrigger"]
 - ["So8NSObjectP", "UNUserNotificationCenter"]
+- ["So8NSObjectP", "Void"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
 - !private ["So8NSObjectP", "content"]
@@ -319,7 +329,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "trigger"]
 - !private ["7RxSwift18ReactiveCompatibleP", "userInfo"]
 - !private ["s10SIMDScalarP", "init"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "description"]
 - !private ["s10SetAlgebraP", "RawValue"]
 - !private ["s10SetAlgebraP", ""]
@@ -330,6 +340,8 @@ depends-member:
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", ""]
 - !private ["Sx", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - !private ["So21UIApplicationDelegateP", "Int"]
 - !private ["So21UIApplicationDelegateP", "JPUSHService"]
@@ -342,17 +354,21 @@ depends-member:
 - ["So21UIApplicationDelegateP", "receiveNotice"]
 - ["So21UIApplicationDelegateP", "registerJPushWith"]
 - !private ["So23UIBackgroundFetchResultV", "newData"]
+- ["So30UIPasteConfigurationSupportingP", "AnyHashable"]
+- ["So30UIPasteConfigurationSupportingP", "Bool"]
 - ["So30UIPasteConfigurationSupportingP", "Data"]
 - ["So30UIPasteConfigurationSupportingP", "Error"]
-- !private ["So30UIPasteConfigurationSupportingP", "Int"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
 - !private ["So30UIPasteConfigurationSupportingP", "JPUSHService"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - ["So30UIPasteConfigurationSupportingP", "UIBackgroundFetchResult"]
 - ["So30UIPasteConfigurationSupportingP", "UNNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "UNNotificationPresentationOptions"]
 - ["So30UIPasteConfigurationSupportingP", "UNNotificationResponse"]
 - !private ["So30UIPasteConfigurationSupportingP", "UNPushNotificationTrigger"]
 - ["So30UIPasteConfigurationSupportingP", "UNUserNotificationCenter"]
+- ["So30UIPasteConfigurationSupportingP", "Void"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - !private ["So30UIPasteConfigurationSupportingP", "deviceToken"]
 - ["So30UIPasteConfigurationSupportingP", "jpushNotificationCenter"]
@@ -381,34 +397,42 @@ depends-member:
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "receiveNotice"]
 - ["So11UIResponderC", "registerJPushWith"]
+- ["So30UIResponderStandardEditActionsP", "AnyHashable"]
+- ["So30UIResponderStandardEditActionsP", "Bool"]
 - ["So30UIResponderStandardEditActionsP", "Data"]
 - ["So30UIResponderStandardEditActionsP", "Error"]
-- !private ["So30UIResponderStandardEditActionsP", "Int"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
 - !private ["So30UIResponderStandardEditActionsP", "JPUSHService"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - ["So30UIResponderStandardEditActionsP", "UIBackgroundFetchResult"]
 - ["So30UIResponderStandardEditActionsP", "UNNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "UNNotificationPresentationOptions"]
 - ["So30UIResponderStandardEditActionsP", "UNNotificationResponse"]
 - !private ["So30UIResponderStandardEditActionsP", "UNPushNotificationTrigger"]
 - ["So30UIResponderStandardEditActionsP", "UNUserNotificationCenter"]
+- ["So30UIResponderStandardEditActionsP", "Void"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - !private ["So30UIResponderStandardEditActionsP", "deviceToken"]
 - ["So30UIResponderStandardEditActionsP", "jpushNotificationCenter"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "receiveNotice"]
 - ["So30UIResponderStandardEditActionsP", "registerJPushWith"]
+- ["So23UIUserActivityRestoringP", "AnyHashable"]
+- ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "Data"]
 - ["So23UIUserActivityRestoringP", "Error"]
-- !private ["So23UIUserActivityRestoringP", "Int"]
+- ["So23UIUserActivityRestoringP", "Int"]
 - !private ["So23UIUserActivityRestoringP", "JPUSHService"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- ["So23UIUserActivityRestoringP", "UIApplication"]
 - ["So23UIUserActivityRestoringP", "UIBackgroundFetchResult"]
 - ["So23UIUserActivityRestoringP", "UNNotification"]
 - !private ["So23UIUserActivityRestoringP", "UNNotificationPresentationOptions"]
 - ["So23UIUserActivityRestoringP", "UNNotificationResponse"]
 - !private ["So23UIUserActivityRestoringP", "UNPushNotificationTrigger"]
 - ["So23UIUserActivityRestoringP", "UNUserNotificationCenter"]
+- ["So23UIUserActivityRestoringP", "Void"]
 - ["So23UIUserActivityRestoringP", "application"]
 - !private ["So23UIUserActivityRestoringP", "deviceToken"]
 - ["So23UIUserActivityRestoringP", "jpushNotificationCenter"]
@@ -442,8 +466,10 @@ depends-member:
 - !private ["9HandyJSON17_BuiltInBasicTypeP", "request"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
@@ -498,10 +524,11 @@ depends-member:
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - "9SwiftDemo11AppDelegateC"
+- "SK"
 - !private "Sz"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
+- "Sl"
+- "SL"
 - !private "7SnapKit24ConstraintConstantTargetP"
 - !private "7SnapKit21ConstraintInsetTargetP"
 - !private "7SnapKit26ConstraintMultiplierTargetP"
@@ -517,8 +544,12 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - "SH"
 - !private "Si"
@@ -527,7 +558,7 @@ depends-nominal:
 - !private "So12JPUSHServiceC"
 - !private "7RxCocoa16KVORepresentableP"
 - "10Kingfisher0A10CompatibleP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -541,11 +572,13 @@ depends-nominal:
 - !private "SY"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "s10SIMDScalarP"
-- !private "ST"
+- "ST"
 - !private "s10SetAlgebraP"
 - !private "SZ"
 - !private "s13SignedNumericP"
 - !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - !private "So23UIBackgroundFetchResultV"
@@ -563,8 +596,10 @@ depends-nominal:
 - !private "9HandyJSON17_BuiltInBasicTypeP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -573,7 +608,7 @@ depends-nominal:
 - !private "9HandyJSON14_TransformableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -581,29 +616,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

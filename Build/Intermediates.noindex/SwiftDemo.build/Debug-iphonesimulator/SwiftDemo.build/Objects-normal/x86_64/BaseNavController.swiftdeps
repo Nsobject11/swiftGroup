@@ -59,9 +59,8 @@ depends-member:
 - ["9SwiftDemo17BaseNavControllerC", "pushViewController"]
 - ["9SwiftDemo17BaseNavControllerC", "viewDidLoad"]
 - !private ["9SwiftDemo18BaseViewControllerC", "initBarItem"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "count"]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "appearance"]
 - !private ["So15CALayerDelegateP", "isTranslucent"]
 - ["So15CALayerDelegateP", "kCreatBtn"]
@@ -92,9 +91,9 @@ depends-member:
 - !private ["s7CVarArgP", "shadowImage"]
 - !private ["s7CVarArgP", "tintColor"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "count"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "appearance"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "isTranslucent"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "kCreatBtn"]
@@ -183,10 +182,10 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7RxCocoa11HasDelegateP", "BaseNavController"]
 - !private ["7RxCocoa11HasDelegateP", "CGRect"]
 - !private ["7RxCocoa11HasDelegateP", "KHexColor"]
@@ -236,13 +235,12 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "kCreatBtn"]
 - !private ["7SnapKit20LayoutConstraintItemP", "shadowImage"]
 - !private ["7SnapKit20LayoutConstraintItemP", "tintColor"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["So8NSCodingP", "BaseNavController"]
 - !private ["So8NSCodingP", "BaseViewController"]
-- ["So8NSCodingP", "Bool"]
 - !private ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "KHexColor"]
 - !private ["So8NSCodingP", "UIButton"]
@@ -258,7 +256,7 @@ depends-member:
 - ["So8NSCodingP", "gestureRecognizerShouldBegin"]
 - !private ["So8NSCodingP", "hidesBottomBarWhenPushed"]
 - ["So8NSCodingP", "init"]
-- ["So8NSCodingP", "initBarItem"]
+- !private ["So8NSCodingP", "initBarItem"]
 - !private ["So8NSCodingP", "isTranslucent"]
 - ["So8NSCodingP", "kCreatBtn"]
 - !private ["So8NSCodingP", "navigationBar"]
@@ -270,7 +268,6 @@ depends-member:
 - ["So8NSCodingP", "viewDidLoad"]
 - !private ["So26NSExtensionRequestHandlingP", "BaseNavController"]
 - !private ["So26NSExtensionRequestHandlingP", "BaseViewController"]
-- ["So26NSExtensionRequestHandlingP", "Bool"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
 - !private ["So26NSExtensionRequestHandlingP", "KHexColor"]
 - !private ["So26NSExtensionRequestHandlingP", "UIButton"]
@@ -285,7 +282,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "gestureRecognizerShouldBegin"]
 - !private ["So26NSExtensionRequestHandlingP", "hidesBottomBarWhenPushed"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- ["So26NSExtensionRequestHandlingP", "initBarItem"]
+- !private ["So26NSExtensionRequestHandlingP", "initBarItem"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
 - !private ["So26NSExtensionRequestHandlingP", "popViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "popViewControllerAnimated"]
@@ -310,28 +307,19 @@ depends-member:
 - ["So8NSObjectC", "gestureRecognizer"]
 - ["So8NSObjectC", "gestureRecognizerShouldBegin"]
 - !private ["So8NSObjectC", "hidesBottomBarWhenPushed"]
-- !private ["So8NSObjectC", "imageNamed"]
-- !private ["So8NSObjectC", "imageWithCGImage"]
-- !private ["So8NSObjectC", "imageWithCIImage"]
-- !private ["So8NSObjectC", "imageWithContentsOfFile"]
-- !private ["So8NSObjectC", "imageWithData"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "initBarItem"]
 - !private ["So8NSObjectC", "isTranslucent"]
-- !private ["So8NSObjectC", "jpegData"]
 - !private ["So8NSObjectC", "kCreatBtn"]
 - !private ["So8NSObjectC", "navigationBar"]
-- !private ["So8NSObjectC", "pngData"]
 - !private ["So8NSObjectC", "popViewController"]
 - !private ["So8NSObjectC", "popViewControllerAnimated"]
 - ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "shadowImage"]
-- !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "tintColor"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectP", "BaseNavController"]
 - !private ["So8NSObjectP", "BaseViewController"]
-- ["So8NSObjectP", "Bool"]
 - !private ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "KHexColor"]
 - !private ["So8NSObjectP", "UIButton"]
@@ -346,23 +334,15 @@ depends-member:
 - ["So8NSObjectP", "gestureRecognizer"]
 - ["So8NSObjectP", "gestureRecognizerShouldBegin"]
 - !private ["So8NSObjectP", "hidesBottomBarWhenPushed"]
-- !private ["So8NSObjectP", "imageNamed"]
-- !private ["So8NSObjectP", "imageWithCGImage"]
-- !private ["So8NSObjectP", "imageWithCIImage"]
-- !private ["So8NSObjectP", "imageWithContentsOfFile"]
-- !private ["So8NSObjectP", "imageWithData"]
 - ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "initBarItem"]
+- !private ["So8NSObjectP", "initBarItem"]
 - !private ["So8NSObjectP", "isTranslucent"]
-- !private ["So8NSObjectP", "jpegData"]
 - ["So8NSObjectP", "kCreatBtn"]
 - !private ["So8NSObjectP", "navigationBar"]
-- !private ["So8NSObjectP", "pngData"]
 - !private ["So8NSObjectP", "popViewController"]
 - !private ["So8NSObjectP", "popViewControllerAnimated"]
 - ["So8NSObjectP", "pushViewController"]
 - !private ["So8NSObjectP", "shadowImage"]
-- !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "tintColor"]
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "init"]
@@ -394,19 +374,17 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "shadowImage"]
 - !private ["7RxSwift18ReactiveCompatibleP", "tintColor"]
 - !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "count"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "kCreatBtn"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "appearance"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "isTranslucent"]
 - ["So29UIAccessibilityIdentificationP", "kCreatBtn"]
 - !private ["So29UIAccessibilityIdentificationP", "shadowImage"]
 - !private ["So29UIAccessibilityIdentificationP", "tintColor"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "appearance"]
 - !private ["So12UIAppearanceP", "isTranslucent"]
 - ["So12UIAppearanceP", "kCreatBtn"]
@@ -414,7 +392,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "tintColor"]
 - !private ["So21UIAppearanceContainerP", "BaseNavController"]
 - !private ["So21UIAppearanceContainerP", "BaseViewController"]
-- ["So21UIAppearanceContainerP", "Bool"]
 - !private ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "KHexColor"]
 - !private ["So21UIAppearanceContainerP", "UIButton"]
@@ -430,7 +407,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "gestureRecognizerShouldBegin"]
 - !private ["So21UIAppearanceContainerP", "hidesBottomBarWhenPushed"]
 - ["So21UIAppearanceContainerP", "init"]
-- ["So21UIAppearanceContainerP", "initBarItem"]
+- !private ["So21UIAppearanceContainerP", "initBarItem"]
 - !private ["So21UIAppearanceContainerP", "isTranslucent"]
 - ["So21UIAppearanceContainerP", "kCreatBtn"]
 - !private ["So21UIAppearanceContainerP", "navigationBar"]
@@ -445,7 +422,6 @@ depends-member:
 - !private ["So8UIButtonC", "kCreatBtn"]
 - !private ["So18UIContentContainerP", "BaseNavController"]
 - !private ["So18UIContentContainerP", "BaseViewController"]
-- ["So18UIContentContainerP", "Bool"]
 - !private ["So18UIContentContainerP", "CGRect"]
 - !private ["So18UIContentContainerP", "KHexColor"]
 - !private ["So18UIContentContainerP", "UIButton"]
@@ -460,7 +436,7 @@ depends-member:
 - ["So18UIContentContainerP", "gestureRecognizerShouldBegin"]
 - !private ["So18UIContentContainerP", "hidesBottomBarWhenPushed"]
 - ["So18UIContentContainerP", "init"]
-- ["So18UIContentContainerP", "initBarItem"]
+- !private ["So18UIContentContainerP", "initBarItem"]
 - !private ["So18UIContentContainerP", "navigationBar"]
 - !private ["So18UIContentContainerP", "popViewController"]
 - !private ["So18UIContentContainerP", "popViewControllerAnimated"]
@@ -469,13 +445,11 @@ depends-member:
 - ["So32UIContextMenuInteractionDelegateP", "kCreatBtn"]
 - ["So9UIControlC", ""]
 - !private ["So9UIControlC", "kCreatBtn"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "appearance"]
 - !private ["So17UICoordinateSpaceP", "isTranslucent"]
 - ["So17UICoordinateSpaceP", "kCreatBtn"]
 - !private ["So17UICoordinateSpaceP", "shadowImage"]
 - !private ["So17UICoordinateSpaceP", "tintColor"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "appearance"]
 - !private ["So13UIDynamicItemP", "isTranslucent"]
 - ["So13UIDynamicItemP", "kCreatBtn"]
@@ -483,7 +457,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "tintColor"]
 - !private ["So18UIFocusEnvironmentP", "BaseNavController"]
 - !private ["So18UIFocusEnvironmentP", "BaseViewController"]
-- ["So18UIFocusEnvironmentP", "Bool"]
 - !private ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "KHexColor"]
 - !private ["So18UIFocusEnvironmentP", "UIButton"]
@@ -499,7 +472,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "gestureRecognizerShouldBegin"]
 - !private ["So18UIFocusEnvironmentP", "hidesBottomBarWhenPushed"]
 - ["So18UIFocusEnvironmentP", "init"]
-- ["So18UIFocusEnvironmentP", "initBarItem"]
+- !private ["So18UIFocusEnvironmentP", "initBarItem"]
 - !private ["So18UIFocusEnvironmentP", "isTranslucent"]
 - ["So18UIFocusEnvironmentP", "kCreatBtn"]
 - !private ["So18UIFocusEnvironmentP", "navigationBar"]
@@ -509,13 +482,11 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "shadowImage"]
 - !private ["So18UIFocusEnvironmentP", "tintColor"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "appearance"]
 - !private ["So11UIFocusItemP", "isTranslucent"]
 - ["So11UIFocusItemP", "kCreatBtn"]
 - !private ["So11UIFocusItemP", "shadowImage"]
 - !private ["So11UIFocusItemP", "tintColor"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "appearance"]
 - !private ["So20UIFocusItemContainerP", "isTranslucent"]
 - ["So20UIFocusItemContainerP", "kCreatBtn"]
@@ -533,14 +504,13 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizer"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizerShouldBegin"]
 - ["So27UIGestureRecognizerDelegateP", "init"]
-- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
+- !private ["So27UIGestureRecognizerDelegateP", "initBarItem"]
 - !private ["So27UIGestureRecognizerDelegateP", "navigationBar"]
 - !private ["So27UIGestureRecognizerDelegateP", "popViewController"]
 - ["So27UIGestureRecognizerDelegateP", "pushViewController"]
 - ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
 - !private ["So7UIImageC", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "appearance"]
 - !private ["So24UILargeContentViewerItemP", "isTranslucent"]
 - ["So24UILargeContentViewerItemP", "kCreatBtn"]
@@ -570,7 +540,6 @@ depends-member:
 - ["So22UINavigationControllerC", "viewDidLoad"]
 - !private ["So30UIPasteConfigurationSupportingP", "BaseNavController"]
 - !private ["So30UIPasteConfigurationSupportingP", "BaseViewController"]
-- ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "KHexColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
@@ -586,7 +555,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "gestureRecognizerShouldBegin"]
 - !private ["So30UIPasteConfigurationSupportingP", "hidesBottomBarWhenPushed"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "initBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "isTranslucent"]
 - ["So30UIPasteConfigurationSupportingP", "kCreatBtn"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
@@ -626,7 +595,6 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "BaseNavController"]
 - !private ["So30UIResponderStandardEditActionsP", "BaseViewController"]
-- ["So30UIResponderStandardEditActionsP", "Bool"]
 - !private ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "KHexColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIButton"]
@@ -642,7 +610,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "gestureRecognizerShouldBegin"]
 - !private ["So30UIResponderStandardEditActionsP", "hidesBottomBarWhenPushed"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- ["So30UIResponderStandardEditActionsP", "initBarItem"]
+- !private ["So30UIResponderStandardEditActionsP", "initBarItem"]
 - !private ["So30UIResponderStandardEditActionsP", "isTranslucent"]
 - ["So30UIResponderStandardEditActionsP", "kCreatBtn"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
@@ -657,7 +625,6 @@ depends-member:
 - ["So35UISpringLoadedInteractionSupportingP", "kCreatBtn"]
 - !private ["So16UIStateRestoringP", "BaseNavController"]
 - !private ["So16UIStateRestoringP", "BaseViewController"]
-- ["So16UIStateRestoringP", "Bool"]
 - !private ["So16UIStateRestoringP", "CGRect"]
 - !private ["So16UIStateRestoringP", "KHexColor"]
 - !private ["So16UIStateRestoringP", "UIButton"]
@@ -672,7 +639,7 @@ depends-member:
 - ["So16UIStateRestoringP", "gestureRecognizerShouldBegin"]
 - !private ["So16UIStateRestoringP", "hidesBottomBarWhenPushed"]
 - ["So16UIStateRestoringP", "init"]
-- ["So16UIStateRestoringP", "initBarItem"]
+- !private ["So16UIStateRestoringP", "initBarItem"]
 - !private ["So16UIStateRestoringP", "navigationBar"]
 - !private ["So16UIStateRestoringP", "popViewController"]
 - !private ["So16UIStateRestoringP", "popViewControllerAnimated"]
@@ -682,7 +649,6 @@ depends-member:
 - !private ["So8UITabBarC", "isTranslucent"]
 - !private ["So18UITraitEnvironmentP", "BaseNavController"]
 - !private ["So18UITraitEnvironmentP", "BaseViewController"]
-- ["So18UITraitEnvironmentP", "Bool"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "KHexColor"]
 - !private ["So18UITraitEnvironmentP", "UIButton"]
@@ -698,7 +664,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "gestureRecognizerShouldBegin"]
 - !private ["So18UITraitEnvironmentP", "hidesBottomBarWhenPushed"]
 - ["So18UITraitEnvironmentP", "init"]
-- ["So18UITraitEnvironmentP", "initBarItem"]
+- !private ["So18UITraitEnvironmentP", "initBarItem"]
 - !private ["So18UITraitEnvironmentP", "isTranslucent"]
 - ["So18UITraitEnvironmentP", "kCreatBtn"]
 - !private ["So18UITraitEnvironmentP", "navigationBar"]
@@ -710,7 +676,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "BaseNavController"]
 - !private ["So23UIUserActivityRestoringP", "BaseViewController"]
-- ["So23UIUserActivityRestoringP", "Bool"]
 - !private ["So23UIUserActivityRestoringP", "CGRect"]
 - !private ["So23UIUserActivityRestoringP", "KHexColor"]
 - !private ["So23UIUserActivityRestoringP", "UIButton"]
@@ -726,7 +691,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "gestureRecognizerShouldBegin"]
 - !private ["So23UIUserActivityRestoringP", "hidesBottomBarWhenPushed"]
 - ["So23UIUserActivityRestoringP", "init"]
-- ["So23UIUserActivityRestoringP", "initBarItem"]
+- !private ["So23UIUserActivityRestoringP", "initBarItem"]
 - !private ["So23UIUserActivityRestoringP", "isTranslucent"]
 - ["So23UIUserActivityRestoringP", "kCreatBtn"]
 - !private ["So23UIUserActivityRestoringP", "navigationBar"]
@@ -770,10 +735,10 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
@@ -840,12 +805,12 @@ depends-nominal:
 - !private "Sa"
 - "9SwiftDemo17BaseNavControllerC"
 - !private "9SwiftDemo18BaseViewControllerC"
-- "SK"
+- !private "SK"
 - "So15CALayerDelegateP"
 - !private "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "7SnapKit25ConstraintRelatableTargetP"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
@@ -856,16 +821,16 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "7RxCocoa11HasDelegateP"
 - "SH"
 - !private "7RxCocoa16KVORepresentableP"
 - !private "10Kingfisher0A10CompatibleP"
 - !private "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
@@ -879,9 +844,9 @@ depends-nominal:
 - !private "Sk"
 - !private "Sm"
 - "7RxSwift18ReactiveCompatibleP"
-- "ST"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "ST"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -917,10 +882,10 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -932,7 +897,7 @@ depends-nominal:
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -940,29 +905,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

@@ -134,7 +134,7 @@ depends-member:
 - ["9SwiftDemo21BannerViewControlTypeO", "hashValue"]
 - ["9SwiftDemo21BannerViewControlTypeO", "init"]
 - ["9SwiftDemo21BannerViewControlTypeO", "rawValue"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "count"]
 - !private ["SK", "init"]
 - !private ["SK", "subscript"]
@@ -144,14 +144,12 @@ depends-member:
 - ["So15CALayerDelegateP", "$__lazy_storage_$_pageControl"]
 - ["So15CALayerDelegateP", "Array"]
 - ["So15CALayerDelegateP", "BannerViewControlType"]
-- ["So15CALayerDelegateP", "CGRect"]
 - ["So15CALayerDelegateP", "FSPageControl"]
 - ["So15CALayerDelegateP", "FSPagerView"]
 - ["So15CALayerDelegateP", "FSPagerViewCell"]
 - ["So15CALayerDelegateP", "Int"]
 - ["So15CALayerDelegateP", "KRGB"]
-- ["So15CALayerDelegateP", "NSCoder"]
-- ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "String"]
 - ["So15CALayerDelegateP", "UIColor"]
 - ["So15CALayerDelegateP", "UILabel"]
 - !private ["So15CALayerDelegateP", "URL"]
@@ -274,11 +272,11 @@ depends-member:
 - ["s7CVarArgP", "text"]
 - ["s7CVarArgP", "textColor"]
 - ["s7CVarArgP", "white"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "count"]
 - !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
@@ -594,7 +592,7 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", "normal"]
 - ["s25ExpressibleByArrayLiteralP", "selected"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
@@ -603,11 +601,11 @@ depends-member:
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s23ExpressibleByNilLiteralP", "gray"]
 - ["s23ExpressibleByNilLiteralP", "white"]
-- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["11FSPagerView13FSPageControlC", "contentHorizontalAlignment"]
 - !private ["11FSPagerView13FSPageControlC", "currentPage"]
@@ -849,7 +847,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "snp_right"]
 - ["7SnapKit20LayoutConstraintItemP", "text"]
 - ["7SnapKit20LayoutConstraintItemP", "textColor"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["SM", ""]
@@ -863,14 +861,12 @@ depends-member:
 - ["So8NSCodingP", "$__lazy_storage_$_pageControl"]
 - ["So8NSCodingP", "Array"]
 - ["So8NSCodingP", "BannerViewControlType"]
-- ["So8NSCodingP", "CGRect"]
 - ["So8NSCodingP", "FSPageControl"]
 - ["So8NSCodingP", "FSPagerView"]
 - ["So8NSCodingP", "FSPagerViewCell"]
 - ["So8NSCodingP", "Int"]
 - ["So8NSCodingP", "KRGB"]
-- ["So8NSCodingP", "NSCoder"]
-- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "UIColor"]
 - ["So8NSCodingP", "UILabel"]
 - !private ["So8NSCodingP", "URL"]
@@ -1022,14 +1018,12 @@ depends-member:
 - ["So8NSObjectP", "$__lazy_storage_$_pageControl"]
 - ["So8NSObjectP", "Array"]
 - ["So8NSObjectP", "BannerViewControlType"]
-- ["So8NSObjectP", "CGRect"]
 - ["So8NSObjectP", "FSPageControl"]
 - ["So8NSObjectP", "FSPagerView"]
 - ["So8NSObjectP", "FSPagerViewCell"]
 - ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "KRGB"]
-- ["So8NSObjectP", "NSCoder"]
-- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "UIColor"]
 - ["So8NSObjectP", "UILabel"]
 - !private ["So8NSObjectP", "URL"]
@@ -1186,7 +1180,7 @@ depends-member:
 - ["7RxSwift18ReactiveCompatibleP", "white"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Kingfisher8ResourceP", "init"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "count"]
 - !private ["ST", "init"]
 - !private ["ST", "subscript"]
@@ -1198,9 +1192,9 @@ depends-member:
 - !private ["Sx", ""]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
-- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "init"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "clipsToBounds"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
@@ -1211,14 +1205,12 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_pageControl"]
 - ["So29UIAccessibilityIdentificationP", "Array"]
 - ["So29UIAccessibilityIdentificationP", "BannerViewControlType"]
-- ["So29UIAccessibilityIdentificationP", "CGRect"]
 - ["So29UIAccessibilityIdentificationP", "FSPageControl"]
 - ["So29UIAccessibilityIdentificationP", "FSPagerView"]
 - ["So29UIAccessibilityIdentificationP", "FSPagerViewCell"]
 - ["So29UIAccessibilityIdentificationP", "Int"]
 - ["So29UIAccessibilityIdentificationP", "KRGB"]
-- ["So29UIAccessibilityIdentificationP", "NSCoder"]
-- ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
 - ["So29UIAccessibilityIdentificationP", "UIColor"]
 - ["So29UIAccessibilityIdentificationP", "UILabel"]
 - !private ["So29UIAccessibilityIdentificationP", "URL"]
@@ -1283,14 +1275,12 @@ depends-member:
 - ["So12UIAppearanceP", "$__lazy_storage_$_pageControl"]
 - ["So12UIAppearanceP", "Array"]
 - ["So12UIAppearanceP", "BannerViewControlType"]
-- ["So12UIAppearanceP", "CGRect"]
 - ["So12UIAppearanceP", "FSPageControl"]
 - ["So12UIAppearanceP", "FSPagerView"]
 - ["So12UIAppearanceP", "FSPagerViewCell"]
 - ["So12UIAppearanceP", "Int"]
 - ["So12UIAppearanceP", "KRGB"]
-- ["So12UIAppearanceP", "NSCoder"]
-- ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "String"]
 - ["So12UIAppearanceP", "UIColor"]
 - ["So12UIAppearanceP", "UILabel"]
 - !private ["So12UIAppearanceP", "URL"]
@@ -1355,14 +1345,12 @@ depends-member:
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_pageControl"]
 - ["So21UIAppearanceContainerP", "Array"]
 - ["So21UIAppearanceContainerP", "BannerViewControlType"]
-- ["So21UIAppearanceContainerP", "CGRect"]
 - ["So21UIAppearanceContainerP", "FSPageControl"]
 - ["So21UIAppearanceContainerP", "FSPagerView"]
 - ["So21UIAppearanceContainerP", "FSPagerViewCell"]
 - ["So21UIAppearanceContainerP", "Int"]
 - ["So21UIAppearanceContainerP", "KRGB"]
-- ["So21UIAppearanceContainerP", "NSCoder"]
-- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "UIColor"]
 - ["So21UIAppearanceContainerP", "UILabel"]
 - !private ["So21UIAppearanceContainerP", "URL"]
@@ -1421,7 +1409,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "snp_right"]
 - ["So21UIAppearanceContainerP", "text"]
 - ["So21UIAppearanceContainerP", "textColor"]
-- ["So24UICollectionReusableViewC", ""]
 - !private ["So24UICollectionReusableViewC", "imageView"]
 - ["So20UICollectionViewCellC", ""]
 - !private ["So20UICollectionViewCellC", "imageView"]
@@ -1484,14 +1471,12 @@ depends-member:
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_pageControl"]
 - ["So17UICoordinateSpaceP", "Array"]
 - ["So17UICoordinateSpaceP", "BannerViewControlType"]
-- ["So17UICoordinateSpaceP", "CGRect"]
 - ["So17UICoordinateSpaceP", "FSPageControl"]
 - ["So17UICoordinateSpaceP", "FSPagerView"]
 - ["So17UICoordinateSpaceP", "FSPagerViewCell"]
 - ["So17UICoordinateSpaceP", "Int"]
 - ["So17UICoordinateSpaceP", "KRGB"]
-- ["So17UICoordinateSpaceP", "NSCoder"]
-- ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "String"]
 - ["So17UICoordinateSpaceP", "UIColor"]
 - ["So17UICoordinateSpaceP", "UILabel"]
 - !private ["So17UICoordinateSpaceP", "URL"]
@@ -1556,14 +1541,12 @@ depends-member:
 - ["So13UIDynamicItemP", "$__lazy_storage_$_pageControl"]
 - ["So13UIDynamicItemP", "Array"]
 - ["So13UIDynamicItemP", "BannerViewControlType"]
-- ["So13UIDynamicItemP", "CGRect"]
 - ["So13UIDynamicItemP", "FSPageControl"]
 - ["So13UIDynamicItemP", "FSPagerView"]
 - ["So13UIDynamicItemP", "FSPagerViewCell"]
 - ["So13UIDynamicItemP", "Int"]
 - ["So13UIDynamicItemP", "KRGB"]
-- ["So13UIDynamicItemP", "NSCoder"]
-- ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "String"]
 - ["So13UIDynamicItemP", "UIColor"]
 - ["So13UIDynamicItemP", "UILabel"]
 - !private ["So13UIDynamicItemP", "URL"]
@@ -1628,14 +1611,12 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_pageControl"]
 - ["So18UIFocusEnvironmentP", "Array"]
 - ["So18UIFocusEnvironmentP", "BannerViewControlType"]
-- ["So18UIFocusEnvironmentP", "CGRect"]
 - ["So18UIFocusEnvironmentP", "FSPageControl"]
 - ["So18UIFocusEnvironmentP", "FSPagerView"]
 - ["So18UIFocusEnvironmentP", "FSPagerViewCell"]
 - ["So18UIFocusEnvironmentP", "Int"]
 - ["So18UIFocusEnvironmentP", "KRGB"]
-- ["So18UIFocusEnvironmentP", "NSCoder"]
-- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "UIColor"]
 - ["So18UIFocusEnvironmentP", "UILabel"]
 - !private ["So18UIFocusEnvironmentP", "URL"]
@@ -1700,14 +1681,12 @@ depends-member:
 - ["So11UIFocusItemP", "$__lazy_storage_$_pageControl"]
 - ["So11UIFocusItemP", "Array"]
 - ["So11UIFocusItemP", "BannerViewControlType"]
-- ["So11UIFocusItemP", "CGRect"]
 - ["So11UIFocusItemP", "FSPageControl"]
 - ["So11UIFocusItemP", "FSPagerView"]
 - ["So11UIFocusItemP", "FSPagerViewCell"]
 - ["So11UIFocusItemP", "Int"]
 - ["So11UIFocusItemP", "KRGB"]
-- ["So11UIFocusItemP", "NSCoder"]
-- ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "String"]
 - ["So11UIFocusItemP", "UIColor"]
 - ["So11UIFocusItemP", "UILabel"]
 - !private ["So11UIFocusItemP", "URL"]
@@ -1772,14 +1751,12 @@ depends-member:
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_pageControl"]
 - ["So20UIFocusItemContainerP", "Array"]
 - ["So20UIFocusItemContainerP", "BannerViewControlType"]
-- ["So20UIFocusItemContainerP", "CGRect"]
 - ["So20UIFocusItemContainerP", "FSPageControl"]
 - ["So20UIFocusItemContainerP", "FSPagerView"]
 - ["So20UIFocusItemContainerP", "FSPagerViewCell"]
 - ["So20UIFocusItemContainerP", "Int"]
 - ["So20UIFocusItemContainerP", "KRGB"]
-- ["So20UIFocusItemContainerP", "NSCoder"]
-- ["So20UIFocusItemContainerP", "String"]
+- !private ["So20UIFocusItemContainerP", "String"]
 - ["So20UIFocusItemContainerP", "UIColor"]
 - ["So20UIFocusItemContainerP", "UILabel"]
 - !private ["So20UIFocusItemContainerP", "URL"]
@@ -1854,14 +1831,12 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_pageControl"]
 - ["So24UILargeContentViewerItemP", "Array"]
 - ["So24UILargeContentViewerItemP", "BannerViewControlType"]
-- ["So24UILargeContentViewerItemP", "CGRect"]
 - ["So24UILargeContentViewerItemP", "FSPageControl"]
 - ["So24UILargeContentViewerItemP", "FSPagerView"]
 - ["So24UILargeContentViewerItemP", "FSPagerViewCell"]
 - ["So24UILargeContentViewerItemP", "Int"]
 - ["So24UILargeContentViewerItemP", "KRGB"]
-- ["So24UILargeContentViewerItemP", "NSCoder"]
-- ["So24UILargeContentViewerItemP", "String"]
+- !private ["So24UILargeContentViewerItemP", "String"]
 - ["So24UILargeContentViewerItemP", "UIColor"]
 - ["So24UILargeContentViewerItemP", "UILabel"]
 - !private ["So24UILargeContentViewerItemP", "URL"]
@@ -1926,14 +1901,12 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_pageControl"]
 - ["So30UIPasteConfigurationSupportingP", "Array"]
 - ["So30UIPasteConfigurationSupportingP", "BannerViewControlType"]
-- ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - ["So30UIPasteConfigurationSupportingP", "FSPageControl"]
 - ["So30UIPasteConfigurationSupportingP", "FSPagerView"]
 - ["So30UIPasteConfigurationSupportingP", "FSPagerViewCell"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "KRGB"]
-- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "URL"]
@@ -2070,14 +2043,12 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_pageControl"]
 - ["So30UIResponderStandardEditActionsP", "Array"]
 - ["So30UIResponderStandardEditActionsP", "BannerViewControlType"]
-- ["So30UIResponderStandardEditActionsP", "CGRect"]
 - ["So30UIResponderStandardEditActionsP", "FSPageControl"]
 - ["So30UIResponderStandardEditActionsP", "FSPagerView"]
 - ["So30UIResponderStandardEditActionsP", "FSPagerViewCell"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "KRGB"]
-- ["So30UIResponderStandardEditActionsP", "NSCoder"]
-- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "UIColor"]
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
 - !private ["So30UIResponderStandardEditActionsP", "URL"]
@@ -2157,14 +2128,12 @@ depends-member:
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_pageControl"]
 - ["So18UITraitEnvironmentP", "Array"]
 - ["So18UITraitEnvironmentP", "BannerViewControlType"]
-- ["So18UITraitEnvironmentP", "CGRect"]
 - ["So18UITraitEnvironmentP", "FSPageControl"]
 - ["So18UITraitEnvironmentP", "FSPagerView"]
 - ["So18UITraitEnvironmentP", "FSPagerViewCell"]
 - ["So18UITraitEnvironmentP", "Int"]
 - ["So18UITraitEnvironmentP", "KRGB"]
-- ["So18UITraitEnvironmentP", "NSCoder"]
-- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "UIColor"]
 - ["So18UITraitEnvironmentP", "UILabel"]
 - !private ["So18UITraitEnvironmentP", "URL"]
@@ -2229,14 +2198,12 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_pageControl"]
 - ["So23UIUserActivityRestoringP", "Array"]
 - ["So23UIUserActivityRestoringP", "BannerViewControlType"]
-- ["So23UIUserActivityRestoringP", "CGRect"]
 - ["So23UIUserActivityRestoringP", "FSPageControl"]
 - ["So23UIUserActivityRestoringP", "FSPagerView"]
 - ["So23UIUserActivityRestoringP", "FSPagerViewCell"]
 - ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "KRGB"]
-- ["So23UIUserActivityRestoringP", "NSCoder"]
-- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "UIColor"]
 - ["So23UIUserActivityRestoringP", "UILabel"]
 - !private ["So23UIUserActivityRestoringP", "URL"]
@@ -2381,12 +2348,12 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "clear"]
 - ["s26_ExpressibleByColorLiteralP", "gray"]
@@ -2605,11 +2572,11 @@ depends-nominal:
 - !private "Sa"
 - "9SwiftDemo10BannerViewC"
 - "9SwiftDemo21BannerViewControlTypeO"
-- "SK"
+- !private "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - !private "7SnapKit13ConstraintDSLP"
@@ -2632,13 +2599,13 @@ depends-nominal:
 - "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "11FSPagerView13FSPageControlC"
 - "11FSPagerViewAAC"
 - !private "11FSPagerView0aB4CellC"
@@ -2648,7 +2615,7 @@ depends-nominal:
 - !private "10KingfisherAAC"
 - !private "10Kingfisher0A10CompatibleP"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
@@ -2668,19 +2635,19 @@ depends-nominal:
 - "7RxSwift18ReactiveCompatibleP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "10Kingfisher8ResourceP"
-- "ST"
+- !private "ST"
 - "s10SetAlgebraP"
 - "So14UIControlStateV"
 - !private "Sx"
 - !private "SS"
 - !private "Sy"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
-- "So24UICollectionReusableViewC"
+- !private "So24UICollectionReusableViewC"
 - "So20UICollectionViewCellC"
 - "So26UICollectionViewDataSourceP"
 - "So24UICollectionViewDelegateP"
@@ -2711,11 +2678,11 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
@@ -2728,7 +2695,7 @@ depends-nominal:
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -2736,29 +2703,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

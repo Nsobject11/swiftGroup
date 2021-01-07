@@ -160,7 +160,6 @@ depends-member:
 - !private ["So7CALayerC", "shadowOffset"]
 - !private ["So7CALayerC", "shadowOpacity"]
 - !private ["So7CALayerC", "shadowRadius"]
-- ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "layer"]
 - ["So15CALayerDelegateP", "rootViewController"]
@@ -179,7 +178,6 @@ depends-member:
 - !private ["s7CVarArgP", "Name"]
 - ["s7CVarArgP", "SearchPathDirectory"]
 - ["s7CVarArgP", "SearchPathDomainMask"]
-- ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "asyncAfter"]
 - !private ["s7CVarArgP", "backgroundColor"]
@@ -331,12 +329,9 @@ depends-member:
 - ["Se", "last"]
 - ["Se", "size"]
 - ["Se", "width"]
-- ["So18OS_dispatch_objectC", ""]
 - !private ["So18OS_dispatch_objectC", "async"]
 - !private ["So18OS_dispatch_objectC", "asyncAfter"]
-- !private ["So18OS_dispatch_objectC", "init"]
 - !private ["So18OS_dispatch_objectC", "main"]
-- !private ["So18OS_dispatch_objectC", "sync"]
 - !private ["So17OS_dispatch_queueC", "async"]
 - !private ["So17OS_dispatch_queueC", "asyncAfter"]
 - !private ["So17OS_dispatch_queueC", "main"]
@@ -402,7 +397,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "k_toCGFloat"]
 - ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
-- ["s25ExpressibleByFloatLiteralP", ""]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", ""]
@@ -424,7 +418,6 @@ depends-member:
 - ["SF", "=="]
 - ["SF", ">"]
 - ["SF", ">="]
-- ["SF", ""]
 - !private ["SH", "Name"]
 - !private ["SH", "RawValue"]
 - ["SH", "SearchPathDirectory"]
@@ -542,7 +535,6 @@ depends-member:
 - ["So8NSObjectC", "SearchPathDirectory"]
 - ["So8NSObjectC", "SearchPathDomainMask"]
 - ["So8NSObjectC", ""]
-- !private ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "async"]
 - !private ["So8NSObjectC", "asyncAfter"]
 - !private ["So8NSObjectC", "backgroundColor"]
@@ -584,9 +576,7 @@ depends-member:
 - !private ["So8NSObjectC", "post"]
 - !private ["So8NSObjectC", "postNotification"]
 - !private ["So8NSObjectC", "postNotificationName"]
-- !private ["So8NSObjectC", "resume"]
 - ["So8NSObjectC", "rootViewController"]
-- !private ["So8NSObjectC", "setTarget"]
 - !private ["So8NSObjectC", "shadowColor"]
 - !private ["So8NSObjectC", "shadowOffset"]
 - !private ["So8NSObjectC", "shadowOpacity"]
@@ -594,10 +584,7 @@ depends-member:
 - ["So8NSObjectC", "shared"]
 - ["So8NSObjectC", "standard"]
 - ["So8NSObjectC", "statusBarFrame"]
-- !private ["So8NSObjectC", "suspend"]
-- !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectC", "systemFont"]
-- !private ["So8NSObjectC", "systemFontOfSize"]
 - !private ["So8NSObjectC", "systemImageNamed"]
 - ["So8NSObjectC", "systemVersion"]
 - ["So8NSObjectC", "white"]
@@ -605,7 +592,6 @@ depends-member:
 - ["So8NSObjectP", "SearchPathDirectory"]
 - ["So8NSObjectP", "SearchPathDomainMask"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "async"]
 - !private ["So8NSObjectP", "asyncAfter"]
 - !private ["So8NSObjectP", "backgroundColor"]
@@ -647,9 +633,7 @@ depends-member:
 - !private ["So8NSObjectP", "post"]
 - !private ["So8NSObjectP", "postNotification"]
 - !private ["So8NSObjectP", "postNotificationName"]
-- !private ["So8NSObjectP", "resume"]
 - ["So8NSObjectP", "rootViewController"]
-- !private ["So8NSObjectP", "setTarget"]
 - !private ["So8NSObjectP", "shadowColor"]
 - !private ["So8NSObjectP", "shadowOffset"]
 - !private ["So8NSObjectP", "shadowOpacity"]
@@ -657,10 +641,7 @@ depends-member:
 - ["So8NSObjectP", "shared"]
 - ["So8NSObjectP", "standard"]
 - ["So8NSObjectP", "statusBarFrame"]
-- !private ["So8NSObjectP", "suspend"]
-- !private ["So8NSObjectP", "sync"]
 - !private ["So8NSObjectP", "systemFont"]
-- !private ["So8NSObjectP", "systemFontOfSize"]
 - !private ["So8NSObjectP", "systemImageNamed"]
 - ["So8NSObjectP", "systemVersion"]
 - ["So8NSObjectP", "white"]
@@ -688,16 +669,9 @@ depends-member:
 - ["So20NSNotificationCenterC", "default"]
 - !private ["So20NSNotificationCenterC", "post"]
 - ["Sj", ""]
-- ["So9OS_objectC", ""]
-- !private ["So9OS_objectC", "activate"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "asyncAfter"]
-- !private ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "main"]
-- !private ["So9OS_objectC", "resume"]
-- !private ["So9OS_objectC", "setTarget"]
-- !private ["So9OS_objectC", "suspend"]
-- !private ["So9OS_objectC", "sync"]
 - ["s9OptionSetP", "userDomainMask"]
 - !private ["Sq", "callAsFunction"]
 - !private ["10Kingfisher11PlaceholderP", "init"]
@@ -772,16 +746,13 @@ depends-member:
 - ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "count"]
 - ["s20TextOutputStreamableP", "k_toCGFloat"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "layer"]
 - ["So29UIAccessibilityIdentificationP", "rootViewController"]
-- ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "layer"]
 - ["So12UIAppearanceP", "rootViewController"]
-- ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - !private ["So21UIAppearanceContainerP", "layer"]
 - ["So21UIAppearanceContainerP", "rootViewController"]
@@ -795,13 +766,11 @@ depends-member:
 - !private ["So7UIColorC", "kColorWith"]
 - ["So7UIColorC", "kRandomColor"]
 - ["So7UIColorC", "white"]
-- ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "layer"]
 - ["So17UICoordinateSpaceP", "rootViewController"]
 - ["So8UIDeviceC", "current"]
 - ["So8UIDeviceC", "systemVersion"]
-- ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "layer"]
 - ["So13UIDynamicItemP", "rootViewController"]
@@ -809,11 +778,9 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - !private ["So18UIFocusEnvironmentP", "layer"]
 - ["So18UIFocusEnvironmentP", "rootViewController"]
-- ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "layer"]
 - ["So11UIFocusItemP", "rootViewController"]
-- ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - !private ["So20UIFocusItemContainerP", "layer"]
 - ["So20UIFocusItemContainerP", "rootViewController"]
@@ -822,11 +789,9 @@ depends-member:
 - !private ["So7UIImageC", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So10UIKeyInputP", ""]
-- ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - !private ["So24UILargeContentViewerItemP", "layer"]
 - ["So24UILargeContentViewerItemP", "rootViewController"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
 - ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
@@ -840,7 +805,6 @@ depends-member:
 - ["So11UIResponderC", "rootViewController"]
 - ["So11UIResponderC", "shared"]
 - ["So11UIResponderC", "statusBarFrame"]
-- ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
 - ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
@@ -850,13 +814,11 @@ depends-member:
 - ["So8UIScreenC", "bounds"]
 - ["So8UIScreenC", "main"]
 - !private ["So17UITextInputTraitsP", ""]
-- ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - ["So18UITraitEnvironmentP", "bounds"]
 - !private ["So18UITraitEnvironmentP", "layer"]
 - ["So18UITraitEnvironmentP", "main"]
 - ["So18UITraitEnvironmentP", "rootViewController"]
-- ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "backgroundColor"]
 - ["So23UIUserActivityRestoringP", "delegate"]
 - !private ["So23UIUserActivityRestoringP", "layer"]
@@ -1041,7 +1003,7 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - "10Foundation12DataProtocolP"
 - "Se"
-- "So18OS_dispatch_objectC"
+- !private "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "8Dispatch0A4TimeV"
 - "SE"
@@ -1077,7 +1039,7 @@ depends-nominal:
 - !private "So18NSNotificationNamea"
 - "So20NSNotificationCenterC"
 - "Sj"
-- "So9OS_objectC"
+- !private "So9OS_objectC"
 - "s9OptionSetP"
 - !private "Sq"
 - !private "10Kingfisher11PlaceholderP"
@@ -1154,7 +1116,7 @@ depends-nominal:
 depends-dynamic-lookup:
 - !private "isKind"
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1162,29 +1124,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

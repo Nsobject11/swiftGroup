@@ -263,9 +263,7 @@ depends-member:
 - !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "right"]
-- ["7SnapKit26ConstraintMakerFinalizableC", ""]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
-- ["7SnapKit27ConstraintMakerPriortizableC", ""]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
 - ["7SnapKit24ConstraintMakerRelatableC", ""]
 - !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
@@ -740,8 +738,6 @@ depends-member:
 - ["So8NSCodingP", "indexPathForPreferredFocusedView"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So8NSCodingP", "init"]
-- ["So8NSCodingP", "initBarItem"]
-- ["So8NSCodingP", "isTap"]
 - ["So8NSCodingP", "kRandomColor"]
 - ["So8NSCodingP", "kScreenHeight"]
 - ["So8NSCodingP", "kScreenWidth"]
@@ -815,8 +811,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "indexPathForPreferredFocusedView"]
 - ["So26NSExtensionRequestHandlingP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- ["So26NSExtensionRequestHandlingP", "initBarItem"]
-- ["So26NSExtensionRequestHandlingP", "isTap"]
 - ["So26NSExtensionRequestHandlingP", "kScreenHeight"]
 - ["So26NSExtensionRequestHandlingP", "kScreenWidth"]
 - ["So26NSExtensionRequestHandlingP", "kTopHeight"]
@@ -843,7 +837,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "swipeSelectCell"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
 - ["So26NSExtensionRequestHandlingP", "tableViewDidEndMultipleSelectionInteraction"]
-- ["So26NSExtensionRequestHandlingP", "touchesBegan"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
@@ -959,6 +952,7 @@ depends-member:
 - ["So8NSObjectP", "CellStyle"]
 - ["So8NSObjectP", "CustomTab"]
 - ["So8NSObjectP", "IndexPath"]
+- ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "KHexColor"]
 - ["So8NSObjectP", "SwipCell"]
 - ["So8NSObjectP", "SwipDelegate"]
@@ -1007,8 +1001,6 @@ depends-member:
 - ["So8NSObjectP", "indexPathForPreferredFocusedView"]
 - ["So8NSObjectP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "initBarItem"]
-- ["So8NSObjectP", "isTap"]
 - !private ["So8NSObjectP", "jpegData"]
 - ["So8NSObjectP", "kRandomColor"]
 - ["So8NSObjectP", "kScreenHeight"]
@@ -1463,8 +1455,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedView"]
 - ["So21UIAppearanceContainerP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So21UIAppearanceContainerP", "init"]
-- ["So21UIAppearanceContainerP", "initBarItem"]
-- ["So21UIAppearanceContainerP", "isTap"]
 - ["So21UIAppearanceContainerP", "kRandomColor"]
 - ["So21UIAppearanceContainerP", "kScreenHeight"]
 - ["So21UIAppearanceContainerP", "kScreenWidth"]
@@ -1537,8 +1527,6 @@ depends-member:
 - ["So18UIContentContainerP", "indexPathForPreferredFocusedView"]
 - ["So18UIContentContainerP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So18UIContentContainerP", "init"]
-- ["So18UIContentContainerP", "initBarItem"]
-- ["So18UIContentContainerP", "isTap"]
 - ["So18UIContentContainerP", "kScreenHeight"]
 - ["So18UIContentContainerP", "kScreenWidth"]
 - ["So18UIContentContainerP", "kTopHeight"]
@@ -1565,7 +1553,6 @@ depends-member:
 - ["So18UIContentContainerP", "swipeSelectCell"]
 - ["So18UIContentContainerP", "tableView"]
 - ["So18UIContentContainerP", "tableViewDidEndMultipleSelectionInteraction"]
-- ["So18UIContentContainerP", "touchesBegan"]
 - !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
@@ -1737,8 +1724,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UIFocusEnvironmentP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So18UIFocusEnvironmentP", "init"]
-- ["So18UIFocusEnvironmentP", "initBarItem"]
-- ["So18UIFocusEnvironmentP", "isTap"]
 - ["So18UIFocusEnvironmentP", "kRandomColor"]
 - ["So18UIFocusEnvironmentP", "kScreenHeight"]
 - ["So18UIFocusEnvironmentP", "kScreenWidth"]
@@ -1943,8 +1928,6 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "indexPathForPreferredFocusedView"]
 - ["So27UIGestureRecognizerDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So27UIGestureRecognizerDelegateP", "init"]
-- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
-- ["So27UIGestureRecognizerDelegateP", "isTap"]
 - ["So27UIGestureRecognizerDelegateP", "kRandomColor"]
 - ["So27UIGestureRecognizerDelegateP", "kScreenHeight"]
 - ["So27UIGestureRecognizerDelegateP", "kScreenWidth"]
@@ -2060,6 +2043,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "CellStyle"]
 - ["So30UIPasteConfigurationSupportingP", "CustomTab"]
 - ["So30UIPasteConfigurationSupportingP", "IndexPath"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "KHexColor"]
 - ["So30UIPasteConfigurationSupportingP", "SwipCell"]
 - ["So30UIPasteConfigurationSupportingP", "SwipDelegate"]
@@ -2099,8 +2083,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedView"]
 - ["So30UIPasteConfigurationSupportingP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
-- ["So30UIPasteConfigurationSupportingP", "isTap"]
 - ["So30UIPasteConfigurationSupportingP", "kRandomColor"]
 - ["So30UIPasteConfigurationSupportingP", "kScreenHeight"]
 - ["So30UIPasteConfigurationSupportingP", "kScreenWidth"]
@@ -2240,6 +2222,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "CellStyle"]
 - ["So30UIResponderStandardEditActionsP", "CustomTab"]
 - ["So30UIResponderStandardEditActionsP", "IndexPath"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "KHexColor"]
 - ["So30UIResponderStandardEditActionsP", "SwipCell"]
 - ["So30UIResponderStandardEditActionsP", "SwipDelegate"]
@@ -2279,8 +2262,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedView"]
 - ["So30UIResponderStandardEditActionsP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- ["So30UIResponderStandardEditActionsP", "initBarItem"]
-- ["So30UIResponderStandardEditActionsP", "isTap"]
 - ["So30UIResponderStandardEditActionsP", "kRandomColor"]
 - ["So30UIResponderStandardEditActionsP", "kScreenHeight"]
 - ["So30UIResponderStandardEditActionsP", "kScreenWidth"]
@@ -2405,8 +2386,6 @@ depends-member:
 - ["So16UIStateRestoringP", "indexPathForPreferredFocusedView"]
 - ["So16UIStateRestoringP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So16UIStateRestoringP", "init"]
-- ["So16UIStateRestoringP", "initBarItem"]
-- ["So16UIStateRestoringP", "isTap"]
 - ["So16UIStateRestoringP", "kScreenHeight"]
 - ["So16UIStateRestoringP", "kScreenWidth"]
 - ["So16UIStateRestoringP", "kTopHeight"]
@@ -2433,7 +2412,6 @@ depends-member:
 - ["So16UIStateRestoringP", "swipeSelectCell"]
 - ["So16UIStateRestoringP", "tableView"]
 - ["So16UIStateRestoringP", "tableViewDidEndMultipleSelectionInteraction"]
-- ["So16UIStateRestoringP", "touchesBegan"]
 - !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
@@ -2604,8 +2582,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedView"]
 - ["So18UITraitEnvironmentP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So18UITraitEnvironmentP", "init"]
-- ["So18UITraitEnvironmentP", "initBarItem"]
-- ["So18UITraitEnvironmentP", "isTap"]
 - ["So18UITraitEnvironmentP", "kRandomColor"]
 - ["So18UITraitEnvironmentP", "kScreenHeight"]
 - ["So18UITraitEnvironmentP", "kScreenWidth"]
@@ -2664,6 +2640,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "CellStyle"]
 - ["So23UIUserActivityRestoringP", "CustomTab"]
 - ["So23UIUserActivityRestoringP", "IndexPath"]
+- ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "KHexColor"]
 - ["So23UIUserActivityRestoringP", "SwipCell"]
 - ["So23UIUserActivityRestoringP", "SwipDelegate"]
@@ -2703,8 +2680,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "indexPathForPreferredFocusedView"]
 - ["So23UIUserActivityRestoringP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So23UIUserActivityRestoringP", "init"]
-- ["So23UIUserActivityRestoringP", "initBarItem"]
-- ["So23UIUserActivityRestoringP", "isTap"]
 - ["So23UIUserActivityRestoringP", "kRandomColor"]
 - ["So23UIUserActivityRestoringP", "kScreenHeight"]
 - ["So23UIUserActivityRestoringP", "kScreenWidth"]
@@ -3047,8 +3022,8 @@ depends-nominal:
 - !private "7SnapKit15ConstraintMakerC"
 - !private "7SnapKit23ConstraintMakerEditableC"
 - !private "7SnapKit25ConstraintMakerExtendableC"
-- "7SnapKit26ConstraintMakerFinalizableC"
-- "7SnapKit27ConstraintMakerPriortizableC"
+- !private "7SnapKit26ConstraintMakerFinalizableC"
+- !private "7SnapKit27ConstraintMakerPriortizableC"
 - "7SnapKit24ConstraintMakerRelatableC"
 - "7SnapKit25ConstraintRelatableTargetP"
 - !private "7SnapKit17ConstraintViewDSLV"
@@ -3162,7 +3137,7 @@ depends-nominal:
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -3170,29 +3145,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

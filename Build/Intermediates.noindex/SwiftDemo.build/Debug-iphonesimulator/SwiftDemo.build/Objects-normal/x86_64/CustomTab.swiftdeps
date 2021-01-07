@@ -55,20 +55,18 @@ depends-top-level:
 - "swiftBlock"
 - "swiftBlockUp"
 depends-member:
-- ["s18AdditiveArithmeticP", ""]
 - ["So15CALayerDelegateP", "$__lazy_storage_$_noDataView"]
 - ["So15CALayerDelegateP", "DownRefreshBlock"]
 - !private ["So15CALayerDelegateP", "MJRefreshAutoNormalFooter"]
 - !private ["So15CALayerDelegateP", "MJRefreshNormalHeader"]
 - ["So15CALayerDelegateP", "Mydelegate"]
 - ["So15CALayerDelegateP", "NoDataView"]
-- ["So15CALayerDelegateP", "String"]
 - ["So15CALayerDelegateP", "Style"]
 - !private ["So15CALayerDelegateP", "UIColor"]
 - !private ["So15CALayerDelegateP", "UIEdgeInsets"]
 - ["So15CALayerDelegateP", "UIScrollView"]
 - ["So15CALayerDelegateP", "UITableView"]
-- ["So15CALayerDelegateP", "UIView"]
+- !private ["So15CALayerDelegateP", "UIView"]
 - ["So15CALayerDelegateP", "UpRefreshBlock"]
 - ["So15CALayerDelegateP", "Void"]
 - ["So15CALayerDelegateP", ""]
@@ -195,7 +193,6 @@ depends-member:
 - !private ["s7CVarArgP", "text"]
 - ["s7CVarArgP", "title"]
 - ["s7CVarArgP", "verticalOffset"]
-- ["SL", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", "init"]
 - !private ["7SnapKit24ConstraintConstantTargetP", "zero"]
@@ -641,12 +638,9 @@ depends-member:
 - ["SQ", "title"]
 - ["SQ", "verticalOffset"]
 - !private ["SQ", "zero"]
-- ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
-- ["SF", ""]
 - !private ["7RxCocoa13HasDataSourceP", "DownRefreshBlock"]
 - !private ["7RxCocoa13HasDataSourceP", "MJRefreshAutoNormalFooter"]
 - !private ["7RxCocoa13HasDataSourceP", "MJRefreshNormalHeader"]
@@ -979,13 +973,12 @@ depends-member:
 - !private ["So8NSCodingP", "MJRefreshNormalHeader"]
 - ["So8NSCodingP", "Mydelegate"]
 - ["So8NSCodingP", "NoDataView"]
-- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "Style"]
 - !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIEdgeInsets"]
 - ["So8NSCodingP", "UIScrollView"]
 - ["So8NSCodingP", "UITableView"]
-- ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "UIView"]
 - ["So8NSCodingP", "UpRefreshBlock"]
 - ["So8NSCodingP", "Void"]
 - ["So8NSCodingP", ""]
@@ -1141,7 +1134,7 @@ depends-member:
 - !private ["So8NSObjectP", "UIEdgeInsets"]
 - ["So8NSObjectP", "UIScrollView"]
 - ["So8NSObjectP", "UITableView"]
-- ["So8NSObjectP", "UIView"]
+- !private ["So8NSObjectP", "UIView"]
 - ["So8NSObjectP", "UpRefreshBlock"]
 - ["So8NSObjectP", "Void"]
 - ["So8NSObjectP", ""]
@@ -1210,7 +1203,6 @@ depends-member:
 - !private ["9SwiftDemo10NoDataViewC", "image"]
 - ["9SwiftDemo10NoDataViewC", "init"]
 - !private ["9SwiftDemo10NoDataViewC", "label"]
-- ["Sj", ""]
 - !private ["SY", "none"]
 - !private ["7RxSwift18ReactiveCompatibleP", "DownRefreshBlock"]
 - !private ["7RxSwift18ReactiveCompatibleP", "MJRefreshAutoNormalFooter"]
@@ -1277,8 +1269,6 @@ depends-member:
 - ["7RxSwift18ReactiveCompatibleP", "title"]
 - ["7RxSwift18ReactiveCompatibleP", "verticalOffset"]
 - !private ["So29UITableViewCellSeparatorStyleV", "none"]
-- ["s13SignedNumericP", ""]
-- ["Sx", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_noDataView"]
 - ["So29UIAccessibilityIdentificationP", "DownRefreshBlock"]
@@ -1286,13 +1276,12 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "MJRefreshNormalHeader"]
 - ["So29UIAccessibilityIdentificationP", "Mydelegate"]
 - ["So29UIAccessibilityIdentificationP", "NoDataView"]
-- ["So29UIAccessibilityIdentificationP", "String"]
 - ["So29UIAccessibilityIdentificationP", "Style"]
 - !private ["So29UIAccessibilityIdentificationP", "UIColor"]
 - !private ["So29UIAccessibilityIdentificationP", "UIEdgeInsets"]
 - ["So29UIAccessibilityIdentificationP", "UIScrollView"]
 - ["So29UIAccessibilityIdentificationP", "UITableView"]
-- ["So29UIAccessibilityIdentificationP", "UIView"]
+- !private ["So29UIAccessibilityIdentificationP", "UIView"]
 - ["So29UIAccessibilityIdentificationP", "UpRefreshBlock"]
 - ["So29UIAccessibilityIdentificationP", "Void"]
 - ["So29UIAccessibilityIdentificationP", ""]
@@ -1360,13 +1349,12 @@ depends-member:
 - !private ["So12UIAppearanceP", "MJRefreshNormalHeader"]
 - ["So12UIAppearanceP", "Mydelegate"]
 - ["So12UIAppearanceP", "NoDataView"]
-- ["So12UIAppearanceP", "String"]
 - ["So12UIAppearanceP", "Style"]
 - !private ["So12UIAppearanceP", "UIColor"]
 - !private ["So12UIAppearanceP", "UIEdgeInsets"]
 - ["So12UIAppearanceP", "UIScrollView"]
 - ["So12UIAppearanceP", "UITableView"]
-- ["So12UIAppearanceP", "UIView"]
+- !private ["So12UIAppearanceP", "UIView"]
 - ["So12UIAppearanceP", "UpRefreshBlock"]
 - ["So12UIAppearanceP", "Void"]
 - ["So12UIAppearanceP", ""]
@@ -1434,13 +1422,12 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "MJRefreshNormalHeader"]
 - ["So21UIAppearanceContainerP", "Mydelegate"]
 - ["So21UIAppearanceContainerP", "NoDataView"]
-- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "Style"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "UIEdgeInsets"]
 - ["So21UIAppearanceContainerP", "UIScrollView"]
 - ["So21UIAppearanceContainerP", "UITableView"]
-- ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
 - ["So21UIAppearanceContainerP", "UpRefreshBlock"]
 - ["So21UIAppearanceContainerP", "Void"]
 - ["So21UIAppearanceContainerP", ""]
@@ -1510,13 +1497,12 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "MJRefreshNormalHeader"]
 - ["So17UICoordinateSpaceP", "Mydelegate"]
 - ["So17UICoordinateSpaceP", "NoDataView"]
-- ["So17UICoordinateSpaceP", "String"]
 - ["So17UICoordinateSpaceP", "Style"]
 - !private ["So17UICoordinateSpaceP", "UIColor"]
 - !private ["So17UICoordinateSpaceP", "UIEdgeInsets"]
 - ["So17UICoordinateSpaceP", "UIScrollView"]
 - ["So17UICoordinateSpaceP", "UITableView"]
-- ["So17UICoordinateSpaceP", "UIView"]
+- !private ["So17UICoordinateSpaceP", "UIView"]
 - ["So17UICoordinateSpaceP", "UpRefreshBlock"]
 - ["So17UICoordinateSpaceP", "Void"]
 - ["So17UICoordinateSpaceP", ""]
@@ -1653,13 +1639,12 @@ depends-member:
 - !private ["So13UIDynamicItemP", "MJRefreshNormalHeader"]
 - ["So13UIDynamicItemP", "Mydelegate"]
 - ["So13UIDynamicItemP", "NoDataView"]
-- ["So13UIDynamicItemP", "String"]
 - ["So13UIDynamicItemP", "Style"]
 - !private ["So13UIDynamicItemP", "UIColor"]
 - !private ["So13UIDynamicItemP", "UIEdgeInsets"]
 - ["So13UIDynamicItemP", "UIScrollView"]
 - ["So13UIDynamicItemP", "UITableView"]
-- ["So13UIDynamicItemP", "UIView"]
+- !private ["So13UIDynamicItemP", "UIView"]
 - ["So13UIDynamicItemP", "UpRefreshBlock"]
 - ["So13UIDynamicItemP", "Void"]
 - ["So13UIDynamicItemP", ""]
@@ -1728,13 +1713,12 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "MJRefreshNormalHeader"]
 - ["So18UIFocusEnvironmentP", "Mydelegate"]
 - ["So18UIFocusEnvironmentP", "NoDataView"]
-- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "Style"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "UIEdgeInsets"]
 - ["So18UIFocusEnvironmentP", "UIScrollView"]
 - ["So18UIFocusEnvironmentP", "UITableView"]
-- ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
 - ["So18UIFocusEnvironmentP", "UpRefreshBlock"]
 - ["So18UIFocusEnvironmentP", "Void"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -1802,13 +1786,12 @@ depends-member:
 - !private ["So11UIFocusItemP", "MJRefreshNormalHeader"]
 - ["So11UIFocusItemP", "Mydelegate"]
 - ["So11UIFocusItemP", "NoDataView"]
-- ["So11UIFocusItemP", "String"]
 - ["So11UIFocusItemP", "Style"]
 - !private ["So11UIFocusItemP", "UIColor"]
 - !private ["So11UIFocusItemP", "UIEdgeInsets"]
 - ["So11UIFocusItemP", "UIScrollView"]
 - ["So11UIFocusItemP", "UITableView"]
-- ["So11UIFocusItemP", "UIView"]
+- !private ["So11UIFocusItemP", "UIView"]
 - ["So11UIFocusItemP", "UpRefreshBlock"]
 - ["So11UIFocusItemP", "Void"]
 - ["So11UIFocusItemP", ""]
@@ -1876,13 +1859,12 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "MJRefreshNormalHeader"]
 - ["So20UIFocusItemContainerP", "Mydelegate"]
 - ["So20UIFocusItemContainerP", "NoDataView"]
-- ["So20UIFocusItemContainerP", "String"]
 - ["So20UIFocusItemContainerP", "Style"]
 - !private ["So20UIFocusItemContainerP", "UIColor"]
 - !private ["So20UIFocusItemContainerP", "UIEdgeInsets"]
 - ["So20UIFocusItemContainerP", "UIScrollView"]
 - ["So20UIFocusItemContainerP", "UITableView"]
-- ["So20UIFocusItemContainerP", "UIView"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
 - ["So20UIFocusItemContainerP", "UpRefreshBlock"]
 - ["So20UIFocusItemContainerP", "Void"]
 - ["So20UIFocusItemContainerP", ""]
@@ -1945,13 +1927,10 @@ depends-member:
 - ["So20UIFocusItemContainerP", "title"]
 - ["So20UIFocusItemContainerP", "verticalOffset"]
 - ["So30UIFocusItemScrollableContainerP", "$__lazy_storage_$_noDataView"]
-- ["So30UIFocusItemScrollableContainerP", "Bool"]
-- ["So30UIFocusItemScrollableContainerP", "CGRect"]
 - ["So30UIFocusItemScrollableContainerP", "DownRefreshBlock"]
 - !private ["So30UIFocusItemScrollableContainerP", "MJRefreshAutoNormalFooter"]
 - !private ["So30UIFocusItemScrollableContainerP", "MJRefreshNormalHeader"]
 - ["So30UIFocusItemScrollableContainerP", "Mydelegate"]
-- ["So30UIFocusItemScrollableContainerP", "NSCoder"]
 - ["So30UIFocusItemScrollableContainerP", "NoDataView"]
 - ["So30UIFocusItemScrollableContainerP", "String"]
 - ["So30UIFocusItemScrollableContainerP", "Style"]
@@ -2083,13 +2062,12 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "MJRefreshNormalHeader"]
 - ["So24UILargeContentViewerItemP", "Mydelegate"]
 - ["So24UILargeContentViewerItemP", "NoDataView"]
-- ["So24UILargeContentViewerItemP", "String"]
 - ["So24UILargeContentViewerItemP", "Style"]
 - !private ["So24UILargeContentViewerItemP", "UIColor"]
 - !private ["So24UILargeContentViewerItemP", "UIEdgeInsets"]
 - ["So24UILargeContentViewerItemP", "UIScrollView"]
 - ["So24UILargeContentViewerItemP", "UITableView"]
-- ["So24UILargeContentViewerItemP", "UIView"]
+- !private ["So24UILargeContentViewerItemP", "UIView"]
 - ["So24UILargeContentViewerItemP", "UpRefreshBlock"]
 - ["So24UILargeContentViewerItemP", "Void"]
 - ["So24UILargeContentViewerItemP", ""]
@@ -2162,7 +2140,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "UIEdgeInsets"]
 - ["So30UIPasteConfigurationSupportingP", "UIScrollView"]
 - ["So30UIPasteConfigurationSupportingP", "UITableView"]
-- ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
 - ["So30UIPasteConfigurationSupportingP", "UpRefreshBlock"]
 - ["So30UIPasteConfigurationSupportingP", "Void"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -2314,7 +2292,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "UIEdgeInsets"]
 - ["So30UIResponderStandardEditActionsP", "UIScrollView"]
 - ["So30UIResponderStandardEditActionsP", "UITableView"]
-- ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
 - ["So30UIResponderStandardEditActionsP", "UpRefreshBlock"]
 - ["So30UIResponderStandardEditActionsP", "Void"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -2591,13 +2569,12 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "MJRefreshNormalHeader"]
 - ["So18UITraitEnvironmentP", "Mydelegate"]
 - ["So18UITraitEnvironmentP", "NoDataView"]
-- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "Style"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "UIEdgeInsets"]
 - ["So18UITraitEnvironmentP", "UIScrollView"]
 - ["So18UITraitEnvironmentP", "UITableView"]
-- ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
 - ["So18UITraitEnvironmentP", "UpRefreshBlock"]
 - ["So18UITraitEnvironmentP", "Void"]
 - ["So18UITraitEnvironmentP", ""]
@@ -2670,7 +2647,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "UIEdgeInsets"]
 - ["So23UIUserActivityRestoringP", "UIScrollView"]
 - ["So23UIUserActivityRestoringP", "UITableView"]
-- ["So23UIUserActivityRestoringP", "UIView"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
 - ["So23UIUserActivityRestoringP", "UpRefreshBlock"]
 - ["So23UIUserActivityRestoringP", "Void"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -3010,11 +2987,9 @@ depends-member:
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "title"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "verticalOffset"]
 depends-nominal:
-- "s18AdditiveArithmeticP"
 - "So15CALayerDelegateP"
 - !private "So7CGPointV"
 - "s7CVarArgP"
-- "SL"
 - !private "7SnapKit24ConstraintConstantTargetP"
 - !private "7SnapKit21ConstraintInsetTargetP"
 - "7SnapKit25ConstraintRelatableTargetP"
@@ -3027,10 +3002,8 @@ depends-nominal:
 - "18EmptyDataSet_Swift0abC6SourceP"
 - !private "SE"
 - "SQ"
-- "s25ExpressibleByFloatLiteralP"
-- "s27ExpressibleByIntegerLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "SF"
 - "7RxCocoa13HasDataSourceP"
 - "7RxCocoa11HasDelegateP"
 - "7RxCocoa21HasPrefetchDataSourceP"
@@ -3054,12 +3027,9 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - "9SwiftDemo10NoDataViewC"
-- "Sj"
 - !private "SY"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "So29UITableViewCellSeparatorStyleV"
-- "s13SignedNumericP"
-- "Sx"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -3099,7 +3069,7 @@ depends-nominal:
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -3107,29 +3077,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

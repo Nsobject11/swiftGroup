@@ -73,6 +73,7 @@ depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "enumerated"]
 - !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBufferPointer"]
 - !private ["9SwiftDemo11BadgeButtonC", ""]
 - !private ["9SwiftDemo11BadgeButtonC", "addTarget"]
 - !private ["9SwiftDemo11BadgeButtonC", "contentEdgeInsets"]
@@ -131,6 +132,7 @@ depends-member:
 - !private ["SK", "enumerated"]
 - !private ["SK", "subscript"]
 - !private ["So12UIButtonTypeV", "custom"]
+- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addTarget"]
 - !private ["So15CALayerDelegateP", "appearance"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
@@ -560,6 +562,7 @@ depends-member:
 - !private ["So8NSCodingP", "AnyObject"]
 - ["So8NSCodingP", "Array"]
 - !private ["So8NSCodingP", "BadgeButton"]
+- ["So8NSCodingP", "Bool"]
 - !private ["So8NSCodingP", "CGRect"]
 - ["So8NSCodingP", "Int"]
 - ["So8NSCodingP", "NSInteger"]
@@ -571,6 +574,7 @@ depends-member:
 - !private ["So8NSCodingP", "UIEdgeInsets"]
 - ["So8NSCodingP", "UIEvent"]
 - !private ["So8NSCodingP", "UIFont"]
+- ["So8NSCodingP", "UIGestureRecognizer"]
 - !private ["So8NSCodingP", "UIGestureRecognizerDelegate"]
 - !private ["So8NSCodingP", "UIPanGestureRecognizer"]
 - !private ["So8NSCodingP", "UIScrollView"]
@@ -592,7 +596,7 @@ depends-member:
 - ["So8NSCodingP", "gestureRecognizer"]
 - ["So8NSCodingP", "gestureRecognizerShouldBegin"]
 - ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "initBarItem"]
+- ["So8NSCodingP", "initBarItem"]
 - !private ["So8NSCodingP", "interactivePopGestureRecognizer"]
 - ["So8NSCodingP", "isTap"]
 - !private ["So8NSCodingP", "kFont"]
@@ -624,6 +628,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "AnyObject"]
 - ["So26NSExtensionRequestHandlingP", "Array"]
 - !private ["So26NSExtensionRequestHandlingP", "BadgeButton"]
+- ["So26NSExtensionRequestHandlingP", "Bool"]
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
 - ["So26NSExtensionRequestHandlingP", "Int"]
 - ["So26NSExtensionRequestHandlingP", "NSInteger"]
@@ -635,6 +640,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "UIEdgeInsets"]
 - ["So26NSExtensionRequestHandlingP", "UIEvent"]
 - !private ["So26NSExtensionRequestHandlingP", "UIFont"]
+- ["So26NSExtensionRequestHandlingP", "UIGestureRecognizer"]
 - !private ["So26NSExtensionRequestHandlingP", "UIGestureRecognizerDelegate"]
 - !private ["So26NSExtensionRequestHandlingP", "UIPanGestureRecognizer"]
 - !private ["So26NSExtensionRequestHandlingP", "UIScrollView"]
@@ -647,7 +653,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "gestureRecognizer"]
 - ["So26NSExtensionRequestHandlingP", "gestureRecognizerShouldBegin"]
 - ["So26NSExtensionRequestHandlingP", "init"]
-- !private ["So26NSExtensionRequestHandlingP", "initBarItem"]
+- ["So26NSExtensionRequestHandlingP", "initBarItem"]
 - !private ["So26NSExtensionRequestHandlingP", "interactivePopGestureRecognizer"]
 - ["So26NSExtensionRequestHandlingP", "isTap"]
 - !private ["So26NSExtensionRequestHandlingP", "kFont"]
@@ -736,17 +742,21 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So8NSObjectC", "white"]
 - !private ["So8NSObjectC", "width"]
+- !private ["So8NSObjectP", "AnyObject"]
 - ["So8NSObjectP", "Array"]
 - !private ["So8NSObjectP", "BadgeButton"]
+- ["So8NSObjectP", "Bool"]
 - !private ["So8NSObjectP", "CGRect"]
 - ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "NSInteger"]
+- ["So8NSObjectP", "Selector"]
 - ["So8NSObjectP", "Set"]
 - !private ["So8NSObjectP", "UIBarButtonItem"]
 - !private ["So8NSObjectP", "UIColor"]
 - !private ["So8NSObjectP", "UIEdgeInsets"]
 - ["So8NSObjectP", "UIEvent"]
 - !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UIGestureRecognizer"]
 - !private ["So8NSObjectP", "UIGestureRecognizerDelegate"]
 - !private ["So8NSObjectP", "UIPanGestureRecognizer"]
 - !private ["So8NSObjectP", "UIScrollView"]
@@ -770,7 +780,7 @@ depends-member:
 - ["So8NSObjectP", "gestureRecognizer"]
 - ["So8NSObjectP", "gestureRecognizerShouldBegin"]
 - ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "initBarItem"]
+- ["So8NSObjectP", "initBarItem"]
 - !private ["So8NSObjectP", "interactivePopGestureRecognizer"]
 - ["So8NSObjectP", "isTap"]
 - !private ["So8NSObjectP", "kFont"]
@@ -943,6 +953,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "AnyObject"]
 - ["So21UIAppearanceContainerP", "Array"]
 - !private ["So21UIAppearanceContainerP", "BadgeButton"]
+- ["So21UIAppearanceContainerP", "Bool"]
 - !private ["So21UIAppearanceContainerP", "CGRect"]
 - ["So21UIAppearanceContainerP", "Int"]
 - ["So21UIAppearanceContainerP", "NSInteger"]
@@ -954,6 +965,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "UIEdgeInsets"]
 - ["So21UIAppearanceContainerP", "UIEvent"]
 - !private ["So21UIAppearanceContainerP", "UIFont"]
+- ["So21UIAppearanceContainerP", "UIGestureRecognizer"]
 - !private ["So21UIAppearanceContainerP", "UIGestureRecognizerDelegate"]
 - !private ["So21UIAppearanceContainerP", "UIPanGestureRecognizer"]
 - !private ["So21UIAppearanceContainerP", "UIScrollView"]
@@ -974,7 +986,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "gestureRecognizer"]
 - ["So21UIAppearanceContainerP", "gestureRecognizerShouldBegin"]
 - ["So21UIAppearanceContainerP", "init"]
-- !private ["So21UIAppearanceContainerP", "initBarItem"]
+- ["So21UIAppearanceContainerP", "initBarItem"]
 - !private ["So21UIAppearanceContainerP", "interactivePopGestureRecognizer"]
 - ["So21UIAppearanceContainerP", "isTap"]
 - !private ["So21UIAppearanceContainerP", "kFont"]
@@ -1013,6 +1025,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "AnyObject"]
 - ["So18UIContentContainerP", "Array"]
 - !private ["So18UIContentContainerP", "BadgeButton"]
+- ["So18UIContentContainerP", "Bool"]
 - !private ["So18UIContentContainerP", "CGRect"]
 - ["So18UIContentContainerP", "Int"]
 - ["So18UIContentContainerP", "NSInteger"]
@@ -1024,6 +1037,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "UIEdgeInsets"]
 - ["So18UIContentContainerP", "UIEvent"]
 - !private ["So18UIContentContainerP", "UIFont"]
+- ["So18UIContentContainerP", "UIGestureRecognizer"]
 - !private ["So18UIContentContainerP", "UIGestureRecognizerDelegate"]
 - !private ["So18UIContentContainerP", "UIPanGestureRecognizer"]
 - !private ["So18UIContentContainerP", "UIScrollView"]
@@ -1036,7 +1050,7 @@ depends-member:
 - ["So18UIContentContainerP", "gestureRecognizer"]
 - ["So18UIContentContainerP", "gestureRecognizerShouldBegin"]
 - ["So18UIContentContainerP", "init"]
-- !private ["So18UIContentContainerP", "initBarItem"]
+- ["So18UIContentContainerP", "initBarItem"]
 - !private ["So18UIContentContainerP", "interactivePopGestureRecognizer"]
 - ["So18UIContentContainerP", "isTap"]
 - !private ["So18UIContentContainerP", "kFont"]
@@ -1072,6 +1086,7 @@ depends-member:
 - !private ["So9UIControlC", "setTitleColor"]
 - !private ["So9UIControlC", "tag"]
 - !private ["So9UIControlC", "titleLabel"]
+- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addTarget"]
 - !private ["So17UICoordinateSpaceP", "appearance"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
@@ -1086,6 +1101,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "setTitleColor"]
 - !private ["So17UICoordinateSpaceP", "tag"]
 - !private ["So17UICoordinateSpaceP", "titleLabel"]
+- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addTarget"]
 - !private ["So13UIDynamicItemP", "appearance"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
@@ -1104,6 +1120,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "AnyObject"]
 - ["So18UIFocusEnvironmentP", "Array"]
 - !private ["So18UIFocusEnvironmentP", "BadgeButton"]
+- ["So18UIFocusEnvironmentP", "Bool"]
 - !private ["So18UIFocusEnvironmentP", "CGRect"]
 - ["So18UIFocusEnvironmentP", "Int"]
 - ["So18UIFocusEnvironmentP", "NSInteger"]
@@ -1115,6 +1132,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "UIEdgeInsets"]
 - ["So18UIFocusEnvironmentP", "UIEvent"]
 - !private ["So18UIFocusEnvironmentP", "UIFont"]
+- ["So18UIFocusEnvironmentP", "UIGestureRecognizer"]
 - !private ["So18UIFocusEnvironmentP", "UIGestureRecognizerDelegate"]
 - !private ["So18UIFocusEnvironmentP", "UIPanGestureRecognizer"]
 - !private ["So18UIFocusEnvironmentP", "UIScrollView"]
@@ -1135,7 +1153,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "gestureRecognizer"]
 - ["So18UIFocusEnvironmentP", "gestureRecognizerShouldBegin"]
 - ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "initBarItem"]
+- ["So18UIFocusEnvironmentP", "initBarItem"]
 - !private ["So18UIFocusEnvironmentP", "interactivePopGestureRecognizer"]
 - ["So18UIFocusEnvironmentP", "isTap"]
 - !private ["So18UIFocusEnvironmentP", "kFont"]
@@ -1155,6 +1173,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "touchesBegan"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addTarget"]
 - !private ["So11UIFocusItemP", "appearance"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -1205,7 +1224,7 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizer"]
 - ["So27UIGestureRecognizerDelegateP", "gestureRecognizerShouldBegin"]
 - ["So27UIGestureRecognizerDelegateP", "init"]
-- !private ["So27UIGestureRecognizerDelegateP", "initBarItem"]
+- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
 - ["So27UIGestureRecognizerDelegateP", "isTap"]
 - !private ["So27UIGestureRecognizerDelegateP", "kFont"]
 - !private ["So27UIGestureRecognizerDelegateP", "kFontTxtColor"]
@@ -1220,6 +1239,7 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "view"]
 - ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
 - !private ["So7UILabelC", "font"]
+- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "addTarget"]
 - !private ["So24UILargeContentViewerItemP", "appearance"]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
@@ -1241,17 +1261,22 @@ depends-member:
 - !private ["So16UINavigationItemC", "rightBarButtonItem"]
 - !private ["So16UINavigationItemC", "rightBarButtonItems"]
 - !private ["So22UIPanGestureRecognizerC", "translation"]
+- !private ["So30UIPasteConfigurationSupportingP", "AnyObject"]
 - ["So30UIPasteConfigurationSupportingP", "Array"]
 - !private ["So30UIPasteConfigurationSupportingP", "BadgeButton"]
+- ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "NSInteger"]
+- ["So30UIPasteConfigurationSupportingP", "Selector"]
 - ["So30UIPasteConfigurationSupportingP", "Set"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIEdgeInsets"]
 - ["So30UIPasteConfigurationSupportingP", "UIEvent"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- ["So30UIPasteConfigurationSupportingP", "UIGestureRecognizer"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIGestureRecognizerDelegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIPanGestureRecognizer"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIScrollView"]
@@ -1273,7 +1298,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "gestureRecognizer"]
 - ["So30UIPasteConfigurationSupportingP", "gestureRecognizerShouldBegin"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "initBarItem"]
+- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "interactivePopGestureRecognizer"]
 - ["So30UIPasteConfigurationSupportingP", "isTap"]
 - !private ["So30UIPasteConfigurationSupportingP", "kFont"]
@@ -1350,17 +1375,22 @@ depends-member:
 - ["So11UIResponderC", "touchesBegan"]
 - !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AnyObject"]
 - ["So30UIResponderStandardEditActionsP", "Array"]
 - !private ["So30UIResponderStandardEditActionsP", "BadgeButton"]
+- ["So30UIResponderStandardEditActionsP", "Bool"]
 - !private ["So30UIResponderStandardEditActionsP", "CGRect"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "NSInteger"]
+- ["So30UIResponderStandardEditActionsP", "Selector"]
 - ["So30UIResponderStandardEditActionsP", "Set"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIEdgeInsets"]
 - ["So30UIResponderStandardEditActionsP", "UIEvent"]
 - !private ["So30UIResponderStandardEditActionsP", "UIFont"]
+- ["So30UIResponderStandardEditActionsP", "UIGestureRecognizer"]
 - !private ["So30UIResponderStandardEditActionsP", "UIGestureRecognizerDelegate"]
 - !private ["So30UIResponderStandardEditActionsP", "UIPanGestureRecognizer"]
 - !private ["So30UIResponderStandardEditActionsP", "UIScrollView"]
@@ -1382,7 +1412,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "gestureRecognizer"]
 - ["So30UIResponderStandardEditActionsP", "gestureRecognizerShouldBegin"]
 - ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "initBarItem"]
+- ["So30UIResponderStandardEditActionsP", "initBarItem"]
 - !private ["So30UIResponderStandardEditActionsP", "interactivePopGestureRecognizer"]
 - ["So30UIResponderStandardEditActionsP", "isTap"]
 - !private ["So30UIResponderStandardEditActionsP", "kFont"]
@@ -1417,6 +1447,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "AnyObject"]
 - ["So16UIStateRestoringP", "Array"]
 - !private ["So16UIStateRestoringP", "BadgeButton"]
+- ["So16UIStateRestoringP", "Bool"]
 - !private ["So16UIStateRestoringP", "CGRect"]
 - ["So16UIStateRestoringP", "Int"]
 - ["So16UIStateRestoringP", "NSInteger"]
@@ -1428,6 +1459,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "UIEdgeInsets"]
 - ["So16UIStateRestoringP", "UIEvent"]
 - !private ["So16UIStateRestoringP", "UIFont"]
+- ["So16UIStateRestoringP", "UIGestureRecognizer"]
 - !private ["So16UIStateRestoringP", "UIGestureRecognizerDelegate"]
 - !private ["So16UIStateRestoringP", "UIPanGestureRecognizer"]
 - !private ["So16UIStateRestoringP", "UIScrollView"]
@@ -1440,7 +1472,7 @@ depends-member:
 - ["So16UIStateRestoringP", "gestureRecognizer"]
 - ["So16UIStateRestoringP", "gestureRecognizerShouldBegin"]
 - ["So16UIStateRestoringP", "init"]
-- !private ["So16UIStateRestoringP", "initBarItem"]
+- ["So16UIStateRestoringP", "initBarItem"]
 - !private ["So16UIStateRestoringP", "interactivePopGestureRecognizer"]
 - ["So16UIStateRestoringP", "isTap"]
 - !private ["So16UIStateRestoringP", "kFont"]
@@ -1459,6 +1491,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "AnyObject"]
 - ["So18UITraitEnvironmentP", "Array"]
 - !private ["So18UITraitEnvironmentP", "BadgeButton"]
+- ["So18UITraitEnvironmentP", "Bool"]
 - !private ["So18UITraitEnvironmentP", "CGRect"]
 - ["So18UITraitEnvironmentP", "Int"]
 - ["So18UITraitEnvironmentP", "NSInteger"]
@@ -1470,6 +1503,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "UIEdgeInsets"]
 - ["So18UITraitEnvironmentP", "UIEvent"]
 - !private ["So18UITraitEnvironmentP", "UIFont"]
+- ["So18UITraitEnvironmentP", "UIGestureRecognizer"]
 - !private ["So18UITraitEnvironmentP", "UIGestureRecognizerDelegate"]
 - !private ["So18UITraitEnvironmentP", "UIPanGestureRecognizer"]
 - !private ["So18UITraitEnvironmentP", "UIScrollView"]
@@ -1490,7 +1524,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "gestureRecognizer"]
 - ["So18UITraitEnvironmentP", "gestureRecognizerShouldBegin"]
 - ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "initBarItem"]
+- ["So18UITraitEnvironmentP", "initBarItem"]
 - !private ["So18UITraitEnvironmentP", "interactivePopGestureRecognizer"]
 - ["So18UITraitEnvironmentP", "isTap"]
 - !private ["So18UITraitEnvironmentP", "kFont"]
@@ -1510,17 +1544,22 @@ depends-member:
 - ["So18UITraitEnvironmentP", "touchesBegan"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AnyObject"]
 - ["So23UIUserActivityRestoringP", "Array"]
 - !private ["So23UIUserActivityRestoringP", "BadgeButton"]
+- ["So23UIUserActivityRestoringP", "Bool"]
 - !private ["So23UIUserActivityRestoringP", "CGRect"]
 - ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "NSInteger"]
+- ["So23UIUserActivityRestoringP", "Selector"]
 - ["So23UIUserActivityRestoringP", "Set"]
+- ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
 - !private ["So23UIUserActivityRestoringP", "UIColor"]
 - !private ["So23UIUserActivityRestoringP", "UIEdgeInsets"]
 - ["So23UIUserActivityRestoringP", "UIEvent"]
 - !private ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", "UIGestureRecognizer"]
 - !private ["So23UIUserActivityRestoringP", "UIGestureRecognizerDelegate"]
 - !private ["So23UIUserActivityRestoringP", "UIPanGestureRecognizer"]
 - !private ["So23UIUserActivityRestoringP", "UIScrollView"]
@@ -1542,7 +1581,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "gestureRecognizer"]
 - ["So23UIUserActivityRestoringP", "gestureRecognizerShouldBegin"]
 - ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "initBarItem"]
+- ["So23UIUserActivityRestoringP", "initBarItem"]
 - !private ["So23UIUserActivityRestoringP", "interactivePopGestureRecognizer"]
 - ["So23UIUserActivityRestoringP", "isTap"]
 - !private ["So23UIUserActivityRestoringP", "kFont"]
@@ -1930,7 +1969,7 @@ depends-nominal:
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1938,29 +1977,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"

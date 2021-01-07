@@ -64,6 +64,7 @@ depends-member:
 - ["9SwiftDemo18BaseViewControllerC", "setUI"]
 - !private ["9SwiftDemo18BaseViewControllerC", "view"]
 - ["9SwiftDemo18BaseViewControllerC", "viewDidLoad"]
+- ["SK", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "bannerPicArray"]
@@ -84,6 +85,8 @@ depends-member:
 - !private ["s7CVarArgP", "setUI"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
 - ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "bannerPicArray"]
@@ -141,9 +144,13 @@ depends-member:
 - !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["11FSPagerView0aB10DataSourceP", "backgroundColor"]
 - !private ["11FSPagerView0aB10DataSourceP", "bannerPicArray"]
 - ["11FSPagerView0aB10DataSourceP", "init"]
@@ -171,9 +178,11 @@ depends-member:
 - ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "bannerPicArray"]
 - ["7SnapKit20LayoutConstraintItemP", "init"]
+- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_banner"]
 - ["So8NSCodingP", "BannerView"]
 - ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_banner"]
 - !private ["So8NSCodingP", "addSubview"]
@@ -182,24 +191,31 @@ depends-member:
 - ["So8NSCodingP", "banner"]
 - !private ["So8NSCodingP", "bannerPicArray"]
 - ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "initBarItem"]
+- ["So8NSCodingP", "isTap"]
 - ["So8NSCodingP", "kRandomColor"]
 - ["So8NSCodingP", "kScreenWidth"]
 - ["So8NSCodingP", "kTopHeight"]
 - ["So8NSCodingP", "setUI"]
+- ["So8NSCodingP", "touchesBegan"]
 - !private ["So8NSCodingP", "view"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_banner"]
 - ["So26NSExtensionRequestHandlingP", "BannerView"]
 - ["So26NSExtensionRequestHandlingP", "CGRect"]
+- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_banner"]
 - ["So26NSExtensionRequestHandlingP", "arrIMG"]
 - ["So26NSExtensionRequestHandlingP", "banner"]
 - ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "initBarItem"]
+- ["So26NSExtensionRequestHandlingP", "isTap"]
 - ["So26NSExtensionRequestHandlingP", "kRandomColor"]
 - ["So26NSExtensionRequestHandlingP", "kScreenWidth"]
 - ["So26NSExtensionRequestHandlingP", "kTopHeight"]
 - ["So26NSExtensionRequestHandlingP", "setUI"]
+- ["So26NSExtensionRequestHandlingP", "touchesBegan"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "$__lazy_storage_$_banner"]
@@ -223,6 +239,7 @@ depends-member:
 - ["So8NSObjectP", "$__lazy_storage_$_banner"]
 - ["So8NSObjectP", "BannerView"]
 - ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_banner"]
 - !private ["So8NSObjectP", "addSubview"]
@@ -231,10 +248,13 @@ depends-member:
 - ["So8NSObjectP", "banner"]
 - !private ["So8NSObjectP", "bannerPicArray"]
 - ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "initBarItem"]
+- ["So8NSObjectP", "isTap"]
 - ["So8NSObjectP", "kRandomColor"]
 - ["So8NSObjectP", "kScreenWidth"]
 - ["So8NSObjectP", "kTopHeight"]
 - ["So8NSObjectP", "setUI"]
+- ["So8NSObjectP", "touchesBegan"]
 - !private ["So8NSObjectP", "view"]
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["Sq", "addSubview"]
@@ -254,6 +274,9 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "setUI"]
 - !private ["7RxSwift18ReactiveCompatibleP", "view"]
 - !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "bannerPicArray"]
@@ -265,6 +288,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_banner"]
 - ["So21UIAppearanceContainerP", "BannerView"]
 - ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_banner"]
 - !private ["So21UIAppearanceContainerP", "addSubview"]
@@ -273,24 +297,31 @@ depends-member:
 - ["So21UIAppearanceContainerP", "banner"]
 - !private ["So21UIAppearanceContainerP", "bannerPicArray"]
 - ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "initBarItem"]
+- ["So21UIAppearanceContainerP", "isTap"]
 - ["So21UIAppearanceContainerP", "kRandomColor"]
 - ["So21UIAppearanceContainerP", "kScreenWidth"]
 - ["So21UIAppearanceContainerP", "kTopHeight"]
 - ["So21UIAppearanceContainerP", "setUI"]
+- ["So21UIAppearanceContainerP", "touchesBegan"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_banner"]
 - ["So18UIContentContainerP", "BannerView"]
 - ["So18UIContentContainerP", "CGRect"]
+- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_banner"]
 - ["So18UIContentContainerP", "arrIMG"]
 - ["So18UIContentContainerP", "banner"]
 - ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "initBarItem"]
+- ["So18UIContentContainerP", "isTap"]
 - ["So18UIContentContainerP", "kRandomColor"]
 - ["So18UIContentContainerP", "kScreenWidth"]
 - ["So18UIContentContainerP", "kTopHeight"]
 - ["So18UIContentContainerP", "setUI"]
+- ["So18UIContentContainerP", "touchesBegan"]
 - !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
@@ -304,6 +335,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_banner"]
 - ["So18UIFocusEnvironmentP", "BannerView"]
 - ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_banner"]
 - !private ["So18UIFocusEnvironmentP", "addSubview"]
@@ -312,10 +344,13 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "banner"]
 - !private ["So18UIFocusEnvironmentP", "bannerPicArray"]
 - ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "initBarItem"]
+- ["So18UIFocusEnvironmentP", "isTap"]
 - ["So18UIFocusEnvironmentP", "kRandomColor"]
 - ["So18UIFocusEnvironmentP", "kScreenWidth"]
 - ["So18UIFocusEnvironmentP", "kTopHeight"]
 - ["So18UIFocusEnvironmentP", "setUI"]
+- ["So18UIFocusEnvironmentP", "touchesBegan"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So11UIFocusItemP", "addSubview"]
@@ -333,10 +368,13 @@ depends-member:
 - ["So27UIGestureRecognizerDelegateP", "arrIMG"]
 - ["So27UIGestureRecognizerDelegateP", "banner"]
 - ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "initBarItem"]
+- ["So27UIGestureRecognizerDelegateP", "isTap"]
 - ["So27UIGestureRecognizerDelegateP", "kRandomColor"]
 - ["So27UIGestureRecognizerDelegateP", "kScreenWidth"]
 - ["So27UIGestureRecognizerDelegateP", "kTopHeight"]
 - ["So27UIGestureRecognizerDelegateP", "setUI"]
+- ["So27UIGestureRecognizerDelegateP", "touchesBegan"]
 - !private ["So27UIGestureRecognizerDelegateP", "view"]
 - ["So27UIGestureRecognizerDelegateP", "viewDidLoad"]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
@@ -346,6 +384,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_banner"]
 - ["So30UIPasteConfigurationSupportingP", "BannerView"]
 - ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_banner"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
@@ -354,10 +393,13 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "banner"]
 - !private ["So30UIPasteConfigurationSupportingP", "bannerPicArray"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "initBarItem"]
+- ["So30UIPasteConfigurationSupportingP", "isTap"]
 - ["So30UIPasteConfigurationSupportingP", "kRandomColor"]
 - ["So30UIPasteConfigurationSupportingP", "kScreenWidth"]
 - ["So30UIPasteConfigurationSupportingP", "kTopHeight"]
 - ["So30UIPasteConfigurationSupportingP", "setUI"]
+- ["So30UIPasteConfigurationSupportingP", "touchesBegan"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "$__lazy_storage_$_banner"]
@@ -381,6 +423,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_banner"]
 - ["So30UIResponderStandardEditActionsP", "BannerView"]
 - ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_banner"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
@@ -389,29 +432,37 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "banner"]
 - !private ["So30UIResponderStandardEditActionsP", "bannerPicArray"]
 - ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "initBarItem"]
+- ["So30UIResponderStandardEditActionsP", "isTap"]
 - ["So30UIResponderStandardEditActionsP", "kRandomColor"]
 - ["So30UIResponderStandardEditActionsP", "kScreenWidth"]
 - ["So30UIResponderStandardEditActionsP", "kTopHeight"]
 - ["So30UIResponderStandardEditActionsP", "setUI"]
+- ["So30UIResponderStandardEditActionsP", "touchesBegan"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "$__lazy_storage_$_banner"]
 - ["So16UIStateRestoringP", "BannerView"]
 - ["So16UIStateRestoringP", "CGRect"]
+- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_banner"]
 - ["So16UIStateRestoringP", "arrIMG"]
 - ["So16UIStateRestoringP", "banner"]
 - ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "initBarItem"]
+- ["So16UIStateRestoringP", "isTap"]
 - ["So16UIStateRestoringP", "kRandomColor"]
 - ["So16UIStateRestoringP", "kScreenWidth"]
 - ["So16UIStateRestoringP", "kTopHeight"]
 - ["So16UIStateRestoringP", "setUI"]
+- ["So16UIStateRestoringP", "touchesBegan"]
 - !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_banner"]
 - ["So18UITraitEnvironmentP", "BannerView"]
 - ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_banner"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
@@ -420,15 +471,19 @@ depends-member:
 - ["So18UITraitEnvironmentP", "banner"]
 - !private ["So18UITraitEnvironmentP", "bannerPicArray"]
 - ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "initBarItem"]
+- ["So18UITraitEnvironmentP", "isTap"]
 - ["So18UITraitEnvironmentP", "kRandomColor"]
 - ["So18UITraitEnvironmentP", "kScreenWidth"]
 - ["So18UITraitEnvironmentP", "kTopHeight"]
 - ["So18UITraitEnvironmentP", "setUI"]
+- ["So18UITraitEnvironmentP", "touchesBegan"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_banner"]
 - ["So23UIUserActivityRestoringP", "BannerView"]
 - ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_banner"]
 - !private ["So23UIUserActivityRestoringP", "addSubview"]
@@ -437,16 +492,20 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "banner"]
 - !private ["So23UIUserActivityRestoringP", "bannerPicArray"]
 - ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "initBarItem"]
+- ["So23UIUserActivityRestoringP", "isTap"]
 - ["So23UIUserActivityRestoringP", "kRandomColor"]
 - ["So23UIUserActivityRestoringP", "kScreenWidth"]
 - ["So23UIUserActivityRestoringP", "kTopHeight"]
 - ["So23UIUserActivityRestoringP", "setUI"]
+- ["So23UIUserActivityRestoringP", "touchesBegan"]
 - !private ["So23UIUserActivityRestoringP", "view"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So6UIViewC", ""]
 - !private ["So6UIViewC", "addSubview"]
 - ["So6UIViewC", "backgroundColor"]
 - !private ["So6UIViewC", "bannerPicArray"]
+- ["So6UIViewC", "init"]
 - ["So16UIViewControllerC", "$__lazy_storage_$_banner"]
 - ["So16UIViewControllerC", "BannerView"]
 - ["So16UIViewControllerC", "CGRect"]
@@ -464,8 +523,10 @@ depends-member:
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["9HandyJSON17_BuiltInBasicTypeP", "addSubview"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "BannerView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -511,9 +572,12 @@ depends-nominal:
 - "9SwiftDemo10BannerViewC"
 - "9SwiftDemo21BannerViewControlTypeO"
 - "9SwiftDemo18BaseViewControllerC"
+- "SK"
 - "So15CALayerDelegateP"
 - "So6CGRectV"
 - "s7CVarArgP"
+- "Sl"
+- "SL"
 - "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -522,13 +586,18 @@ depends-nominal:
 - "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "11FSPagerView0aB10DataSourceP"
 - "11FSPagerView0aB8DelegateP"
 - "SH"
 - "7RxCocoa16KVORepresentableP"
 - "7SnapKit20LayoutConstraintItemP"
+- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
@@ -536,6 +605,9 @@ depends-nominal:
 - !private "Sq"
 - "SY"
 - "7RxSwift18ReactiveCompatibleP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -557,8 +629,10 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "9HandyJSON17_BuiltInBasicTypeP"
 - "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "9HandyJSON11_MeasurableP"
@@ -567,7 +641,7 @@ depends-nominal:
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/HandyJSON/HandyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -575,29 +649,29 @@ depends-external:
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Moya/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Photos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/EmptyDataSet-Swift/EmptyDataSet_Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/ijiami.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/yq/Project/Swift/SwiftGroup/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
